@@ -14,31 +14,6 @@ div#wrapper {
     max-width: 450px;
 }
 
-.vimeolink {
-    position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.vimeolink iframe,
-.vimeolink object,
-.vimeolink embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.soundcloudlink {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 p.text {
     -epub-ruby-position: over;
     color: #000000;
@@ -300,6 +275,37 @@ li.table-caption-2 {
     text-align: center;
     text-decoration: none;
     text-indent: 0px;
+}
+
+/* Image and sound */
+
+.banner {
+    width: 100%;
+}
+
+.vimeolink {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vimeolink iframe,
+.vimeolink object,
+.vimeolink embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.soundcloudlink {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* Generated Indesign stuff */
