@@ -2,628 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6cc3dcf-963a-4fd3-b469-809c05f86e6b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/01-intro-web-resources/image/1769.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/01-intro.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/02-basics-web-resources/image/452.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/02-basics-web-resources/image/654.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/02-basics-web-resources/image/BBBREAKINGBADS1.Title76_opt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/02-basics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/10142.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/10536.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/10537.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/12254.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/12255.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/13140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/15998.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/15999.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/16041.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/16042.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/16083.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/16085.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/17645.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/17935.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/18073.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/2661.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/2663.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/7431.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/7508.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/7541.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/8139.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/8144.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/BBBREAKINGBADS1.Title76_opt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/03-about-the-show.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/15571.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16335.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16336.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16379.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16380.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16418.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16419.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16461.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16462.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16548.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16549.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16589.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16590.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16631.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16632.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16726.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16727.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16766.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16767.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16895.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16896.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16938.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16939.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16985.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/16986.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/18173.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/18174.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/18246.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/18247.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/18341.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/18342.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/18395.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/18396.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19148.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19423.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19424.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19556.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19603.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19702.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19799.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19800.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19837.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/19838.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/2300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/3151.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/5198.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/6770.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/6825.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/6827.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/6868.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music-web-resources/image/6869.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/5924.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/6210.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7034.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7035.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7130.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7131.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7171.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7172.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7216.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7217.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7257.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7299.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7382.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7383.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7425.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7426.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7464.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7465.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7507.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7571.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7573.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7782.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7783.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7824.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/7825.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/8253.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/8254.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9419.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9494.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9495.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9607.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9608.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9702.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9703.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9741.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9742.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9782.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9783.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9823.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9824.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9864.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9865.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9902.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound-web-resources/image/9903.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/06-conclusion-web-resources/image/BBBREAK_BAD_FINAL_SEASO_opt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/06-conclusion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/07-references.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8258.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8259.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8260.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8261.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8262.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8263.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8264.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8265.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8266.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8267.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8268.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8269.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8270.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8271.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8272.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8273.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8275.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8276.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8277.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8278.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8279.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8280.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8281.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8282.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8283.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8284.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8285.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8286.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8287.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8288.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8289.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8290.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8291.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8292.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8293.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8294.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8295.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8296.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8297.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8298.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8299.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8302.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8303.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8305.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8307.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8308.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8309.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8310.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8311.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8313.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8314.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8315.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8316.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8317.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8318.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8319.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8320.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8321.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8322.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8323.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8324.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8325.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8326.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8327.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8328.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8329.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8330.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8331.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8332.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8333.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8334.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8335.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8336.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8337.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8338.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8339.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8340.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8341.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8342.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8343.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8344.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8345.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8347.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8348.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8349.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8350.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8351.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8352.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8353.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8354.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8355.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8356.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8357.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8358.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8359.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8360.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8361.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8362.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8363.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8364.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8365.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8366.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8367.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8368.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8369.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8370.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8371.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8372.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8373.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8374.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8375.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8376.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8377.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8378.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8379.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8380.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8382.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8383.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8384.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8385.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8386.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8387.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8388.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8389.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8390.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8391.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8392.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8393.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8394.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8395.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8396.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8397.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8398.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8399.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8401.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8402.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8403.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8404.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8405.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8406.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8407.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8408.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8409.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8411.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8413.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8414.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8415.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8416.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8417.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8419.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8420.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8421.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8422.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8423.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8424.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8425.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8426.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8427.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8428.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8429.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8430.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8431.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8432.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8433.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8434.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8435.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8436.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8437.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8438.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8439.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8440.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8441.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8442.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8443.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8444.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8445.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8446.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8447.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8448.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8449.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8450.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8452.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8454.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8455.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8456.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8457.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8458.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8459.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8460.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8461.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8462.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8463.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8464.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8465.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8466.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8467.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8468.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8469.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8470.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8471.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8472.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8473.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8474.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8475.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8476.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8477.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8478.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8632.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8633.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8634.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8635.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8636.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8663.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8664.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8665.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8666.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8667.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8668.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8669.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8670.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8671.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8672.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8673.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8674.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8675.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8676.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8677.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8678.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8680.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8681.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8682.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8683.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8684.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8685.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8687.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8689.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8690.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8691.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8692.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8693.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8694.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8695.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8696.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8697.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8698.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8699.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8700.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8701.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8702.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8703.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8704.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8705.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8706.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8707.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8708.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8709.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8710.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8711.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8712.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8713.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8714.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8715.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8717.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8718.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8719.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8720.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8721.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8722.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8723.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8724.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8725.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8726.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8727.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8728.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8729.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8730.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8731.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8732.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8733.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8734.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8735.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8736.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8737.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8738.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8739.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8740.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8741.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8742.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8743.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8744.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8745.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8746.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8747.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8748.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8749.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8750.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8752.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8753.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8754.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8755.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8756.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8757.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8758.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8759.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8760.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8761.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8762.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8763.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8764.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8765.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8766.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8767.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8768.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8769.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8770.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8771.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8772.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8773.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8774.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8775.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8776.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8777.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8778.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8779.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8781.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8782.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8783.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8784.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8785.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8787.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8788.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8789.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8790.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8791.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8792.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8794.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8796.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8797.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8798.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8799.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8800.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8801.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8802.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8803.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8804.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8805.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8806.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8807.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8808.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8809.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8810.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8811.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8812.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8813.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8814.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8815.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8816.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8817.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8818.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8819.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8820.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8821.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8822.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8824.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8825.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8826.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8827.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8828.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8829.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8830.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8831.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8832.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8834.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8835.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8836.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8837.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8838.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8839.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8840.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8841.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8842.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8843.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8844.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8845.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8846.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8847.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8848.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8849.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8850.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8851.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8852.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8853.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8854.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8855.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8856.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8857.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8858.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8860.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8861.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8862.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8863.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8864.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8865.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8866.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8867.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8868.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8869.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8870.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8871.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8872.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8873.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8874.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8875.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8876.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8877.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8878.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8879.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8880.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8881.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8882.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8883.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8884.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8885.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8886.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8887.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8888.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8889.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8890.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8891.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8892.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8894.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8895.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8896.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8897.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8898.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8899.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8901.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8903.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8904.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8905.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8906.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8907.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8908.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8909.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8910.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8911.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8912.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8913.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8914.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8915.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8916.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8917.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8918.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8919.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8920.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8921.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8922.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8923.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8924.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8925.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8926.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8927.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8928.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8929.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8931.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8932.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8933.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8934.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8935.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8936.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8937.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8938.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8939.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8940.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8941.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8942.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8943.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8944.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8945.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8946.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix-web-resources/image/8947.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/08-appendix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/exported-html-inprogress/css/screen.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/2016_sound-of-bb.iml" afterPath="$PROJECT_DIR$/.idea/2016_sound-of-bb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bigfoot-bottom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bigfoot-bottom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bigfoot-default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bigfoot-default.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bigfoot-number.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bigfoot-number.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/c3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/c3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/data/de/title-duration-sec.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/bigfoot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/bigfoot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/c3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/c3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/title-duration-c3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/noises.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/noises.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/common/intro.html" afterPath="$PROJECT_DIR$/src/de/common/intro.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" />
     </list>
     <ignored path="2016_sound-of-bb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -647,37 +42,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="intro.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/common/intro.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="308">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dramatic-structure.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html">
+      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+            <state relative-caret-position="242">
+              <caret line="282" column="6" selection-start-line="282" selection-start-column="6" selection-end-line="282" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noises.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/noises.html">
+      <file leaf-file-name="external-elements.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/analysis-music/external-elements.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+            <state relative-caret-position="396">
+              <caret line="344" column="37" selection-start-line="344" selection-start-column="37" selection-end-line="344" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formal-structure.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/about-the-show/formal-structure.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="title-duration-c3.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/script/title-duration-c3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quality-and-quantity.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="title-duration.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/de/title-duration.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="title-duration-sec.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/de/title-duration-sec.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/analysis-music/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="language.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/language.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5610">
+              <caret line="255" column="93" selection-start-line="255" selection-start-column="88" selection-end-line="255" selection-end-column="93" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -707,7 +179,6 @@
         <option value="$PROJECT_DIR$/exported-html-inprogress/04-analysis-music.html" />
         <option value="$PROJECT_DIR$/exported-html-inprogress/css/screen.css" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/terminology/index.html" />
-        <option value="$PROJECT_DIR$/src/de/analysis-music/index.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity/index.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/filmusic-and-identification/index.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/filmusic-and-identification.html" />
@@ -717,9 +188,7 @@
         <option value="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/blurring-boundaries.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/terminology.html" />
-        <option value="$PROJECT_DIR$/src/de/analysis-sound/index.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-sound/language.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-sound/acoustic-scenography.html" />
@@ -735,10 +204,18 @@
         <option value="$PROJECT_DIR$/src/de/common/conclusion.html" />
         <option value="$PROJECT_DIR$/src/de/common/index.html" />
         <option value="$PROJECT_DIR$/src/de/common/basics.html" />
-        <option value="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
-        <option value="$PROJECT_DIR$/src/de/about-the-show/making-of.html" />
         <option value="$PROJECT_DIR$/src/de/common/intro.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-sound/noises.html" />
+        <option value="$PROJECT_DIR$/src/de/about-the-show/making-of.html" />
+        <option value="$PROJECT_DIR$/src/de/analysis-sound/index.html" />
+        <option value="$PROJECT_DIR$/src/de/analysis-music/index.html" />
+        <option value="$PROJECT_DIR$/src/css/screen.css" />
+        <option value="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" />
+        <option value="$PROJECT_DIR$/src/data/conv1.json" />
+        <option value="$PROJECT_DIR$/src/data/title-duration.json" />
+        <option value="$PROJECT_DIR$/src/data/de/title-duration.json" />
+        <option value="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
+        <option value="$PROJECT_DIR$/src/script/title-duration-c3.js" />
       </list>
     </option>
   </component>
@@ -759,6 +236,22 @@
     <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -785,7 +278,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -818,26 +311,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="script" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -854,14 +329,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-sound" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -873,51 +340,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about-the-show" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -939,46 +362,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="noises&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/noises.html&#10;about&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/03-about-the-show.html&#10;sound&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/05-analysis-sound.html&#10;external&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;igno&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/.gitignore&#10;site&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/css/site.css&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="SearchEverywhereHistoryKey" value="quali&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/quality-and-quantity.html&#10;noises&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/noises.html&#10;about&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/03-about-the-show.html&#10;sound&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/05-analysis-sound.html&#10;external&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;igno&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/.gitignore&#10;site&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/css/site.css&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\de\analysis-music" />
-      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\etc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\data\de" />
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\de\common" />
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\de\about-the-show" />
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\de\analysis-sound" />
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\de\analysis-music" />
-      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\de\analysis-music\external-elements" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\data\de" />
+      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\script" />
+      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\css" />
+      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\de\analysis-music" />
+      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\etc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.external-elements.html">
+  <component name="RunManager" selected="JavaScript Debug.formal-structure.html">
     <configuration default="false" name="04-analysis-music.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2016_sound-of-bb/exported-html-inprogress/04-analysis-music.html">
       <method />
     </configuration>
@@ -986,6 +401,12 @@
       <method />
     </configuration>
     <configuration default="false" name="external-elements.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2016_sound-of-bb/src/de/analysis-music/external-elements.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="external-elements.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2016_sound-of-bb/de/analysis-music/external-elements.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="formal-structure.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2016_sound-of-bb/de/about-the-show/formal-structure.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1266,16 +687,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.04-analysis-music.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.01-intro.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.formal-structure.html" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.04-analysis-music.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.01-intro.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.formal-structure.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.04-analysis-music.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.01-intro.html" />
       </list>
     </recent_temporary>
   </component>
@@ -1297,7 +722,8 @@
       <workItem from="1460883418517" duration="4683000" />
       <workItem from="1460888155149" duration="2421000" />
       <workItem from="1460890960828" duration="6466000" />
-      <workItem from="1460905674728" duration="11912000" />
+      <workItem from="1460905674728" duration="13502000" />
+      <workItem from="1461000443803" duration="10535000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML5 &lt;article&gt; tags">
       <created>1460900059475</created>
@@ -1310,7 +736,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25964000" />
+    <option name="totallyTimeSpent" value="38089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1331,12 +757,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21244635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18284424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20654628" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20993228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2731377" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1369,95 +795,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ba-final-refactored/exported-html/04-analysis-music.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="260" column="44" selection-start-line="260" selection-start-column="44" selection-end-line="260" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/01-intro-web-resources/image/1769.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/02-basics-web-resources/image/452.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/02-basics-web-resources/image/654.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/02-basics-web-resources/image/BBBREAKINGBADS1.Title76_opt.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/2661.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/7508.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/7431.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/2663.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/10536.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/css/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/2661.jpg" />
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/7508.png" />
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/7431.png" />
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/2663.png" />
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show-web-resources/image/10536.jpg" />
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/css/screen.css" />
     <entry file="file://$PROJECT_DIR$/src/de/analysis-music/filmusic-and-identification.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1473,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="301" column="14" selection-start-line="301" selection-start-column="14" selection-end-line="301" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1493,22 +838,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/lagnuage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/04-analysis-music.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="1709" column="34" selection-start-line="1709" selection-start-column="34" selection-end-line="1709" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/lagnuage.html" />
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/04-analysis-music.html" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1517,34 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/external-elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="281" column="13" selection-start-line="281" selection-start-column="13" selection-end-line="281" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/analysis-music/terminology.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/language.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="271" column="14" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1565,14 +872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="1304" column="16" selection-start-line="1084" selection-start-column="4" selection-end-line="1304" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/05-analysis-sound.html" />
     <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1585,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1593,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1601,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="321" column="14" selection-start-line="321" selection-start-column="14" selection-end-line="321" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1609,47 +906,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/08-appendix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/07-references.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="306" column="32" selection-start-line="11" selection-start-column="4" selection-end-line="329" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/08-appendix.html" />
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/07-references.html" />
     <entry file="file://$PROJECT_DIR$/src/de/common/references.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="333" column="59" selection-start-line="333" selection-start-column="59" selection-end-line="333" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/06-conclusion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="62" column="81" selection-start-line="15" selection-start-column="4" selection-end-line="62" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/06-conclusion.html" />
     <entry file="file://$PROJECT_DIR$/src/de/common/conclusion.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="62" column="85" selection-start-line="62" selection-start-column="85" selection-end-line="62" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1657,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1665,89 +937,228 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/01-intro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="78" column="14" selection-start-line="69" selection-start-column="8" selection-end-line="78" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="1197" column="105" selection-start-line="623" selection-start-column="4" selection-end-line="1197" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/02-basics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="454" column="14" selection-start-line="315" selection-start-column="8" selection-end-line="454" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/common/basics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="456" column="14" selection-start-line="456" selection-start-column="14" selection-end-line="456" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/formal-structure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/making-of.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/01-intro.html" />
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/03-about-the-show.html" />
+    <entry file="file://$PROJECT_DIR$/exported-html-inprogress/02-basics.html" />
     <entry file="file://$PROJECT_DIR$/etc/ba-final-refactored/exported-html/01-intro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/common/intro.html">
+    <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/noises.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="314">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="106">
+          <caret line="44" column="74" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/noises.html">
+    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/making-of.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        <state relative-caret-position="247">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/common/intro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/common/basics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="280" column="71" selection-start-line="280" selection-start-column="66" selection-end-line="280" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/language.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5610">
+          <caret line="255" column="93" selection-start-line="255" selection-start-column="88" selection-end-line="255" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/bigfoot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/bigfoot-default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="282" column="6" selection-start-line="282" selection-start-column="6" selection-end-line="282" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/de/title-duration-sec.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/de/title-duration.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/external-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="344" column="37" selection-start-line="344" selection-start-column="37" selection-end-line="344" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/formal-structure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/title-duration-c3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>2016_sound-of-bb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
