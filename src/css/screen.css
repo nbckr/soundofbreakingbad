@@ -279,6 +279,24 @@ li.table-caption-2 {
     text-indent: 0px;
 }
 
+/* navigation bar */
+nav {
+    background-color: #1ea847;
+    display: block;
+    float: left;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.nav-ma {
+    display: block;
+    font-size: 80%;
+    font-weight: normal;
+    float: none;
+    background-color: red;
+}
+
 /* Image and sound */
 
 .banner {

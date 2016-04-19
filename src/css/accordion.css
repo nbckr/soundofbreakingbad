@@ -7,7 +7,9 @@ License: http://codecanyon.net/licenses/standard
 /* Accordion
 =================================*/
 .accordion *{
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: inherit;*/
+    font-family: 'PT Sans', sans-serif;
+    color: black;
 	box-sizing: border-box;
 	outline: 0;
 }
@@ -22,7 +24,7 @@ License: http://codecanyon.net/licenses/standard
 	min-height: 40px;
 	padding: 10px 35px 10px 15px;
 	line-height: 20px;
-	font-size: 13px;
+	font-size: inherit;
 	font-weight: 600;
 	color: #434955;
 	border-bottom: solid 1px #e9e9e9;
@@ -56,8 +58,8 @@ License: http://codecanyon.net/licenses/standard
 }
 .accordion-header .accordion-item-arrow:before{
 	content: "\f107";
-	font-family: 'FontAwesome';
-	font-size: 18px;
+    font-family: 'FontAwesome';
+	font-size: 8px;
 	float: right;
 	transition: all .2s linear;
 }
