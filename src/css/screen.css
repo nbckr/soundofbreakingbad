@@ -1,3 +1,8 @@
+@import "https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Crete+Round";
+@import "bigfoot-number.css";
+@import "c3.css";
+
+
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
     margin: 0;
     padding: 0;
