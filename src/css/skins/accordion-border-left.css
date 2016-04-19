@@ -1,0 +1,121 @@
+/*
+Border-left skin
+*/
+
+/* Accordion
+=================================*/
+.accordion{
+	border: none;
+}
+
+/* Accordion item
+=================================*/
+.accordion-item{
+	margin-bottom: 2px;
+}
+
+/* Header
+=================================*/
+.accordion-header{
+	background-color: #f7f8f9;
+	border: solid 0px transparent;
+	transition: border .2s linear;
+}
+.accordion-header:hover,
+.accordion-item.active .accordion-header{
+	border-left: solid 5px #cdd3d9;
+	background-color: #f7f8f9;
+}
+
+/* Content
+=================================*/
+.accordion-content{
+	border: none;
+}
+.accordion-item:last-child .accordion-content{
+	border: none;
+}
+
+/* Color Schemes
+=================================*/
+/* blue */
+.blue .accordion-header:hover,
+.blue .accordion-item.active .accordion-header{
+	color: #434955;
+	border-color: #32CDFB;
+	background-color: #f7f8f9;
+}
+
+/* green */
+.green .accordion-header:hover,
+.green .accordion-item.active .accordion-header{
+	color: #434955;
+	border-color: #37DB67;
+	background-color: #f7f8f9;
+}
+
+/* red */
+.red .accordion-header:hover,
+.red .accordion-item.active .accordion-header{
+	color: #434955;
+	border-color: #FC4337;
+	background-color: #f7f8f9;
+}
+
+/* orange */
+.orange .accordion-header:hover,
+.orange .accordion-item.active .accordion-header{
+	color: #434955;
+	border-color: #FFA400;
+	background-color: #f7f8f9;
+}
+
+/* yellow */
+.yellow .accordion-header:hover,
+.yellow .accordion-item.active .accordion-header{
+	color: #434955;
+	border-color: #FFCE54;
+	background-color: #f7f8f9;
+}
+
+/* purple */
+.purple .accordion-header:hover,
+.purple .accordion-item.active .accordion-header{
+	color: #434955;
+	border-color: #AC92EC;
+	background-color: #f7f8f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

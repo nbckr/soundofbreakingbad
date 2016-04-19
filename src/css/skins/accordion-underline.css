@@ -1,0 +1,152 @@
+/*
+Underline skin
+*/
+
+/* Accordion
+=================================*/
+.accordion{
+	border: none;
+}
+
+/* Accordion item
+=================================*/
+.accordion-item{
+	margin-bottom: 2px;
+}
+
+/* Header
+=================================*/
+.accordion-header{
+	border-bottom: solid 2px transparent;
+	background-color: #f7f8f9;
+	transition: border .2s linear;
+}
+.accordion-item:last-child .accordion-header{
+	border-bottom: solid 2px transparent;
+}
+.accordion-header:hover,
+.accordion-item.active .accordion-header,
+.accordion-item:last-child .accordion-header:hover{
+	border-bottom-color: #cdd3d9;
+}
+
+/* Content
+=================================*/
+.accordion-content{
+	border: none;
+}
+.accordion-item:last-child .accordion-content{
+	border: none;
+}
+
+/* Color Schemes
+=================================*/
+/* blue */
+.blue.accordion,
+.blue  .accordion-header,
+.blue  .accordion-content{
+	border-color: transparent;
+}
+.blue .accordion-header:hover,
+.blue .accordion-item.active .accordion-header,
+.blue .accordion-item:last-child .accordion-header:hover{
+	border-bottom: solid 2px #32CDFB;
+	background-color: #f7f8f9;
+	color: #434955;
+}
+
+/* green */
+.green.accordion,
+.green  .accordion-header,
+.green  .accordion-content{
+	border-color: transparent;
+}
+.green .accordion-header:hover,
+.green .accordion-item.active .accordion-header,
+.green .accordion-item:last-child .accordion-header:hover{
+	border-bottom: solid 2px #37DB67;
+	background-color: #f7f8f9;
+	color: #434955;
+}
+
+/* red */
+.red.accordion,
+.red  .accordion-header,
+.red  .accordion-content{
+	border-color: transparent;
+}
+.red .accordion-header:hover,
+.red .accordion-item.active .accordion-header,
+.red .accordion-item:last-child .accordion-header:hover{
+	border-bottom: solid 2px #FC4337;
+	background-color: #f7f8f9;
+	color: #434955;
+}
+
+/* orange */
+.orange.accordion,
+.orange  .accordion-header,
+.orange  .accordion-content{
+	border-color: transparent;
+}
+.orange .accordion-header:hover,
+.orange .accordion-item.active .accordion-header,
+.orange .accordion-item:last-child .accordion-header:hover{
+	border-bottom: solid 2px #FFA400;
+	background-color: #f7f8f9;
+	color: #434955;
+}
+
+/* yellow */
+.yellow.accordion,
+.yellow  .accordion-header,
+.yellow  .accordion-content{
+	border-color: transparent;
+}
+.yellow .accordion-header:hover,
+.yellow .accordion-item.active .accordion-header,
+.yellow .accordion-item:last-child .accordion-header:hover{
+	border-bottom: solid 2px #FFCE54;
+	background-color: #f7f8f9;
+	color: #434955;
+}
+
+/* purple */
+.purple.accordion,
+.purple  .accordion-header,
+.purple  .accordion-content{
+	border-color: transparent;
+}
+.purple .accordion-header:hover,
+.purple .accordion-item.active .accordion-header,
+.purple .accordion-item:last-child .accordion-header:hover{
+	border-bottom: solid 2px #AC92EC;
+	background-color: #f7f8f9;
+	color: #434955;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

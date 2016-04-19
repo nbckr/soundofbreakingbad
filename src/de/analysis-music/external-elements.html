@@ -11,9 +11,19 @@
     <script src="../../js/bigfoot.js"></script>
     <script src="../../js/bigfoot-init.js"></script>
 
+    <link href="../../css/accordion.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="../../js/accordion.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            jQuery("#accordion").accordion();
+        });
+    </script>
+
 </head>
 
 <body xml:lang="de-DE">
+
 <div id="wrapper">
 
     <article>
@@ -108,10 +118,26 @@
                                                                 href="#footnote-242-20">20</a>.
         </p>
 
-        <div class="vimeolink">
-            <iframe src="https://player.vimeo.com/video/163103889?color=03662E&title=0&byline=0&portrait=0"
-                    frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+        <div id="accordion" class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <i class="fa fa-expand"></i>
+                    Video anzeigen
+                    <span class="accordion-item-arrow"></span>
+                </div>
+                <div class="accordion-content">
+                    <div class="vimeolink">
+                        <iframe src="https://player.vimeo.com/video/163103889?color=03662E&title=0&byline=0&portrait=0"
+                                frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+
 
        <p class="text"><a id="Anker-17"/>Während der Arbeit an der zweiten Staffel hat Porter im Rahmen eines
             Soundtrack-Albums eine verlängerte Version der Titelmelodie geschaffen<a id="footnote-242-21-backlink"

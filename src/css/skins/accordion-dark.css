@@ -1,0 +1,109 @@
+/*
+Dark skin
+*/
+
+/* Accordion
+=================================*/
+.accordion{
+	background-color: #293747;
+	border: solid 1px #212D3A;
+}
+
+/* Header
+=================================*/
+.accordion-header{
+	color: #dedede;
+	border-bottom: solid 1px #212D3A;
+	background-color: #293747;
+}
+.accordion-item:last-child .accordion-header{
+	border-bottom: none;
+}
+.accordion-header:hover,
+.accordion-item.active .accordion-header{
+	background-color: #212D3A;
+}
+
+/* Content
+=================================*/
+.accordion-content{
+	border-bottom: solid 1px #212D3A;
+	color: #dedede;
+}
+.accordion-item:last-child .accordion-content{
+	border-top: solid 1px #212D3A;
+}
+
+/* Color Schemes
+=================================*/
+/* blue */
+.blue.accordion,
+.blue  .accordion-header,
+.blue  .accordion-content{
+	border-color: #212D3A;
+}
+.blue .accordion-header:hover,
+.blue .accordion-item.active .accordion-header{
+	background-color: #212D3A;
+	color: #32CDFB;
+}
+
+/* green */
+.green.accordion,
+.green  .accordion-header,
+.green  .accordion-content{
+	border-color: #212D3A;
+}
+.green .accordion-header:hover,
+.green .accordion-item.active .accordion-header{
+	background-color: #212D3A;
+	color: #37DB67;
+}
+
+/* red */
+.red.accordion,
+.red  .accordion-header,
+.red  .accordion-content{
+	border-color: #212D3A;
+}
+.red .accordion-header:hover,
+.red .accordion-item.active .accordion-header{
+	background-color: #212D3A;
+	color: #FC4337;
+}
+
+/* orange */
+.orange.accordion,
+.orange  .accordion-header,
+.orange  .accordion-content{
+	border-color: #212D3A;
+}
+.orange .accordion-header:hover,
+.orange .accordion-item.active .accordion-header{
+	background-color: #212D3A;
+	color: #FFA400;
+}
+
+/* yellow */
+.yellow.accordion,
+.yellow  .accordion-header,
+.yellow  .accordion-content{
+	border-color: #212D3A;
+}
+.yellow .accordion-header:hover,
+.yellow .accordion-item.active .accordion-header{
+	background-color: #212D3A;
+	color: #FFCE54;
+}
+
+/* purple */
+.purple.accordion,
+.purple  .accordion-header,
+.purple  .accordion-content{
+	border-color: #212D3A;
+}
+.purple .accordion-header:hover,
+.purple .accordion-item.active .accordion-header{
+	background-color: #212D3A;
+	color: #AC92EC;
+}

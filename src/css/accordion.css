@@ -1,0 +1,170 @@
+/*
+Responsive Accordion
+Author: marcoarib
+License: http://codecanyon.net/licenses/standard
+*/
+
+/* Accordion
+=================================*/
+.accordion *{
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	outline: 0;
+}
+.accordion{
+	background-color: #ffffff;
+	border: solid 1px #e9e9e9;
+}
+
+/* Header
+=================================*/
+.accordion-header{
+	min-height: 40px;
+	padding: 10px 35px 10px 15px;
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #434955;
+	border-bottom: solid 1px #e9e9e9;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	background-color: #fdfdfd;
+	-webkit-tap-highlight-color: transparent;
+	transition: background .2s linear;
+}
+.accordion-item:last-child .accordion-header{
+	border-bottom: none;
+}
+.accordion-header:hover,
+.accordion-item.active .accordion-header{
+	background-color: #f7f8f9;
+}
+/* Header icons (Font Awesome) */
+.accordion-header i{
+	width: 26px;
+	text-align: left;
+	font-size: 16px;
+}
+/* Header arrows */
+.accordion-header .accordion-item-arrow{
+	position: absolute;
+	right: 15px;
+	height: 20px;
+	margin-top: -10px;
+	top: 50%;
+}
+.accordion-header .accordion-item-arrow:before{
+	content: "\f107";
+	font-family: 'FontAwesome';
+	font-size: 18px;
+	float: right;
+	transition: all .2s linear;
+}
+.accordion-item.active .accordion-header .accordion-item-arrow:before{
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+
+/* Content
+=================================*/
+.accordion-content{
+	padding: 15px;
+	display: none;
+	border-bottom: solid 1px #e9e9e9;
+	font-size: 14px;
+	color: #434955;
+}
+.accordion-item:last-child .accordion-content{
+	border-bottom: none;
+	border-top: solid 1px #e9e9e9;
+}
+
+/* Color Schemes
+=================================*/
+/* blue */
+.blue.accordion,
+.blue  .accordion-header,
+.blue  .accordion-content{
+	border-color: #32CDFB;
+}
+.blue .accordion-header:hover,
+.blue .accordion-item.active .accordion-header{
+	background-color: #32CDFB;
+	color: #fff;
+}
+
+/* green */
+.green.accordion,
+.green  .accordion-header,
+.green  .accordion-content{
+	border-color: #37DB67;
+}
+.green .accordion-header:hover,
+.green .accordion-item.active .accordion-header{
+	background-color: #37DB67;
+	color: #fff;
+}
+
+/* red */
+.red.accordion,
+.red  .accordion-header,
+.red  .accordion-content{
+	border-color: #FC4337;
+}
+.red .accordion-header:hover,
+.red .accordion-item.active .accordion-header{
+	background-color: #FC4337;
+	color: #fff;
+}
+
+/* orange */
+.orange.accordion,
+.orange  .accordion-header,
+.orange  .accordion-content{
+	border-color: #FFA400;
+}
+.orange .accordion-header:hover,
+.orange .accordion-item.active .accordion-header{
+	background-color: #FFA400;
+	color: #fff;
+}
+
+/* yellow */
+.yellow.accordion,
+.yellow  .accordion-header,
+.yellow  .accordion-content{
+	border-color: #FFCE54;
+}
+.yellow .accordion-header:hover,
+.yellow .accordion-item.active .accordion-header{
+	background-color: #FFCE54;
+	color: #fff;
+}
+
+/* purple */
+.purple.accordion,
+.purple  .accordion-header,
+.purple  .accordion-content{
+	border-color: #AC92EC;
+}
+.purple .accordion-header:hover,
+.purple .accordion-item.active .accordion-header{
+	background-color: #AC92EC;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,6 +11,26 @@
     <script src="../../js/bigfoot.js"></script>
     <script src="../../js/bigfoot-init.js"></script>
 
+    <script type="text/javascript">
+        $(document).ready(function($) {
+            $('#accordion').find('.accordion-toggle').click(function(){
+
+                //Expand or collapse this panel
+                $(this).next().slideToggle('fast');
+
+                //Hide the other panels
+                $(".accordion-content").not($(this).next()).slideUp('fast');
+
+            });
+        });
+    </script>
+
+    <style>
+        .accordion-toggle {cursor: pointer;}
+        .accordion-content {display: none;}
+        .accordion-content.default {display: block;}
+    </style>
+
 </head>
 
 <body xml:lang="de-DE">
@@ -197,11 +217,25 @@
             Hörweg abschneiden: sei es nun durch das verwendete Tonmaterial oder durch unerwartete instrumentale
             Register.<a id="footnote-242-45-backlink" class="footnote-link" href="#footnote-242-45">45</a>&#160;</p>
 
-<!-- TODO: Insert video #11 -->
-        <div class="vimeolink">
-             <iframe src="https://player.vimeo.com/video/0"
-                     frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-         </div>
+        <div id="accordion">
+            <h4 class="accordion-toggle">Accordion 1</h4>
+            <div class="accordion-content default">
+                <p>Cras malesuada ultrices augue molestie risus.</p>
+            </div>
+            <h4 class="accordion-toggle">Accordion 2</h4>
+            <div class="accordion-content">
+                <p>Lorem ipsum dolor sit amet mauris eu turpis.</p>
+            </div>
+            <h4 class="accordion-toggle">Accordion 3</h4>
+            <div class="accordion-content">
+                <!-- TODO: Insert video #11 -->
+                <div class="vimeolink">
+                    <iframe src="https://player.vimeo.com/video/0"
+                            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
 
 
         <p class="text"><a id="Anker-12-1"/>Unterschiedlich stark ausgeprägte Einsätze dieser Art lassen sich über alle
