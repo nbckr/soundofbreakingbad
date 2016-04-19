@@ -174,16 +174,11 @@ p.quote {
     color: #000000;
     font-family: 'PT Sans', sans-serif;
     font-size: 10px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1.5;
-    margin-bottom: 6px;
-    margin-left: 28px;
-    margin-right: 28px;
     text-align: justify;
     text-decoration: none;
     text-indent: 0px;
+    background-color: #e0e0e0;
+    padding: 3%;
 }
 
 /* highlighting */

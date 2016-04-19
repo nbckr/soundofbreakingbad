@@ -29,8 +29,8 @@ $popover-border:                        1px solid rgb(195, 195, 195) !default;  
 $popover-inactive-opacity:              0 !default;                              // Opacity of the popover when instantiated/ deactivating
 $popover-active-opacity:                0.97 !default;                           // Opacity of the popover when active
 $popover-box-shadow:                    0px 0px 8px rgba(0, 0, 0, 0.3) !default; // Sets the box shadow under the popover/ tooltip
-$popover-bottom-position:               auto !default;                           // Sets the bottom position of the popover. Use only when setting positionPopover to false in the script
-$popover-left-position:                 auto !default;                           // Sets the left position of the popover. Use only when setting positionPopover to false in the script
+$popover-bottom-position:               auto !default;                           // Sets the bottom position of the popover. Use only when setting positionPopover to false in the js
+$popover-left-position:                 auto !default;                           // Sets the left position of the popover. Use only when setting positionPopover to false in the js
 $popover-tooltip-size:                  1.3em !default;                          // Sets the side lengths of the tooltip
 $popover-scroll-indicator-width:        0.625em !default;                        // The width of the scroll indicator
 $popover-scroll-indicator-aspect-ratio: (15/12) !default;                        // The ratio of the height over the width of the scroll indicator
@@ -348,8 +348,8 @@ $button-transition-properties:      background-color !default;
 
 //*
 // The popover for the footnote. This popover will be, by default, be sized and positioned
-// by the script. However, many of the sizes can be established in this stylesheet and
-// will be respected by the script. `max-width` will limit the width of the popover
+// by the js. However, many of the sizes can be established in this stylesheet and
+// will be respected by the js. `max-width` will limit the width of the popover
 // relative to the viewport. `width` (on `bigfoot-footnote__wrapper`) will set the
 // absolute max width. Max height can be set via a `max-height` property
 // on `bigfoot-footnote__content`.
