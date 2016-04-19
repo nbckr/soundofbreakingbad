@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6cc3dcf-963a-4fd3-b469-809c05f86e6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/bigfoot-bottom.scss" afterPath="$PROJECT_DIR$/src/css/bigfoot-bottom.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/bigfoot-default.scss" afterPath="$PROJECT_DIR$/src/css/bigfoot-default.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/bigfoot-number.scss" afterPath="$PROJECT_DIR$/src/css/bigfoot-number.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/screen.css" afterPath="$PROJECT_DIR$/src/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/genre.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/genre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/index.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/making-of.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/making-of.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/overview.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/storyline.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/storyline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/visual-style.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/visual-style.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/blurring-boundaries.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/blurring-boundaries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/filmusic-and-identification.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/filmusic-and-identification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/index.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/terminology.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/terminology.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/acoustic-scenography.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/acoustic-scenography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/index.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/language.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/language.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/noises.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/noises.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/common/about-author.html" afterPath="$PROJECT_DIR$/src/de/common/about-author.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/common/about-page.html" afterPath="$PROJECT_DIR$/src/de/common/about-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/common/acknowledgements.html" afterPath="$PROJECT_DIR$/src/de/common/acknowledgements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/common/basics.html" afterPath="$PROJECT_DIR$/src/de/common/basics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/common/conclusion.html" afterPath="$PROJECT_DIR$/src/de/common/conclusion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/common/index.html" afterPath="$PROJECT_DIR$/src/de/common/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/common/intro.html" afterPath="$PROJECT_DIR$/src/de/common/intro.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/common/references.html" afterPath="$PROJECT_DIR$/src/de/common/references.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/script/bigfoot.js" afterPath="$PROJECT_DIR$/src/js/bigfoot-init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/script/bigfoot.min.js" afterPath="$PROJECT_DIR$/src/js/bigfoot.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/script/c3.js" afterPath="$PROJECT_DIR$/src/js/c3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/script/c3.min.js" afterPath="$PROJECT_DIR$/src/js/c3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/script/title-duration-c3.js" afterPath="$PROJECT_DIR$/src/js/title-duration-c3.js" />
     </list>
     <ignored path="2016_sound-of-bb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="extra-diegetic-elements.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="extra-diegetic-elements.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="589" column="23" selection-start-line="589" selection-start-column="23" selection-end-line="589" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="586" column="24" selection-start-line="586" selection-start-column="24" selection-end-line="586" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screen.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
+            <state relative-caret-position="154">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -814,7 +775,7 @@
       <workItem from="1460905674728" duration="13502000" />
       <workItem from="1461000443803" duration="11219000" />
       <workItem from="1461015471793" duration="2909000" />
-      <workItem from="1461086789023" duration="4769000" />
+      <workItem from="1461086789023" duration="6633000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML5 &lt;article&gt; tags">
       <created>1460900059475</created>
@@ -827,7 +788,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46451000" />
+    <option name="totallyTimeSpent" value="48315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-450" width="2418" height="1318" extended-state="6" />
@@ -1252,18 +1213,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html">
+    <entry file="file://$PROJECT_DIR$/src/css/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="589" column="23" selection-start-line="589" selection-start-column="23" selection-end-line="589" selection-end-column="23" />
+        <state relative-caret-position="154">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/screen.css">
+    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
+        <state relative-caret-position="225">
+          <caret line="586" column="24" selection-start-line="586" selection-start-column="24" selection-end-line="586" selection-end-column="24" />
           <folding />
         </state>
       </provider>
