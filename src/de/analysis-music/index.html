@@ -7,14 +7,46 @@
 
     <link href="../../css/screen.css" rel="stylesheet" media="screen"/>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="../../css/spinner.css" rel="stylesheet" media="screen"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+
+    <script>
+
+        alert("script");
+        console.log("here");
+        $(function () {
+            workLoad();
+        });
+
+        function workLoad() {
+
+            $.ajaxSetup({ cache: false });
+
+            $('.ajaxtest').click(function () {
+                alert("ajax");
+                var spinner = 'div class="loader">Loading!</div',
+                        newHTML = 'external-elements.html';
+                $('.project-load').html(spinner).load(newHTML);
+            })
+
+
+        }
+
+    </script>
+
+
+
+
     <script src="../../js/bigfoot.js"></script>
     <script src="../../js/bigfoot-init.js"></script>
-<script src="../../js/accordion.js"></script>     <script src="../../js/accordion-init.js"></script>
+<script src="../../js/accordion.js"></script>
+
 
 </head>
 
 <body xml:lang="de-DE">
+
 <div id="wrapper">
 
     <img class="banner" src="../../images/glass.png" />
