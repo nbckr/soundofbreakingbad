@@ -1,412 +1,406 @@
+/*
+Style sheet for regular screens.
+@author Niels Boecker
+*/
+
 @import "https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Crete+Round";
-@import "bigfoot-number.css";
-@import "c3.css";
-@import "accordion.css";
-@import "font-awesome.css";
 
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
-    margin: 0;
-    padding: 0;
-    border-width: 0;
-}
+@import "extras/bigfoot-number.css";
+@import "extras/c3.css";
+@import "extras/accordion.css";
+@import "extras/font-awesome.css";
+@import "extras/spinner.css";
 
-body {
-    font-size: 12px;
-    -epub-hyphens: auto;
-    margin: 40px;
-}
+@media screen {
 
-div#wrapper {
-    width: 50%
-}
+    body {
+        margin: 20px 40px 20px 40px;
 
-.text {
-    -epub-ruby-position: over;
-    color: #000000;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 100%;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1.273;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: justify;
-    text-decoration: none;
-    text-indent: 0px;
-    line-height: 160%;
-}
+        font-size: 100%;
+        font-color: black;
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+    }
 
-h1 {
-    -epub-ruby-position: over;
-    color: #000000;
-    font-family: 'Crete Round', serif;
-    font-size: 23px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    line-height: 0.609;
-    margin-top: 20px;
-    margin-bottom: 43px;
-    margin-right: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-}
+    header {
+        padding: 20px;
+        display: block;
 
-h2 {
-    -epub-ruby-position: over;
-    color: #03662e;
-    font-family: 'Crete Round', serif;
-    font-size: 14px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    line-height: 1;
-    margin-top: 9px;
-    margin-bottom: 9px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-}
+        background-color: #777;
+    }
 
-h3 {
-    -epub-ruby-position: over;
-    color: #31b369;
-    font-family: 'Crete Round', serif;
-    font-size: 11px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    line-height: 1.273;
-    margin-bottom: 6px;
-    margin-left: 26px;
-    margin-right: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: -26px;
-}
+    header h1 {
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        margin:0;
+        padding:0;
+    }
 
-h4 {
-    -epub-ruby-position: over;
-    color: #000000;
-    font-family: 'Crete Round', serif;
-    font-size: 11px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1.273;
-    margin-bottom: 6px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-}
+    #container {
+        display: block;
+        width: 85%;
+        min-width: 150px;
+        min-height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aquamarine;
+        overflow: hidden;
+    }
 
-h5 {
-    -epub-ruby-position: over;
-    color: #000000;
-    font-family: 'Crete Round', serif;
-    font-size: 11px;
-    font-style: italic;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1.273;
-    margin-bottom: 6px;
-    margin-left: 6px;
-    margin-right: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0px;
-}
+    #content {
+        overflow: hidden;
+        min-width: 250px;
 
-h6 {
-    -epub-ruby-position: over;
-    color: #000000;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 11px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 600;
-    line-height: 1.273;
-    margin-bottom: 6px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: justify;
-    text-decoration: none;
-    text-indent: 0px;
-}
+        padding: 5px;
+    }
 
-li {
-    display: block;
-}
+    div#wrapper {
+    }
 
-blockquote, .quote {
-    -epub-ruby-position: over;
-    color: black;
-    font-family: 'PT Sans', sans-serif;
-    font-style: italic;
-    font-size: inherit;
-    text-decoration: none;
-    text-indent: 0px;
-    background-color: #e0e0e0;
-    line-height: inherit;
-    padding: 3%;
-}
+    .text {
+        font-weight: normal;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: justify;
+        text-decoration: none;
+        text-indent: 0px;
+        line-height: 160%;
+    }
 
+    h1 {
+        font-family: 'Crete Round', serif;
+        font-size: 200%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        line-height: 0.609;
+        margin-top: 20px;
+        margin-bottom: 43px;
+        margin-right: 0px;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0px;
+    }
 
-p.xfootnote {
-    -epub-ruby-position: over;
-    color: #000000;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 9px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1.222;
-    margin-bottom: 6px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: justify;
-    text-decoration: none;
-    text-indent: 0px;
-}
+    h2 {
+        color: #03662e;
+        font-family: 'Crete Round', serif;
+        font-size: 180%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        line-height: 1;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0px;
+    }
 
-.footnote-link {
-    margin-left: 3px;
-    margin-right: 3px;
-    color: slateblue;
-}
+    h3 {
+        -color: #31b369;
+        font-family: 'Crete Round', serif;
+        font-size: 160%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        line-height: 1.273;
+        margin-bottom: 6px;
+        margin-left: 26px;
+        margin-right: 0px;
+        text-align: left;
+        text-decoration: none;
+        text-indent: -26px;
+    }
 
+    h4 {
+        font-family: 'Crete Round', serif;
+        font-size: 140%;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1.273;
+        margin-bottom: 6px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0px;
+    }
 
-/* highlighting */
+    h5 {
 
-li.list-2-new {
-    -epub-ruby-position: over;
-    color: #000000;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 11px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1.273;
-    margin-bottom: 6px;
-    margin-left: 18px;
-    margin-right: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: -14px;
-}
+        font-family: 'Crete Round', serif;
+        font-size: 120%;
+        font-style: italic;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1.273;
+        margin-bottom: 6px;
+        margin-left: 6px;
+        margin-right: 0px;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0px;
+    }
 
-.video-link-new {
-    -epub-ruby-position: over;
-    color: #000000;
-    font-family: "Helvetica LT Std", sans-serif;
-    font-size: 9px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1.222;
-    margin-bottom: 6px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    text-decoration: none;
-    text-indent: 0px;
-}
+    h6 {
 
-.image-caption {
-    -epub-ruby-position: over;
-    color: #808285;
-    font-family: "Helvetica LT Std Cond Light", sans-serif;
-    font-size: 9px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    line-height: 0.889;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    text-decoration: none;
-    text-indent: 0px;
-}
+        font-family: 'PT Sans', sans-serif;
+        font-size: 100%;
+        font-weight: bold;
+        font-variant: normal;
+        font-weight: 600;
+        line-height: 1.273;
+        margin-bottom: 6px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: justify;
+        text-decoration: none;
+        text-indent: 0px;
+    }
 
-span.work-italic {
-    font-style: italic;
-    font-weight: normal;
-}
+    li {
+        display: block;
+    }
 
-span.italic {
-    font-style: italic;
-    font-weight: normal;
-}
+    blockquote, .quote {
+        color: black;
+        font-family: 'PT Sans', sans-serif;
+        font-style: italic;
+        font-size: inherit;
+        text-decoration: none;
+        text-indent: 0px;
+        background-color: #e0e0e0;
+        line-height: inherit;
+        padding: 3%;
+    }
 
-span.term-italic {
-    font-style: italic;
-    font-weight: normal;
-}
+    p.xfootnote {
 
-/* table stuff */
+        font-family: 'PT Sans', sans-serif;
+        font-size: 9px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1.222;
+        margin-bottom: 6px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: justify;
+        text-decoration: none;
+        text-indent: 0px;
+    }
 
-td, th {
-    border-style: solid;
-    border-width: 1px;
-}
+    .footnote-link {
+        margin-left: 3px;
+        margin-right: 3px;
+        color: slateblue;
+    }
 
-table {
-    border-collapse: collapse;
-}
+    /* highlighting */
+    li.list-2-new {
 
-li.table-caption-2 {
-    -epub-ruby-position: over;
-    color: #808285;
-    font-family: "Helvetica LT Std Cond Light", sans-serif;
-    font-size: 9px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    line-height: 0.889;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    text-decoration: none;
-    text-indent: 0px;
-}
+        font-family: 'PT Sans', sans-serif;
+        font-size: 11px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1.273;
+        margin-bottom: 6px;
+        margin-left: 18px;
+        margin-right: 0px;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 14px;
+    }
 
-/* navigation bar */
-nav {
-    background-color: #1ea847;
-    display: block;
-    float: left;
-    color: white;
-    font-size: 100%;
-    font-weight: bold;
-}
+    .video-link-new {
 
-.nav-ma {
-    display: block;
-    font-size: 80%;
-    font-weight: normal;
-    float: none;
-    background-color: red;
-}
+        font-family: "Helvetica LT Std", sans-serif;
+        font-size: 9px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1.222;
+        margin-bottom: 6px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        text-decoration: none;
+        text-indent: 0px;
+    }
 
-/* Image and sound */
+    .image-caption {
+        color: #808285;
+        font-family: "Helvetica LT Std Cond Light", sans-serif;
+        font-size: 9px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 300;
+        line-height: 0.889;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        text-decoration: none;
+        text-indent: 0px;
+    }
 
-.banner {
-    width: 100%;
-}
+    span.work-italic {
+        font-style: italic;
+        font-weight: normal;
+    }
 
-.vimeo-link, .scribd-link {
-    position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+    span.italic {
+        font-style: italic;
+        font-weight: normal;
+    }
 
-.vimeo-link iframe,
-.vimeo-link object,
-.vimeo-link embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+    span.term-italic {
+        font-style: italic;
+        font-weight: normal;
+    }
 
-.soundcloudlink {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+    /* table stuff */
+    td, th {
+        border-style: solid;
+        border-width: 1px;
+    }
 
-/* Generated Indesign stuff */
+    table {
+        border-collapse: collapse;
+    }
 
-span.char-style-override-1 {
-    display: inline-block;
-    text-indent: 0;
-    white-space: pre-wrap;
-}
+    li.table-caption-2 {
+        color: #808285;
+        font-family: "Helvetica LT Std Cond Light", sans-serif;
+        font-size: 9px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 300;
+        line-height: 0.889;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        text-decoration: none;
+        text-indent: 0px;
+    }
 
-span.char-style-override-2 {
-    display: inline-block;
-    text-indent: 0;
-    white-space: pre-wrap;
-    width: 14.173228346456694px;
-}
+    /* Image and sound */
+    .banner {
+        width: 100%;
+    }
 
-span.char-style-override-3 {
-    display: inline-block;
-    text-indent: 0;
-    white-space: pre-wrap;
-    width: 25.511811023622048px;
-}
+    .vimeo-link, .scribd-link {
+        position: relative;
+        padding-bottom: 56.25%; /* 16/9 ratio */
+        padding-top: 30px; /* IE6 workaround*/
+        height: 0;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
-img.frame-1 {
-    height: 226px;
-    width: 595px;
-}
+    .vimeo-link iframe,
+    .vimeo-link object,
+    .vimeo-link embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
-div.frame-2 {
-    margin: 0px auto 0px auto;
-    text-align: center;
-}
+    .soundcloudlink {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
-img.frame-3 {
-    height: 45px;
-    width: 261px;
-}
+    /* Generated Indesign stuff */
+    span.char-style-override-1 {
+        display: inline-block;
+        text-indent: 0;
+        white-space: pre-wrap;
+    }
 
-img.frame-4 {
-    height: 164px;
-    width: 371px;
-}
+    span.char-style-override-2 {
+        display: inline-block;
+        text-indent: 0;
+        white-space: pre-wrap;
+        width: 14.173228346456694px;
+    }
 
-img.frame-5 {
-    height: 145px;
-    width: 178px;
-}
+    span.char-style-override-3 {
+        display: inline-block;
+        text-indent: 0;
+        white-space: pre-wrap;
+        width: 25.511811023622048px;
+    }
 
-img.frame-6 {
-    height: 377px;
-    width: 469px;
-}
+    img.frame-1 {
+        height: 226px;
+        width: 595px;
+    }
 
-img.frame-7 {
-    height: 213px;
-    width: 361px;
-}
+    div.frame-2 {
+        margin: 0px auto 0px auto;
+        text-align: center;
+    }
 
-img.frame-8 {
-    height: 56px;
-    width: 85px;
-}
+    img.frame-3 {
+        height: 45px;
+        width: 261px;
+    }
 
-img.frame-9 {
-    height: 34px;
-    width: 38px;
-}
+    img.frame-4 {
+        height: 164px;
+        width: 371px;
+    }
 
-img.frame-10 {
-    height: 217px;
-    width: 368px;
-}
+    img.frame-5 {
+        height: 145px;
+        width: 178px;
+    }
 
-img.frame-11 {
-    height: 120px;
-    width: 272px;
-}
+    img.frame-6 {
+        height: 377px;
+        width: 469px;
+    }
 
-img.frame-12 {
-    height: 142px;
-    width: 368px;
+    img.frame-7 {
+        height: 213px;
+        width: 361px;
+    }
+
+    img.frame-8 {
+        height: 56px;
+        width: 85px;
+    }
+
+    img.frame-9 {
+        height: 34px;
+        width: 38px;
+    }
+
+    img.frame-10 {
+        height: 217px;
+        width: 368px;
+    }
+
+    img.frame-11 {
+        height: 120px;
+        width: 272px;
+    }
+
+    img.frame-12 {
+        height: 142px;
+        width: 368px;
+    }
 }

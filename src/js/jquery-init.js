@@ -18,13 +18,15 @@ $(function () {
         );
 
         // init menu
-        //$.ajaxSetup({cache: false});
+        $.ajaxSetup({cache: false});
 
-        $('.menu-item').click(function () {
+        $('nav ul').click(function () {
             var $this = $(this);
             var request= $this.data('dest') + '.html';
             var spinner = '<div class="loader">Loading!</div>';
-            $('.content').html(spinner).load(request);
+            $('#content').html(spinner).load(request);
+            $('#content').show();
+
         })
     }
 });

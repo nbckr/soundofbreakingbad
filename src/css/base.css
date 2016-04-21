@@ -1,0 +1,43 @@
+/*
+Style sheet to reset and restore stuff.
+@author Niels Boecker
+*/
+
+@media all {
+
+    /* reset */
+    html {
+        overflow-y: scroll;
+    }
+
+    body, div,
+    h1, h2, h3, h4, h5, h6,
+    p, blockquote, pre, code,
+    ul, ol, li,
+    table, th, tr, td,
+    form, fieldset, legend, input, textarea,
+    nav {
+        padding: 0;
+        margin: 0;
+        border-width: 0;
+    }
+
+    /* restore */
+    h2, h3, h4, h5, h6,
+    p, blockquote, pre,
+    ul, ol {
+        margin-bottom: 1em;
+    }
+
+    ul, ol {
+        margin-left: 2em;
+    }
+
+    ul ul, ul ol, ol ol, ol ul {
+        margin-bottom: 0;
+    }
+
+    blockquote {
+        margin: 1em 2em;
+    }
+}

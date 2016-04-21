@@ -1,0 +1,44 @@
+/*
+Style sheet to design navigation bar.
+@author Niels Boecker
+*/
+
+nav {
+    width: 25%;
+    margin-right: 10px;
+    padding-top: 10px;
+
+    display: inline;
+    float: left;
+
+    background-color: #777;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.nav-h1 {
+    float: none;
+    display: block;
+
+    font-family: 'Crete Round', serif;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.nav-h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 80%;
+}
+
+nav ul {
+    margin: 6px 15px 6px 15px;
+}
+
+nav ul:hover {
+    color: mediumspringgreen;
+}
+
+nav ul:active {
+    color: red;
+}
