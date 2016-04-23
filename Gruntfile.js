@@ -17,14 +17,13 @@ module.exports = function (grunt) {
             base: './src/de'
         },
 
-        // Watch task config
         watch: {
             sass: {
-                files: "./src/scss/*.scss",
+                files: "./src/scss/**/*.scss",
                 tasks: ['sass']
             }
         },
-        // SASS task config
+
         sass: {
             dev: {
                 files: {
@@ -37,6 +36,7 @@ module.exports = function (grunt) {
         browserSync: {
             default_options: {
                 bsFiles: {
+                    // these file types cause a live reload
                     src: [
                         "./src/css/*.css",
                         "./scr/*.html"
@@ -46,13 +46,12 @@ module.exports = function (grunt) {
                     watchTask: true,
                     server: {
                         baseDir: "./src",
-                        index: "/de/index.html"
-                    }
+                        index: "/de/index.html",
+                    },
+                    debugInfo: true
                 }
             }
         }
-
-
     });
 
     // register dask runner to run web server

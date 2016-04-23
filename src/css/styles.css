@@ -392,17 +392,18 @@ nav {
     display: block;
     font-family: "Crete Round", serif;
     font-size: 100%;
-    font-weight: bold;
-    cursor: pointer; }
+    font-weight: bold; }
   nav .nav-h2 {
     font-family: "PT Sans", sans-serif;
     font-size: 80%; }
   nav ul {
-    padding: 5px; }
+    padding: 2px 4px;
+    background-color: royalblue; }
   nav ul:hover {
-    color: mediumspringgreen; }
+    color: springgreen 3;
+    cursor: pointer; }
   nav ul:active {
-    color: springgreen 3; }
+    color: #00CD65; }
 
 @media screen {
   body {
@@ -559,20 +560,6 @@ nav {
     color: slateblue; }
 
   /* highlighting */
-  li.list-2-new {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 11px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1.273;
-    margin-bottom: 6px;
-    margin-left: 18px;
-    margin-right: 0px;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 14px; }
-
   .video-link-new {
     font-family: "Helvetica LT Std", sans-serif;
     font-size: 9px;
@@ -581,21 +568,6 @@ nav {
     font-weight: normal;
     line-height: 1.222;
     margin-bottom: 6px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    text-decoration: none;
-    text-indent: 0px; }
-
-  .image-caption {
-    color: #808285;
-    font-family: "Helvetica LT Std Cond Light", sans-serif;
-    font-size: 9px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    line-height: 0.889;
-    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     text-align: center;
@@ -663,73 +635,7 @@ nav {
 
   .soundcloudlink {
     margin-top: 30px;
-    margin-bottom: 30px; }
-
-  /* Generated Indesign stuff */
-  span.char-style-override-1 {
-    display: inline-block;
-    text-indent: 0;
-    white-space: pre-wrap; }
-
-  span.char-style-override-2 {
-    display: inline-block;
-    text-indent: 0;
-    white-space: pre-wrap;
-    width: 14.173228346456694px; }
-
-  span.char-style-override-3 {
-    display: inline-block;
-    text-indent: 0;
-    white-space: pre-wrap;
-    width: 25.511811023622048px; }
-
-  img.frame-1 {
-    height: 226px;
-    width: 595px; }
-
-  div.frame-2 {
-    margin: 0px auto 0px auto;
-    text-align: center; }
-
-  img.frame-3 {
-    height: 45px;
-    width: 261px; }
-
-  img.frame-4 {
-    height: 164px;
-    width: 371px; }
-
-  img.frame-5 {
-    height: 145px;
-    width: 178px; }
-
-  img.frame-6 {
-    height: 377px;
-    width: 469px; }
-
-  img.frame-7 {
-    height: 213px;
-    width: 361px; }
-
-  img.frame-8 {
-    height: 56px;
-    width: 85px; }
-
-  img.frame-9 {
-    height: 34px;
-    width: 38px; }
-
-  img.frame-10 {
-    height: 217px;
-    width: 368px; }
-
-  img.frame-11 {
-    height: 120px;
-    width: 272px; }
-
-  img.frame-12 {
-    height: 142px;
-    width: 368px; } }
+    margin-bottom: 30px; } }
 /*
 Responsive Accordion
 Author: marcoarib

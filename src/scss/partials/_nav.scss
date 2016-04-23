@@ -18,8 +18,6 @@ nav {
     font-family: $font-serif;
     font-size: 100%;
     font-weight: bold;
-
-    cursor: pointer;
   }
 
   .nav-h2 {
@@ -30,10 +28,13 @@ nav {
   ul {
     //margin: 6px 15px 6px 15px;
     padding: 2px 4px;
+    background-color: royalblue;
   }
 
   ul:hover {
     color: $color-primary-2;
+
+    cursor: pointer;
   }
 
   ul:active {

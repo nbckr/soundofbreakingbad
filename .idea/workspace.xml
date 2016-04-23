@@ -3,25 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="e6cc3dcf-963a-4fd3-b469-809c05f86e6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/styles.css" afterPath="$PROJECT_DIR$/src/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/styles.css.map" afterPath="$PROJECT_DIR$/src/css/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/genre.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/genre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/making-of.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/making-of.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/index.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/overview.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/overview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/storyline.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/storyline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/visual-style.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/visual-style.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/blurring-boundaries.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/blurring-boundaries.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/filmmusic-and-identification.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/filmmusic-and-identification.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/terminology.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/terminology.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/acoustic-scenography.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/acoustic-scenography.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/index.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/language.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/language.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/noises.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/noises.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/about.html" afterPath="$PROJECT_DIR$/src/de/etc/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/acknowledgements.html" afterPath="$PROJECT_DIR$/src/de/etc/acknowledgements.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/basics.html" afterPath="$PROJECT_DIR$/src/de/etc/basics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/conclusion.html" afterPath="$PROJECT_DIR$/src/de/etc/conclusion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/index.html" afterPath="$PROJECT_DIR$/src/de/etc/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/intro.html" afterPath="$PROJECT_DIR$/src/de/etc/intro.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/references.html" afterPath="$PROJECT_DIR$/src/de/etc/references.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/partials/_screen.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_screen.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/index.html" afterPath="$PROJECT_DIR$/src/de/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/jquery-init.js" afterPath="$PROJECT_DIR$/src/js/jquery-init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/partials/_nav.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_nav.scss" />
     </list>
     <ignored path="2016_sound-of-bb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,98 +68,78 @@
       <file leaf-file-name="formal-structure.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/about-the-show/formal-structure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dramatic-structure.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="49" column="115" selection-start-line="49" selection-start-column="115" selection-end-line="49" selection-end-column="115" />
+            <state relative-caret-position="242">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="silence-and-dynamics.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html">
+      <file leaf-file-name="jquery-init.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/jquery-init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="175" column="75" selection-start-line="175" selection-start-column="75" selection-end-line="175" selection-end-column="75" />
+            <state relative-caret-position="176">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="making-of.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/about-the-show/making-of.html">
+      <file leaf-file-name="storyline.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/about-the-show/storyline.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="389" column="16" selection-start-line="389" selection-start-column="16" selection-end-line="389" selection-end-column="16" />
+            <state relative-caret-position="220">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="external-elements.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/analysis-music/external-elements.html">
+      <file leaf-file-name="_nav.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/partials/_nav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="308" column="16" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="16" />
+            <state relative-caret-position="426">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terminology.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/analysis-music/terminology.html">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="343">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="acoustic-scenography.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/acoustic-scenography.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
+            <state relative-caret-position="154">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noises.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/noises.html">
+      <file leaf-file-name="visual-style.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/about-the-show/visual-style.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subjectivization.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="200" column="27" selection-start-line="200" selection-start-column="27" selection-end-line="200" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="intro.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/etc/intro.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="176">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -180,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/de/common/about-author.html" />
         <option value="$PROJECT_DIR$/src/de/common/about-page.html" />
         <option value="$PROJECT_DIR$/src/de/common/acknowledgements.html" />
         <option value="$PROJECT_DIR$/src/de/common/basics.html" />
@@ -193,11 +185,9 @@
         <option value="$PROJECT_DIR$/src/de/common/index.html" />
         <option value="$PROJECT_DIR$/src/css/base.css" />
         <option value="$PROJECT_DIR$/src/css/central.css" />
-        <option value="$PROJECT_DIR$/src/js/jquery-init.js" />
         <option value="$PROJECT_DIR$/src/de/experiment1.html" />
         <option value="$PROJECT_DIR$/src/css/nav.css" />
         <option value="$PROJECT_DIR$/src/de/experiment-accordion-nav.html" />
-        <option value="$PROJECT_DIR$/src/de/about-the-show/storyline.html" />
         <option value="$PROJECT_DIR$/src/de/etc/about.html" />
         <option value="$PROJECT_DIR$/src/de/experiment-scrollto.html" />
         <option value="$PROJECT_DIR$/src/css/screen.css" />
@@ -207,22 +197,18 @@
         <option value="$PROJECT_DIR$/src/css/styles.css" />
         <option value="$PROJECT_DIR$/src/.htacess" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/de/index.html" />
         <option value="$PROJECT_DIR$/src/scss/_central.css" />
         <option value="$PROJECT_DIR$/src/scss/modules/_typo.scss" />
         <option value="$PROJECT_DIR$/src/scss/partials/_header.scss" />
         <option value="$PROJECT_DIR$/src/scss/modules/_colors.scss" />
         <option value="$PROJECT_DIR$/src/scss/styles.scss" />
-        <option value="$PROJECT_DIR$/src/scss/partials/_nav.scss" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html" />
         <option value="$PROJECT_DIR$/src/de/etc/basics.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" />
         <option value="$PROJECT_DIR$/src/scss/partials/_screen.scss" />
-        <option value="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
         <option value="$PROJECT_DIR$/src/de/about-the-show/making-of.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/terminology.html" />
@@ -231,6 +217,13 @@
         <option value="$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html" />
         <option value="$PROJECT_DIR$/src/de/etc/intro.html" />
         <option value="$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html" />
+        <option value="$PROJECT_DIR$/src/de/about-the-show/storyline.html" />
+        <option value="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_nav.scss" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/src/js/jquery-init.js" />
+        <option value="$PROJECT_DIR$/src/de/about-the-show/visual-style.html" />
+        <option value="$PROJECT_DIR$/src/de/index.html" />
       </list>
     </option>
   </component>
@@ -334,7 +327,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -449,14 +441,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bower.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;in&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/index.html&#10;index&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/index.html&#10;accordion.c&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/extras/accordion.css&#10;csv&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/data/vimeo-codes.csv&#10;formal&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/formal-structure.html&#10;stor&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/storyline.html&#10;making&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/making-of.html&#10;lan&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/language.html&#10;extern&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;jquer&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/jquery-init.js&#10;ce&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/central.css&#10;base&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/base.css&#10;scree&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/screen.css&#10;mak&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/making-of.html&#10;fora&#9;PSI&#9;JAVA://javax.swing.text.StyledEditorKit.ForegroundAction&#10;genre&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/genre.html&#10;dram&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/dramatic-structure.html&#10;dramati&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/dramatic-structure.html&#10;about&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/common/about-page.html&#10;init&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/bigfoot-init.js&#10;bigfoot-&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/bigfoot-init.js&#10;exter&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;vimeo&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/data/vimeo-codes.csv&#10;ident&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/filmusic-and-identification.html&#10;bigfoot&#9;null&#9;null&#10;quali&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/quality-and-quantity.html&#10;noises&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/noises.html&#10;sound&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/05-analysis-sound.html&#10;external&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;igno&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/.gitignore&#10;site&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/css/site.css" />
+    <property name="SearchEverywhereHistoryKey" value="storyli&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/storyline.html&#10;index&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/index.html&#10;init&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/jquery-init.js&#10;gruntf&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/Gruntfile.js&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;in&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/index.html&#10;accordion.c&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/extras/accordion.css&#10;csv&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/data/vimeo-codes.csv&#10;formal&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/formal-structure.html&#10;stor&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/storyline.html&#10;making&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/making-of.html&#10;lan&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/language.html&#10;extern&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;jquer&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/jquery-init.js&#10;ce&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/central.css&#10;base&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/base.css&#10;scree&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/screen.css&#10;mak&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/making-of.html&#10;fora&#9;PSI&#9;JAVA://javax.swing.text.StyledEditorKit.ForegroundAction&#10;genre&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/genre.html&#10;dram&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/dramatic-structure.html&#10;dramati&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/dramatic-structure.html&#10;about&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/common/about-page.html&#10;bigfoot-&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/bigfoot-init.js&#10;exter&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;vimeo&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/data/vimeo-codes.csv&#10;ident&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/filmusic-and-identification.html&#10;bigfoot&#9;null&#9;null&#10;quali&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/quality-and-quantity.html&#10;noises&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/noises.html&#10;sound&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/05-analysis-sound.html&#10;external&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;igno&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/.gitignore&#10;site&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/css/site.css" />
     <property name="settings.editor.selected.configurable" value="Console" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -485,7 +478,7 @@
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration default="false" name="external-elements.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2016_sound-of-bb/de/analysis-music/external-elements.html">
       <method />
     </configuration>
@@ -496,6 +489,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2016_sound-of-bb/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2016_sound-of-bb/de/index.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -799,19 +795,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html (1)" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.formal-structure.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.nav-test.html" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.nav-test.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.formal-structure.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.nav-test.html" />
       </list>
     </recent_temporary>
   </component>
@@ -848,6 +845,7 @@
       <workItem from="1461422621676" duration="3065000" />
       <workItem from="1461426117697" duration="6033000" />
       <workItem from="1461432968107" duration="791000" />
+      <workItem from="1461435515346" duration="3851000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML5 &lt;article&gt; tags">
       <created>1460900059475</created>
@@ -867,7 +865,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115248000" />
+    <option name="totallyTimeSpent" value="119099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -889,28 +887,28 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.121107265" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24266365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16139954" sideWeight="0.4923208" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19206008" sideWeight="0.48746866" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Grunt " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30795848" sideWeight="0.50767916" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30699775" sideWeight="0.50767916" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33596393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33521444" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22911964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261851" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2301038" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26523703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -938,21 +936,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/experiment-scrollto.html" />
-    <entry file="file://$PROJECT_DIR$/src/data/vimeo-codes.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/tables-recovered/seasons.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/tables-recovered/title-duration.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1002,13 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/central.css" />
     <entry file="file://$PROJECT_DIR$/src/scss/screen.css" />
     <entry file="file://$PROJECT_DIR$/src/.htaccess">
@@ -1022,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
@@ -1039,22 +1014,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/extras/c3/bar.scss" />
     <entry file="file://$PROJECT_DIR$/src/scss/extras/c3/line.scss" />
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <element signature="e#1411#1942#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/vendor/accordion.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.compat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
           <caret line="6556" column="29" selection-start-line="6556" selection-start-column="29" selection-end-line="6556" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1118,14 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,17 +1126,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/formal-structure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/about-the-show/making-of.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="8558">
           <caret line="389" column="16" selection-start-line="389" selection-start-column="16" selection-end-line="389" selection-end-column="16" />
           <folding />
         </state>
@@ -1195,7 +1136,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/analysis-music/external-elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="6776">
           <caret line="308" column="16" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="16" />
           <folding />
         </state>
@@ -1203,7 +1144,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/analysis-music/terminology.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="1364">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
@@ -1211,7 +1152,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/acoustic-scenography.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="2266">
           <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
           <folding />
         </state>
@@ -1219,7 +1160,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/noises.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="1782">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
@@ -1227,7 +1168,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="4400">
           <caret line="200" column="27" selection-start-line="200" selection-start-column="27" selection-end-line="200" selection-end-column="27" />
           <folding />
         </state>
@@ -1235,7 +1176,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/etc/intro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="836">
           <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
           <folding />
         </state>
@@ -1243,7 +1184,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="3850">
           <caret line="175" column="75" selection-start-line="175" selection-start-column="75" selection-end-line="175" selection-end-column="75" />
           <folding />
         </state>
@@ -1253,6 +1194,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="49" column="115" selection-start-line="49" selection-start-column="115" selection-end-line="49" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/formal-structure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/storyline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/jquery-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/visual-style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="48" />
           <folding />
         </state>
       </provider>
