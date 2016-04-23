@@ -1,0 +1,64 @@
+/*
+Basic skin
+*/
+
+/* Accordion
+=================================*/
+.accordion{
+	border: none;
+}
+
+/* Accordion item
+=================================*/
+.accordion-item{
+	margin-bottom: 2px;
+}
+
+/* Header
+=================================*/
+.accordion-header{
+	border: none;
+	background-color: #f7f8f9;
+}
+.accordion-header:hover,
+.accordion-item.active .accordion-header{
+	background-color: #cdd3d9;
+	color: #fff;
+}
+
+/* Content
+=================================*/
+.accordion-content{
+	border: none;
+}
+.accordion-item:last-child .accordion-content{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

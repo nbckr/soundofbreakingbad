@@ -1,7 +1,22 @@
-body {
-  background: red;
-}
+@import "vendor/normalize";
 
-h1 {
-  color: blue;
-}
+@import "modules/colors";
+@import "modules/typo";
+
+@import "partials/header";
+@import "partials/nav";
+@import "partials/screen";
+
+@import "vendor/accordion";
+@import "vendor/font-awesome";      // to get icons in accordion
+@import "vendor/bigfoot-number";
+@import "vendor/c3";
+@import "vendor/spinner";
+@import "vendor/spinner";
+
+
+
+
+
+
+@import "modules/mixins";
