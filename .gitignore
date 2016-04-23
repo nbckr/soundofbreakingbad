@@ -1,4 +1,6 @@
 /src/de/experiment*
-/etc/*
 /.idea/*
 .sass-cache/
+/etc
+/node_modules
+/src/css/styles.css.map
