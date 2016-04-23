@@ -1,4 +1,6 @@
 module.exports = function (grunt) {
+
+    // task configuration
     "use strict";
 
     // load modules
@@ -9,14 +11,52 @@ module.exports = function (grunt) {
 
     // initport and base folder of server
     grunt.initConfig( {
+
         connect: {
             port: 8080,
             base: './src/de'
+        },
+
+        // Watch task config
+        watch: {
+            sass: {
+                files: "./src/scss/*.scss",
+                tasks: ['sass']
+            }
+        },
+        // SASS task config
+        sass: {
+            dev: {
+                files: {
+                    // destination         // source file
+                    "./src/css/styles.css" : "./src/scss/styles.scss"
+                }
+            }
+        },
+
+        browserSync: {
+            default_options: {
+                bsFiles: {
+                    src: [
+                        "./src/css/*.css",
+                        "./scr/*.html"
+                    ]
+                },
+                options: {
+                    watchTask: true,
+                    server: {
+                        baseDir: "./src",
+                        index: "/de/index.html"
+                    }
+                }
+            }
         }
+
+
     });
 
     // register dask runner to run web server
-    grunt.registerTask('default-server-tsobb-de', 'Start the flippin web server', function () {
+    grunt.registerTask('server-tsobb-de', 'Start the flippin web server', function () {
 
         var app, options;
 
@@ -36,5 +76,10 @@ module.exports = function (grunt) {
         grunt.log.write('Started web server, aw yeah. Port: ' + options.port);
 
     });
+    grunt.registerTask('default', ['browserSync', 'watch']);
 
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-browser-sync');
 }
+
