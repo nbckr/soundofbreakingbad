@@ -24,10 +24,22 @@
             $('nav').find('.nav-h1').click(function(){
 
                 //Expand or collapse this panel
-                $(this).next().slideToggle('fast');
+                $(this).next().slideToggle('medium');
 
                 //Hide the other panels
-                $(".nav-h2").not($(this).next()).slideUp('fast');
+                $("#nav-ats").not($(this).next()).slideUp('fast');
+
+            });
+        });
+
+        $(document).ready(function($) {
+            $('nav').find('.nav-h2').click(function(){
+
+                //Expand or collapse this panel
+                $(this).next().slideToggle('medium');
+
+                //Hide the other panels
+                $(".sub.sub-head").not($(this).next()).slideUp('fast');
 
             });
         });
@@ -45,9 +57,16 @@
     </header>
 
     <nav>
-        <div id="nav-ats">
             <ul data-dest="about-the-show/index" class="nav-h1">Die Serie</ul>
+        <div id="nav-ats">
             <ul data-dest="about-the-show/dramatic-structure" class="nav-h2">Übersicht und Einordnung</ul>
+            <div class="sub-head">
+                <div class="sub">Einmal</div>
+                <div class="sub">Einmal</div>
+                <div class="sub">Einmal</div>
+                <div class="sub">Einmal</div>
+                <div class="sub">Einmal</div>
+            </div>
             <ul data-dest="about-the-show/genre" class="nav-h2">Genre</ul>
             <ul data-dest="about-the-show/storyline" class="nav-h2">Handlung</ul>
             <ul data-dest="about-the-show/dramatic-structure" class="nav-h2">Dramatische Struktur</ul>

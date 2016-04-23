@@ -24,6 +24,8 @@ nav {
     font-family: 'Crete Round', serif;
     font-size: 100%;
     font-weight: bold;
+
+    cursor: pointer;
 }
 
 .nav-h2 {

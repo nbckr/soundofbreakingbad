@@ -181,7 +181,7 @@ Style sheet for regular screens.
         padding: 3%;
     }
 
-    p.xfootnote {
+    p.footnote-item {
 
         font-family: 'PT Sans', sans-serif;
         font-size: 9px;

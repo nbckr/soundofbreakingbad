@@ -13,6 +13,19 @@
     <script src="../../js/accordion.js"></script>
 
 
+    <script>
+        function scrollto(element){
+            $('html, body').animate({ scrollTop: ($(element).offset().top)}, 'slow');
+        };
+
+        $('a[href^=#]').on('click', function(e){
+            var href = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop:$(href).offset().top
+            },'slow');
+            e.preventDefault();
+        });
+    </script>
 </head>
 
 <body xml:lang="de-DE">
@@ -242,7 +255,7 @@
             Detonation bringt und beide Männer in den Tod reisst. Walter und Jesse brennen das Labor nieder und Andreas Sohn
             erholt sich komplett - doch Walter hat ein dunkles Geheimnis: Er war es, der Brock vergiftet hat, um Jesse zu
             manipulieren.</p>
-        <h3>Staffel 5: Say goodbye to everyone</h3>
+        <h3 id="s05">Staffel 5: Say goodbye to everyone</h3>
         <p class="text">Nach Gus‘ Tod erfährt die Öffentlichkeit von seinem pikanten Doppelleben. Die Untersuchungen der DEA
             führen zu mehreren Verdächtigen, mit denen Gus kooperiert hat. Die Personen werden befragt und teilweise ins
             Gefängnis gesperrt, doch keiner ist bereit, mit der Polizei zu sprechen, da sie weiterhin Schweigegeld erhalten.
@@ -313,17 +326,17 @@
 
     <div class="footnotes">
         <div class="footnote">
-            <p class="xfootnote"><a id="footnote-238-7" class="footnote-anchor" href="#footnote-238-7-backlink">7</a>
+            <p class="footnote-item"><a id="footnote-238-7" class="footnote-anchor" href="#footnote-238-7-backlink">7</a>
                 Die <span class="italic">Drug Enforcement Administration</span> ist eine Strafverfolgungsbehörde, deren
                 Aufgabe es ist, Herstellung und Distribution illegaler Substanzen in den USA zu verhindern</p>
         </div>
         <div class="footnote">
-            <p class="xfootnote"><a id="footnote-238-8" class="footnote-anchor" href="#footnote-238-8-backlink">8</a>
+            <p class="footnote-item"><a id="footnote-238-8" class="footnote-anchor" href="#footnote-238-8-backlink">8</a>
                 Die Produktion der Droge Methamphetamin wird in der Szenesprache euphemistisch dargestellt: <span
                         class="italic">to cook crystal meth</span></p>
         </div>
         <div class="footnote">
-            <p class="xfootnote"><a id="footnote-238-9" class="footnote-anchor" href="#footnote-238-9-backlink">9</a>
+            <p class="footnote-item"><a id="footnote-238-9" class="footnote-anchor" href="#footnote-238-9-backlink">9</a>
                 tío: spanisch für Onkel</p>
         </div>
     </div> <!-- end of footnotes -->
