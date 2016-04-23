@@ -799,7 +799,7 @@
       <workItem from="1461015471793" duration="2909000" />
       <workItem from="1461086789023" duration="18707000" />
       <workItem from="1461170676188" duration="18969000" />
-      <workItem from="1461262827914" duration="9421000" />
+      <workItem from="1461262827914" duration="9270000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML5 &lt;article&gt; tags">
       <created>1460900059475</created>
@@ -812,7 +812,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88779000" />
+    <option name="totallyTimeSpent" value="88628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -900,8 +900,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add HTML5 &lt;article&gt; tags" />
-    <MESSAGE value="Change and refactor styles, implement menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change and refactor styles, implement menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HTML5 &lt;article&gt; tags" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
