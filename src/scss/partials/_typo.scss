@@ -11,6 +11,10 @@ p {
   text-decoration: none;
   text-indent: 0px;
   line-height: 160%;
+
+  a {
+    color: $color-primary-1 !important;
+  }
 }
 
 h1 {

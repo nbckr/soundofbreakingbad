@@ -1,6 +1,7 @@
+/npm-debug.log
 /src/de/experiment*
 /.idea/*
 .sass-cache/
-/etc
+/etc/*
 /node_modules
 /src/css/styles.css.map

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>The Sound of Breaking Bad</title>
-    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon"/>
 
     <link href="/css/styles.css" rel="stylesheet"/>
 
@@ -27,7 +27,7 @@
     <nav>
         <div id="nav-ats">
             <a href="/de/about-the-show/index.html" class="nav-h1">Die Serie</a>
-            <a href="/de/about-the-show/dramatic-structure.html" class="nav-h2">Übersicht und Einordnung</a>
+            <a href="/de/about-the-show/overview.html" class="nav-h2">Übersicht und Einordnung</a>
             <a href="/de/about-the-show/genre.html" class="nav-h2">Genre</a>
             <a href="/de/about-the-show/storyline.html" class="nav-h2">Handlung</a>
             <a href="/de/about-the-show/dramatic-structure.html" class="nav-h2">Dramatische Struktur</a>
@@ -60,7 +60,7 @@
             <a href="/de/etc/index.html" class="nav-h1">Goddamn right.</a>
             <a href="/de/etc/intro.html" class="nav-h2">Einleitung</a>
             <a href="/de/etc/basics.html" class="nav-h2">Grundlagen</a>
-            <a href="/de/etc/conclusion.html" class="nav-h2 current-page">Fazit</a>
+            <a href="/de/etc/conclusion.html" class="nav-h2">Fazit</a>
             <a href="/de/etc/about.html" class="nav-h2">Über diese Seite</a>
             <a href="/de/etc/acknowledgements.html" class="nav-h2">Danksagungen</a>
             <a href="/de/etc/references.html" class="nav-h2">Quellenangaben</a>
@@ -77,24 +77,41 @@
 
 <script>
 
-    $("body").on("click", "a", function (event) {
-        $.pjax({
-            "url": $(this).attr("href"),
-            "fragment": "#pjax-container",
-            "container": "#pjax-container"
+    $(function () {
+        function menuActive() {
+            $('.current-page').removeClass('current-page');
+            var pgurl = window.location.pathname;
+            var pguri = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
+
+            $("nav a").each(function () {
+
+                if ($(this).attr("href") == pgurl || $(this).attr("href") == '') { // Compare url to links
+                    $(this).addClass("current-page");
+                    $(this).siblings('.nav-h1').addClass('current-page'); // Set "active" class on the parent of submenu links
+                }
+            });
+        }
+
+        $("body").on("click", "a", function (event) {
+            $.pjax({
+                "url": $(this).attr("href"),
+                "fragment": "#pjax-container",
+                "container": "#pjax-container"
+            });
+            event.preventDefault();
         });
-        event.preventDefault();
-    });
-    $(document).on('pjax:start', function () {
-        console.log("pjax start");
-    });
-    $(document).on('pjax:end', function () {
-        console.log("pjax end");
-        kickstart();
+
+        $(document).on('pjax:start', function () {
+        });
+
+        $(document).on('pjax:end', function () {
+            kickstart();
+            menuActive();
+        });
+        $(document).ready(menuActive); // Update on first load
     });
 
 </script>
-
 
 </body>
 </html>

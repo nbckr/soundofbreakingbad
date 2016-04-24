@@ -401,6 +401,8 @@ p {
   text-decoration: none;
   text-indent: 0px;
   line-height: 160%; }
+  p a {
+    color: #00CD65 !important; }
 
 h1 {
   font-family: "Crete Round", serif;
@@ -447,7 +449,7 @@ li {
 
 blockquote, .quote {
   padding: 3%;
-  background-color: #EAEAEA;
+  background-color: #F3F3F3;
   font-style: italic;
   font-size: inherit;
   text-decoration: none;
@@ -487,7 +489,7 @@ span.term-italic {
 header {
   padding: 20px;
   display: block;
-  background-color: #d1d1d1; }
+  background-color: #dadada; }
   header h1 {
     font-weight: bold;
     text-align: center;
@@ -499,15 +501,13 @@ nav {
   display: inline;
   float: left;
   overflow: hidden;
-  background-color: #b7b7b7;
-  color: #FFFFFF;
+  background-color: silver;
   font-size: 100%;
-  font-weight: bold;
   font-weight: bold; }
   nav .nav-h1 {
     float: none;
     display: block;
-    padding-top: 1em;
+    margin-top: 1em;
     font-family: "Crete Round", serif;
     font-size: 100%;
     font-weight: bold; }
@@ -524,8 +524,7 @@ nav {
     nav a:active {
       color: #00CD65; }
   nav .current-page {
-    color: #B22222;
-    background-color: yellow; }
+    color: #B22222; }
 
 .banner {
   width: 100%; }
@@ -564,9 +563,9 @@ table {
     table thead th:hover {
       background-color: #00c360; }
   table tbody {
-    background-color: #EAEAEA; }
+    background-color: #F3F3F3; }
     table tbody td:hover {
-      background-color: #e5e5e5; }
+      background-color: #eeeeee; }
   table td, table th {
     padding: 0.3em 1.3em;
     margin: 0.2em;
@@ -611,7 +610,7 @@ License: http://codecanyon.net/licenses/standard
   cursor: pointer;
   overflow: hidden;
   position: relative;
-  background-color: #EAEAEA;
+  background-color: #F3F3F3;
   -webkit-tap-highlight-color: transparent;
   transition: background .2s linear; }
 
@@ -620,7 +619,7 @@ License: http://codecanyon.net/licenses/standard
 
 .accordion-header:hover,
 .accordion-item.active .accordion-header {
-  background-color: #d1d1d1; }
+  background-color: #dadada; }
 
 /* Header icons (Font Awesome) */
 .accordion-header i {
