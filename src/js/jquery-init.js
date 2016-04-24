@@ -1,5 +1,13 @@
 $(function () {
 
+    kickstart();
+
+
+});
+
+function kickstart() {
+    console.log("start init");
+
     // init bigfoot
     var bigfoot = $.bigfoot(
         {
@@ -28,5 +36,5 @@ $(function () {
         $('#content').show();
     })
 
-
-});
+    console.log("stop init");
+}

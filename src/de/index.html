@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8"/>
     <title>The Sound of Breaking Bad</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
 
-    <link href="../css/styles.css" rel="stylesheet"/>
+    <link href="/css/styles.css" rel="stylesheet"/>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
-    <script src="../js/bigfoot.js"></script>
-    <script src="../js/accordion.js"></script>
-    <script src="../js/jquery-init.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
+    <script src="/js/bigfoot.js"></script>
+    <script src="/js/accordion.js"></script>
+    <script src="/js/jquery-init.js"></script>
 </head>
 
 <body xml:lang="de-DE">
@@ -19,19 +19,21 @@
 <div id="container">
 
     <header>
-        <h1>The Sound of Breaking Bad</h1>
+        <h1>
+            <a href="/de/index.html" class="nav-h1">The Sound of Breaking Bad</a>
+        </h1>
     </header>
 
     <nav>
         <div id="nav-ats">
-            <a href="about-the-show/index.html" class="nav-h1">Die Serie</a>
-            <a href="about-the-show/dramatic-structure.html" class="nav-h2">Übersicht und Einordnung</a>
-            <a href="about-the-show/genre.html" class="nav-h2">Genre</a>
-            <a href="about-the-show/storyline.html" class="nav-h2">Handlung</a>
-            <a href="about-the-show/dramatic-structure.html" class="nav-h2">Dramatische Struktur</a>
-            <a href="about-the-show/formal-structure.html" class="nav-h2">Formale Struktur</a>
-            <a href="about-the-show/visual-style.html" class="nav-h2">Visueller Stil</a>
-            <a href="about-the-show/making-of.html" class="nav-h2">Entstehungsprozess einer Episode</a>
+            <a href="/de/about-the-show/index.html" class="nav-h1">Die Serie</a>
+            <a href="/de/about-the-show/dramatic-structure.html" class="nav-h2">Übersicht und Einordnung</a>
+            <a href="/de/about-the-show/genre.html" class="nav-h2">Genre</a>
+            <a href="/de/about-the-show/storyline.html" class="nav-h2">Handlung</a>
+            <a href="/de/about-the-show/dramatic-structure.html" class="nav-h2">Dramatische Struktur</a>
+            <a href="/de/about-the-show/formal-structure.html" class="nav-h2">Formale Struktur</a>
+            <a href="/de/about-the-show/visual-style.html" class="nav-h2">Visueller Stil</a>
+            <a href="/de/about-the-show/making-of.html" class="nav-h2">Entstehungsprozess einer Episode</a>
         </div>
 
         <div id="nav-am">
@@ -46,22 +48,22 @@
         </div>
 
         <div id="nav-as">
-            <a href="analysis-sound/index.html" class="nav-h1">Analyse: Sounddesign</a>
-            <a href="analysis-sound/language.html" class="nav-h2">Sprache</a>
-            <a href="analysis-sound/noises.html" class="nav-h2">Geräusche</a>
-            <a href="analysis-sound/silence-and-dynamics.html" class="nav-h2">Stille und Dynamik</a>
-            <a href="analysis-sound/acoustic-scenography.html" class="nav-h2">Akustische Szenografie</a>
-            <a href="analysis-sound/subjectivization.html" class="nav-h2">Subjektivierung</a>
+            <a href="/de/analysis-sound/index.html" class="nav-h1">Analyse: Sounddesign</a>
+            <a href="/de/analysis-sound/language.html" class="nav-h2">Sprache</a>
+            <a href="/de/analysis-sound/noises.html" class="nav-h2">Geräusche</a>
+            <a href="/de/analysis-sound/silence-and-dynamics.html" class="nav-h2">Stille und Dynamik</a>
+            <a href="/de/analysis-sound/acoustic-scenography.html" class="nav-h2">Akustische Szenografie</a>
+            <a href="/de/analysis-sound/subjectivization.html" class="nav-h2">Subjektivierung</a>
         </div>
 
         <div id="nav-etc">
-            <a href="etc/index.html" class="nav-h1">Goddamn right.</a>
-            <a href="etc/intro.html" class="nav-h2">Einleitung</a>
-            <a href="etc/basics.html" class="nav-h2">Grundlagen</a>
-            <a href="etc/conclusion.html" class="nav-h2">Fazit</a>
-            <a href="etc/about.html" class="nav-h2">Über diese Seite</a>
-            <a href="etc/acknowledgements.html" class="nav-h2">Danksagungen</a>
-            <a href="etc/references.html" class="nav-h2">Quellenangaben</a>
+            <a href="/de/etc/index.html" class="nav-h1">Goddamn right.</a>
+            <a href="/de/etc/intro.html" class="nav-h2">Einleitung</a>
+            <a href="/de/etc/basics.html" class="nav-h2">Grundlagen</a>
+            <a href="/de/etc/conclusion.html" class="nav-h2">Fazit</a>
+            <a href="/de/etc/about.html" class="nav-h2">Über diese Seite</a>
+            <a href="/de/etc/acknowledgements.html" class="nav-h2">Danksagungen</a>
+            <a href="/de/etc/references.html" class="nav-h2">Quellenangaben</a>
         </div>
     </nav>
 
@@ -70,11 +72,37 @@
 </div>
 
 <script src="../lib/jquery-pjax/jquery.pjax.js"></script>
-<script>
+<!--script>
 
     $(document).pjax('a', '#wrapper', {
         fragment: '#wrapper'
     });
+</script-->
+
+<script>
+
+    $("body").on("click", "a", function (event) {
+        $.pjax({
+            "url": $(this).attr("href"),
+            "fragment": "#wrapper",
+            "container": "#wrapper",
+            "complete": function (data) { // Want to do something else? Left here for reasons
+                console.log("should kickstart");
+                kickstart();
+            }
+        });
+        event.preventDefault();
+    });
+    $(document).on('pjax:start', function () {
+        console.log("pjax start");
+    });
+    $(document).on('pjax:end', function () {
+        console.log("pjax end");
+        kickstart();
+    });
+
 </script>
+
+
 </body>
 </html>

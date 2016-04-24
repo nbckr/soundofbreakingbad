@@ -22,18 +22,27 @@ nav {
     font-size: 80%;
   }
 
-  ul {
+  a {
+    display: block;
     padding: 0.3em 1.3em 0.3em 15px;
     margin: 0;
-  }
 
-  ul:hover {
-    color: $color-primary-2;
+    &:hover {
+      color: $color-primary-2;
 
-    cursor: pointer;
-  }
+      cursor: pointer;
+    }
 
-  ul:active {
-    color: $color-primary-1;
+     &:active {
+      color: $color-primary-1;
+    }
+
+    &:link {
+      text-decoration: none;
+    }
+    
+    &:visited {
+      text-decoration: none;
+    }
   }
 }

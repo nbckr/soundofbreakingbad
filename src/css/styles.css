@@ -509,14 +509,19 @@ nav {
   nav .nav-h2 {
     font-family: "PT Sans", sans-serif;
     font-size: 80%; }
-  nav ul {
+  nav a {
+    display: block;
     padding: 0.3em 1.3em 0.3em 15px;
     margin: 0; }
-  nav ul:hover {
-    color: #00FF7F;
-    cursor: pointer; }
-  nav ul:active {
-    color: #00CD65; }
+    nav a:hover {
+      color: #00FF7F;
+      cursor: pointer; }
+    nav a:active {
+      color: #00CD65; }
+    nav a:link {
+      text-decoration: none; }
+    nav a:visited {
+      text-decoration: none; }
 
 .banner {
   width: 100%; }
