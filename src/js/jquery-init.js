@@ -1,5 +1,22 @@
 $(function () {
 
+    // init bigfoot
+    var bigfoot = $.bigfoot(
+        {
+            actionOriginalFN: "delete",
+            footnoteTagname: "p",
+            footnoteParentClass: "footnote",
+            preventPageScroll: false,
+            hoverDelay: 250
+        }
+    );
+
+    // init accordions
+    jQuery(".accordion").accordion({
+        duration: 400,
+        exclusive: false
+    });
+
     // init menu
     $.ajaxSetup({cache: false});
 
@@ -11,20 +28,7 @@ $(function () {
         $('#content').show();
     })
 
-    // init accordions
-    jQuery(".accordion").accordion({
-        duration: 400,
-        exclusive: false
-    });
 
-    // init bigfoot
-    var bigfoot = $.bigfoot(
-        {
-            actionOriginalFN: "delete",
-            footnoteTagname: "p",
-            footnoteParentClass: "footnote",
-            preventPageScroll: false,
-            hoverDelay: 250
-        }
-    );
+
+
 });

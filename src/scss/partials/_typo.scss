@@ -1,0 +1,108 @@
+$default-vertical-padding: 1em;
+
+html {
+  font-family: $font-sans;
+}
+
+p {
+  font-weight: normal;
+  margin: 0 0 $default-vertical-padding 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  line-height: 160%;
+}
+
+h1 {
+  font-family: "Crete Round", serif;
+  font-size: 200%; }
+
+h2 {
+  margin:0 0 0.5em 0;;
+  padding: 0;
+  font-family: "Crete Round", serif;
+  background-color: black;;
+  color:white;
+  text-align: center;
+  font-size: 180%; }
+
+h3 {
+  font-family: "Crete Round", serif;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  font-size: 180%;
+}
+
+h4 {
+  margin:0 0 0.2em 0;
+  padding: 0;
+  font-size: 140%; }
+
+h5 {
+  margin:0 0 0.2em 0;
+  padding: 0;
+  font-size: 120%; }
+
+h6 {
+  margin:0 0 0.1em 0;
+  padding: 0;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100%; }
+
+ul {
+  list-style-type:square;
+  display: block;
+}
+
+li {
+  margin: 0 0 $default-vertical-padding/2 0;
+}
+
+blockquote, .quote {
+  padding: 3%;
+
+  background-color: $gray-color-bright;
+  font-style: italic;
+  font-size: inherit;
+  text-decoration: none;
+  text-indent: 0px;
+  line-height: inherit;
+}
+
+p.footnote-item {
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.222;
+  margin-bottom: 6px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: justify;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+.footnote-link {
+  margin-left: 3px;
+  margin-right: 3px;
+  color: slateblue;
+}
+
+span.work-italic {
+  font-style: italic;
+  font-weight: normal;
+}
+
+span.italic {
+  font-style: italic;
+  font-weight: normal;
+}
+
+span.term-italic {
+  font-style: italic;
+  font-weight: normal;
+}

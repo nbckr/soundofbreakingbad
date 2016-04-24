@@ -2,35 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6cc3dcf-963a-4fd3-b469-809c05f86e6b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/partials/_elements.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/partials/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/partials/_typo.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/partials/_visuals.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/partials/_screen.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/vendor/accordion-skins/_accordion-basic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/vendor/accordion-skins/_accordion-border-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/vendor/accordion-skins/_accordion-dark.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/vendor/accordion-skins/_accordion-gradient.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/vendor/accordion-skins/_accordion-overline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/vendor/accordion-skins/_accordion-underline.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/styles.css" afterPath="$PROJECT_DIR$/src/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/styles.css.map" afterPath="$PROJECT_DIR$/src/css/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/genre.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/genre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/index.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/making-of.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/making-of.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/overview.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/storyline.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/storyline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/about-the-show/visual-style.html" afterPath="$PROJECT_DIR$/src/de/about-the-show/visual-style.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/filmmusic-and-identification.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/filmmusic-and-identification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/index.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/quality-and-quantity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-music/terminology.html" afterPath="$PROJECT_DIR$/src/de/analysis-music/terminology.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/acoustic-scenography.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/acoustic-scenography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/index.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/language.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/language.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/noises.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/noises.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html" afterPath="$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/about.html" afterPath="$PROJECT_DIR$/src/de/etc/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/acknowledgements.html" afterPath="$PROJECT_DIR$/src/de/etc/acknowledgements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/basics.html" afterPath="$PROJECT_DIR$/src/de/etc/basics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/conclusion.html" afterPath="$PROJECT_DIR$/src/de/etc/conclusion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/index.html" afterPath="$PROJECT_DIR$/src/de/etc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/intro.html" afterPath="$PROJECT_DIR$/src/de/etc/intro.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/etc/references.html" afterPath="$PROJECT_DIR$/src/de/etc/references.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/index.html" afterPath="$PROJECT_DIR$/src/de/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/jquery-init.js" afterPath="$PROJECT_DIR$/src/js/jquery-init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/modules/_colors.scss" afterPath="$PROJECT_DIR$/src/scss/modules/_colors.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/partials/_nav.scss" afterPath="$PROJECT_DIR$/src/scss/partials/_nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/styles.scss" afterPath="$PROJECT_DIR$/src/scss/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/vendor/_accordion.scss" afterPath="$PROJECT_DIR$/src/scss/vendor/_accordion.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/scss/modules/_typo.scss" afterPath="$PROJECT_DIR$/src/scss/modules/_fonts.scss" />
     </list>
     <ignored path="2016_sound-of-bb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,101 +55,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="silence-and-dynamics.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/silence-and-dynamics.html">
+      <file leaf-file-name="_typo.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/partials/_typo.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="66">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subjectivization.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/analysis-sound/subjectivization.html">
+      <file leaf-file-name="_colors.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/modules/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="176">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/etc/about.html">
+      <file leaf-file-name="_accordion.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/vendor/_accordion.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="220">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="acknowledgements.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/etc/acknowledgements.html">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="242">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basics.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/etc/basics.html">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conclusion.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/etc/conclusion.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="intro.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/etc/intro.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="references.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/etc/references.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="185">
+              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/etc/index.html">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="storyline.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/about-the-show/storyline.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diegetic-elements.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="44" column="78" selection-start-line="44" selection-start-column="78" selection-end-line="44" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11734">
+              <caret line="577" column="2" selection-start-line="577" selection-start-column="2" selection-end-line="577" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -189,38 +183,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/css/central.css" />
-        <option value="$PROJECT_DIR$/src/de/experiment1.html" />
-        <option value="$PROJECT_DIR$/src/css/nav.css" />
-        <option value="$PROJECT_DIR$/src/de/experiment-accordion-nav.html" />
-        <option value="$PROJECT_DIR$/src/de/experiment-scrollto.html" />
-        <option value="$PROJECT_DIR$/src/css/screen.css" />
-        <option value="$PROJECT_DIR$/etc/tables-recovered/key-sounds.csv" />
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/css/styles.css" />
         <option value="$PROJECT_DIR$/src/.htacess" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/scss/_central.css" />
         <option value="$PROJECT_DIR$/src/scss/modules/_typo.scss" />
-        <option value="$PROJECT_DIR$/src/scss/partials/_header.scss" />
-        <option value="$PROJECT_DIR$/src/scss/modules/_colors.scss" />
-        <option value="$PROJECT_DIR$/src/scss/styles.scss" />
-        <option value="$PROJECT_DIR$/src/scss/partials/_screen.scss" />
-        <option value="$PROJECT_DIR$/src/scss/partials/_nav.scss" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/src/js/jquery-init.js" />
         <option value="$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html" />
-        <option value="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
         <option value="$PROJECT_DIR$/src/de/about-the-show/index.html" />
         <option value="$PROJECT_DIR$/src/de/about-the-show/making-of.html" />
         <option value="$PROJECT_DIR$/src/de/about-the-show/overview.html" />
         <option value="$PROJECT_DIR$/src/de/about-the-show/storyline.html" />
         <option value="$PROJECT_DIR$/src/de/about-the-show/visual-style.html" />
         <option value="$PROJECT_DIR$/src/de/about-the-show/genre.html" />
-        <option value="$PROJECT_DIR$/src/de/index.html" />
-        <option value="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/external-elements.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/extra-diegetic-elements.html" />
         <option value="$PROJECT_DIR$/src/de/analysis-music/filmmusic-and-identification.html" />
@@ -240,6 +217,23 @@
         <option value="$PROJECT_DIR$/src/de/etc/index.html" />
         <option value="$PROJECT_DIR$/src/de/etc/intro.html" />
         <option value="$PROJECT_DIR$/src/de/etc/references.html" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_visuals.scss" />
+        <option value="$PROJECT_DIR$/src/scss/modules/_colors.scss" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_tables.scss" />
+        <option value="$PROJECT_DIR$/src/js/jquery-init.js" />
+        <option value="$PROJECT_DIR$/src/de/about-the-show/formal-structure.html" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_nav.scss" />
+        <option value="$PROJECT_DIR$/src/scss/vendor/_bigfoot-number.scss" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_elements.scss" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_screen.scss" />
+        <option value="$PROJECT_DIR$/src/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/src/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/de/index.html" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_header.scss" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_typo.scss" />
+        <option value="$PROJECT_DIR$/src/scss/vendor/accordion-skins/_accordion-basic.scss" />
+        <option value="$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html" />
+        <option value="$PROJECT_DIR$/src/scss/vendor/_accordion.scss" />
       </list>
     </option>
   </component>
@@ -343,6 +337,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,29 +407,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,126 +426,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-sound" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-music" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about-the-show" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016_sound-of-bb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bower.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/index.html&#10;storyli&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/storyline.html&#10;init&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/jquery-init.js&#10;gruntf&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/Gruntfile.js&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;in&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/index.html&#10;accordion.c&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/extras/accordion.css&#10;csv&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/data/vimeo-codes.csv&#10;formal&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/formal-structure.html&#10;stor&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/storyline.html&#10;making&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/making-of.html&#10;lan&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/language.html&#10;extern&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;jquer&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/jquery-init.js&#10;ce&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/central.css&#10;base&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/base.css&#10;scree&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/screen.css&#10;mak&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/making-of.html&#10;fora&#9;PSI&#9;JAVA://javax.swing.text.StyledEditorKit.ForegroundAction&#10;genre&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/genre.html&#10;dram&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/dramatic-structure.html&#10;dramati&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/dramatic-structure.html&#10;about&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/common/about-page.html&#10;bigfoot-&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/bigfoot-init.js&#10;exter&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;vimeo&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/data/vimeo-codes.csv&#10;ident&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/filmusic-and-identification.html&#10;bigfoot&#9;null&#9;null&#10;quali&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/quality-and-quantity.html&#10;noises&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/noises.html&#10;sound&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/05-analysis-sound.html&#10;external&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;igno&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/.gitignore&#10;site&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/css/site.css" />
+    <property name="SearchEverywhereHistoryKey" value="color&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/scss/modules/_colors.scss&#10;accor&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/scss/vendor/accordion-skins/_accordion-basic.scss&#10;header&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/scss/partials/_header.scss&#10;typo&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/scss/partials/_typo.scss&#10;bigfoo&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/scss/vendor/_bigfoot-number.scss&#10;nav&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/scss/partials/_nav.scss&#10;bigfoot-nu&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/scss/vendor/_bigfoot-number.scss&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;index&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/index.html&#10;styles.css&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/styles.css&#10;for&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/formal-structure.html&#10;init&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/jquery-init.js&#10;storyli&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/storyline.html&#10;gruntf&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/Gruntfile.js&#10;in&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/index.html&#10;accordion.c&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/extras/accordion.css&#10;csv&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/data/vimeo-codes.csv&#10;formal&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/formal-structure.html&#10;stor&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/storyline.html&#10;making&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/making-of.html&#10;lan&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/language.html&#10;extern&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;jquer&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/jquery-init.js&#10;ce&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/central.css&#10;base&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/base.css&#10;scree&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/css/screen.css&#10;mak&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/making-of.html&#10;fora&#9;PSI&#9;JAVA://javax.swing.text.StyledEditorKit.ForegroundAction&#10;genre&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/genre.html&#10;dram&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/dramatic-structure.html&#10;dramati&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/about-the-show/dramatic-structure.html&#10;about&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/common/about-page.html&#10;bigfoot-&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/js/bigfoot-init.js&#10;exter&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;vimeo&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/data/vimeo-codes.csv&#10;ident&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/filmusic-and-identification.html&#10;bigfoot&#9;null&#9;null&#10;quali&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/quality-and-quantity.html&#10;noises&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-sound/noises.html&#10;sound&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/05-analysis-sound.html&#10;external&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/src/de/analysis-music/external-elements.html&#10;igno&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/.gitignore&#10;site&#9;FILE&#9;file://D:/CLOUD/OneDrive/Projekte/2016_sound-of-bb/exported-html-inprogress/css/site.css" />
     <property name="settings.editor.selected.configurable" value="Console" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -593,11 +459,11 @@
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\de" />
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\scss\partials" />
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\scss" />
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\scss\extras" />
       <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src\scss\extras\c3" />
-      <recent name="D:\CLOUD\OneDrive\Projekte\2016_sound-of-bb\src" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
@@ -927,10 +793,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.formal-structure.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.nav-test.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.external-elements.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -967,7 +833,8 @@
       <workItem from="1461422621676" duration="3065000" />
       <workItem from="1461426117697" duration="6033000" />
       <workItem from="1461432968107" duration="791000" />
-      <workItem from="1461435515346" duration="4508000" />
+      <workItem from="1461435515346" duration="11473000" />
+      <workItem from="1461449405740" duration="7760000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML5 &lt;article&gt; tags">
       <created>1460900059475</created>
@@ -987,7 +854,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119756000" />
+    <option name="totallyTimeSpent" value="134481000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1004,21 +871,22 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16930023" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.121107265" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24266365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21106094" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16139954" sideWeight="0.4923208" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19206008" sideWeight="0.48746866" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23766094" sideWeight="0.48746866" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30699775" sideWeight="0.50767916" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33521444" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33521444" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1029,7 +897,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1058,26 +925,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/scss/extras/c3/bar.scss" />
-    <entry file="file://$PROJECT_DIR$/src/scss/extras/c3/line.scss" />
-    <entry file="file://$PROJECT_DIR$/src/scss/vendor/accordion.css" />
-    <entry file="file://$PROJECT_DIR$/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.compat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="6556" column="29" selection-start-line="6556" selection-start-column="29" selection-end-line="6556" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_print.css" />
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_screen.css" />
-    <entry file="file://$PROJECT_DIR$/src/scss/_central.css" />
     <entry file="file://$PROJECT_DIR$/src/scss/vendor/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1095,56 +942,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/partials/_base.scss" />
     <entry file="file://$PROJECT_DIR$/src/scss/partials/_print.scss" />
-    <entry file="file://$PROJECT_DIR$/src/scss/modules/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/modules/_typo.scss">
+    <entry file="file://$PROJECT_DIR$/src/scss/modules/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="589" column="3" selection-start-line="589" selection-start-column="3" selection-end-line="589" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_screen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="264" column="5" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,34 +957,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/jquery-init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/about-the-show/dramatic-structure.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/formal-structure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1200,14 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/storyline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1232,14 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1396,10 +1157,162 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_visuals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/formal-structure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="188" column="55" selection-start-line="188" selection-start-column="55" selection-end-line="188" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/vendor/_bigfoot-number.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/jquery-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_elements.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11734">
+          <caret line="577" column="2" selection-start-line="577" selection-start-column="2" selection-end-line="577" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_typo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/vendor/accordion-skins/_accordion-basic.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="440">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/about-the-show/storyline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/vendor/_accordion.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/analysis-music/diegetic-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="44" column="78" selection-start-line="44" selection-start-column="78" selection-end-line="44" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/modules/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>

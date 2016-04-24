@@ -1,22 +1,18 @@
 @import "vendor/normalize";
 
 @import "modules/colors";
-@import "modules/typo";
+@import "modules/fonts";
+@import "modules/mixins";
 
+@import "partials/elements";
+@import "partials/typo";
 @import "partials/header";
 @import "partials/nav";
-@import "partials/screen";
+@import "partials/visuals";
+@import "partials/tables";
 
 @import "vendor/accordion";
 @import "vendor/font-awesome";      // to get icons in accordion
 @import "vendor/bigfoot-number";
 @import "vendor/c3";
 @import "vendor/spinner";
-@import "vendor/spinner";
-
-
-
-
-
-
-@import "modules/mixins";

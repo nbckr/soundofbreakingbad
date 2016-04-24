@@ -1,0 +1,41 @@
+table {
+  display: table;
+  text-align: center;
+
+  thead {
+    color: $color-white;
+    font-weight: bold;
+    background-color: $color-primary-1;
+
+    th:hover {
+      background-color: darken($color-primary-1, 2%);
+    }
+  }
+
+  tbody {
+    background-color: $gray-color-bright;
+
+    td:hover {
+      background-color: darken($gray-color-bright, 2%);
+    }
+  }
+
+  td, th {
+    padding: 0.3em 1.3em;
+    margin: 0.2em;
+    border-style: hidden;
+    //border-style: solid;
+    //border-width: 5px;
+  }
+
+
+}
+
+.table-right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.table-center {
+  margin: auto;
+}
