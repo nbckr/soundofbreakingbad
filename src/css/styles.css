@@ -1,4 +1,3 @@
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
@@ -75,12 +74,17 @@ template,
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ * + Remove everything else
  */
 a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  /* 2 */ }
+  /* 2 */
+  text-decoration: none;
+  color: black; }
+  a:active, a:hover, a:link, a:visited {
+    color: black; }
 
 /**
  * Remove the outline on focused links when they are also active or hovered
@@ -383,7 +387,7 @@ textarea {
     background-color: #FFFFFF;
     overflow: hidden; }
 
-  #content {
+  #pjax-container {
     overflow: hidden;
     padding: 15px 0 0 15px;
     min-width: 520px; } }
@@ -498,6 +502,7 @@ nav {
   background-color: #b7b7b7;
   color: #FFFFFF;
   font-size: 100%;
+  font-weight: bold;
   font-weight: bold; }
   nav .nav-h1 {
     float: none;
@@ -518,10 +523,9 @@ nav {
       cursor: pointer; }
     nav a:active {
       color: #00CD65; }
-    nav a:link {
-      text-decoration: none; }
-    nav a:visited {
-      text-decoration: none; }
+  nav .current-page {
+    color: #B22222;
+    background-color: yellow; }
 
 .banner {
   width: 100%; }

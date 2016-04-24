@@ -60,36 +60,28 @@
             <a href="/de/etc/index.html" class="nav-h1">Goddamn right.</a>
             <a href="/de/etc/intro.html" class="nav-h2">Einleitung</a>
             <a href="/de/etc/basics.html" class="nav-h2">Grundlagen</a>
-            <a href="/de/etc/conclusion.html" class="nav-h2">Fazit</a>
+            <a href="/de/etc/conclusion.html" class="nav-h2 current-page">Fazit</a>
             <a href="/de/etc/about.html" class="nav-h2">Über diese Seite</a>
             <a href="/de/etc/acknowledgements.html" class="nav-h2">Danksagungen</a>
             <a href="/de/etc/references.html" class="nav-h2">Quellenangaben</a>
         </div>
     </nav>
 
-    <div id="wrapper"></div>
+    <div id="pjax-wrapper">
+        <div id="pjax-container"></div>
+    </div>
 
 </div>
 
 <script src="../lib/jquery-pjax/jquery.pjax.js"></script>
-<!--script>
-
-    $(document).pjax('a', '#wrapper', {
-        fragment: '#wrapper'
-    });
-</script-->
 
 <script>
 
     $("body").on("click", "a", function (event) {
         $.pjax({
             "url": $(this).attr("href"),
-            "fragment": "#wrapper",
-            "container": "#wrapper",
-            "complete": function (data) { // Want to do something else? Left here for reasons
-                console.log("should kickstart");
-                kickstart();
-            }
+            "fragment": "#pjax-container",
+            "container": "#pjax-container"
         });
         event.preventDefault();
     });

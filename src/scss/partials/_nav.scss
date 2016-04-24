@@ -38,11 +38,14 @@ nav {
     }
 
     &:link {
-      text-decoration: none;
     }
     
     &:visited {
-      text-decoration: none;
     }
+  }
+
+  .current-page {
+    color: $contrary-color-1;
+    background-color: yellow;
   }
 }
