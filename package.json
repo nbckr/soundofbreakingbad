@@ -19,9 +19,10 @@
   "devDependencies": {
     "connect": "^3.4.1",
     "grunt": "^1.0.1",
+    "grunt-bake": "^1.7.2",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "serve-static": "^1.10.2",
+    "serve-static": "^1.10.2"
   }
 }

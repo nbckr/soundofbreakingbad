@@ -46,9 +46,22 @@ module.exports = function (grunt) {
                     watchTask: true,
                     server: {
                         baseDir: "./src",
-                        index: "/de/index.html",
+                        index: "/de/nav.html",
                     },
                     debugInfo: true
+                }
+            }
+        },
+
+        bake: {
+            insertNav: {
+                options: {
+                    // Task-specific options go here.
+                },
+
+                files: {
+                    "/dist/indexBake.html": "/de/etc/index.html",
+                    "/dist/indexBakeX.html": "/de/index.html"
                 }
             }
         }
@@ -80,5 +93,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-browser-sync');
+    grunt.loadNpmTasks('grunt-bake');
 }
 
