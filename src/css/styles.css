@@ -447,8 +447,7 @@ blockquote, .quote {
   font-style: italic;
   font-size: inherit;
   text-decoration: none;
-  text-indent: 0px;
-  line-height: inherit; }
+  text-indent: 0px; }
 
 p.footnote-item {
   font-family: 'PT Sans', sans-serif;
