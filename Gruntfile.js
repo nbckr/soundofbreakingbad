@@ -56,12 +56,11 @@ module.exports = function (grunt) {
         bake: {
             insertNav: {
                 options: {
-                    // Task-specific options go here.
+                    basePath: "src/"
                 },
 
                 files: {
-                    "/dist/indexBake.html": "/de/etc/index.html",
-                    "/dist/indexBakeX.html": "/de/index.html"
+                    "src/dist/indexBakeX.html": "src/de/index.html"
                 }
             }
         }
