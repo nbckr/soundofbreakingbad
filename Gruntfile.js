@@ -54,13 +54,24 @@ module.exports = function (grunt) {
         },
 
         bake: {
-            insertNav: {
+            build: {
                 options: {
                     basePath: "src/"
                 },
 
                 files: {
-                    "src/dist/indexBakeX.html": "src/de/index.html"
+                    "src/dist/index.html" : "src/index.html",
+
+                    "src/dist/de/index.html": "src/de/index.html",
+
+                    "src/dist/de/about-the-show/index.html" : "src/de/about-the-show/index.html",
+                    "src/dist/de/about-the-show/dramatic-structure.html" : "src/de/about-the-show/dramatic-structure.html",
+                    "src/dist/de/about-the-show/formal-structure.html" : "src/de/about-the-show/formal-structure.html",
+                    "src/dist/de/about-the-show/genre.html" : "src/de/about-the-show/genre.html",
+                    "src/dist/de/about-the-show/making-of.html" : "src/de/about-the-show/making-of.html",
+                    "src/dist/de/about-the-show/overview.html" : "src/de/about-the-show/overview.html",
+                    "src/dist/de/about-the-show/storyline.html" : "src/de/about-the-show/storyline.html",
+                    "src/dist/de/about-the-show/visual-style.html" : "src/de/about-the-show/visual-style.html"
                 }
             }
         }
