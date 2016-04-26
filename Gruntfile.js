@@ -71,7 +71,16 @@ module.exports = function (grunt) {
                     "src/dist/de/about-the-show/making-of.html" : "src/de/about-the-show/making-of.html",
                     "src/dist/de/about-the-show/overview.html" : "src/de/about-the-show/overview.html",
                     "src/dist/de/about-the-show/storyline.html" : "src/de/about-the-show/storyline.html",
-                    "src/dist/de/about-the-show/visual-style.html" : "src/de/about-the-show/visual-style.html"
+                    "src/dist/de/about-the-show/visual-style.html" : "src/de/about-the-show/visual-style.html",
+
+                    "src/dist/de/analysis-music/index.html" : "src/de/analysis-music/index.html",
+                    "src/dist/de/analysis-music/blurring-boundaries.html" : "src/de/analysis-music/blurring-boundaries.html",
+                    "src/dist/de/analysis-music/diegetic-elements.html" : "src/de/analysis-music/diegetic-elements.html",
+                    "src/dist/de/analysis-music/external-elements.html" : "src/de/analysis-music/external-elements.html",
+                    "src/dist/de/analysis-music/extra-diegetic-elements.html" : "src/de/analysis-music/extra-diegetic-elements.html",
+                    "src/dist/de/analysis-music/filmmusic-and-identification.html" : "src/de/analysis-music/filmmusic-and-identification.html",
+                    "src/dist/de/analysis-music/quality-and-quantity.html" : "src/de/analysis-music/quality-and-quantity.html",
+                    "src/dist/de/analysis-music/terminology.html" : "src/de/analysis-music/terminology.html",
                 }
             }
         }
