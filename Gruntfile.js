@@ -45,8 +45,8 @@ module.exports = function (grunt) {
                 options: {
                     watchTask: true,
                     server: {
-                        baseDir: "./src",
-                        index: "/de/nav.html",
+                        baseDir: "dist",
+                        index: "/de/index.html"
                     },
                     debugInfo: true
                 }
@@ -60,42 +60,42 @@ module.exports = function (grunt) {
                 },
 
                 files: {
-                    "src/dist/index.html" : "src/index.html",
+                    "dist/index.html" : "src/index.html",
 
-                    "src/dist/de/index.html": "src/de/index.html",
+                    "dist/de/index.html": "src/de/index.html",
 
-                    "src/dist/de/about-the-show/index.html" : "src/de/about-the-show/index.html",
-                    "src/dist/de/about-the-show/dramatic-structure.html" : "src/de/about-the-show/dramatic-structure.html",
-                    "src/dist/de/about-the-show/formal-structure.html" : "src/de/about-the-show/formal-structure.html",
-                    "src/dist/de/about-the-show/genre.html" : "src/de/about-the-show/genre.html",
-                    "src/dist/de/about-the-show/making-of.html" : "src/de/about-the-show/making-of.html",
-                    "src/dist/de/about-the-show/overview.html" : "src/de/about-the-show/overview.html",
-                    "src/dist/de/about-the-show/storyline.html" : "src/de/about-the-show/storyline.html",
-                    "src/dist/de/about-the-show/visual-style.html" : "src/de/about-the-show/visual-style.html",
+                    "dist/de/about-the-show/index.html" : "src/de/about-the-show/index.html",
+                    "dist/de/about-the-show/dramatic-structure.html" : "src/de/about-the-show/dramatic-structure.html",
+                    "dist/de/about-the-show/formal-structure.html" : "src/de/about-the-show/formal-structure.html",
+                    "dist/de/about-the-show/genre.html" : "src/de/about-the-show/genre.html",
+                    "dist/de/about-the-show/making-of.html" : "src/de/about-the-show/making-of.html",
+                    "dist/de/about-the-show/overview.html" : "src/de/about-the-show/overview.html",
+                    "dist/de/about-the-show/storyline.html" : "src/de/about-the-show/storyline.html",
+                    "dist/de/about-the-show/visual-style.html" : "src/de/about-the-show/visual-style.html",
 
-                    "src/dist/de/analysis-music/index.html" : "src/de/analysis-music/index.html",
-                    "src/dist/de/analysis-music/blurring-boundaries.html" : "src/de/analysis-music/blurring-boundaries.html",
-                    "src/dist/de/analysis-music/diegetic-elements.html" : "src/de/analysis-music/diegetic-elements.html",
-                    "src/dist/de/analysis-music/external-elements.html" : "src/de/analysis-music/external-elements.html",
-                    "src/dist/de/analysis-music/extra-diegetic-elements.html" : "src/de/analysis-music/extra-diegetic-elements.html",
-                    "src/dist/de/analysis-music/filmmusic-and-identification.html" : "src/de/analysis-music/filmmusic-and-identification.html",
-                    "src/dist/de/analysis-music/quality-and-quantity.html" : "src/de/analysis-music/quality-and-quantity.html",
-                    "src/dist/de/analysis-music/terminology.html" : "src/de/analysis-music/terminology.html",
+                    "dist/de/analysis-music/index.html" : "src/de/analysis-music/index.html",
+                    "dist/de/analysis-music/blurring-boundaries.html" : "src/de/analysis-music/blurring-boundaries.html",
+                    "dist/de/analysis-music/diegetic-elements.html" : "src/de/analysis-music/diegetic-elements.html",
+                    "dist/de/analysis-music/external-elements.html" : "src/de/analysis-music/external-elements.html",
+                    "dist/de/analysis-music/extra-diegetic-elements.html" : "src/de/analysis-music/extra-diegetic-elements.html",
+                    "dist/de/analysis-music/filmmusic-and-identification.html" : "src/de/analysis-music/filmmusic-and-identification.html",
+                    "dist/de/analysis-music/quality-and-quantity.html" : "src/de/analysis-music/quality-and-quantity.html",
+                    "dist/de/analysis-music/terminology.html" : "src/de/analysis-music/terminology.html",
 
-                    "src/dist/de/analysis-sound/index.html" : "src/de/analysis-sound/index.html",
-                    "src/dist/de/analysis-sound/acoustic-scenography.html" : "src/de/analysis-sound/acoustic-scenography.html",
-                    "src/dist/de/analysis-sound/language.html" : "src/de/analysis-sound/language.html",
-                    "src/dist/de/analysis-sound/noises.html" : "src/de/analysis-sound/noises.html",
-                    "src/dist/de/analysis-sound/silence-and-dynamics.html" : "src/de/analysis-sound/silence-and-dynamics.html",
-                    "src/dist/de/analysis-sound/subjectivization.html" : "src/de/analysis-sound/subjectivization.html",
+                    "dist/de/analysis-sound/index.html" : "src/de/analysis-sound/index.html",
+                    "dist/de/analysis-sound/acoustic-scenography.html" : "src/de/analysis-sound/acoustic-scenography.html",
+                    "dist/de/analysis-sound/language.html" : "src/de/analysis-sound/language.html",
+                    "dist/de/analysis-sound/noises.html" : "src/de/analysis-sound/noises.html",
+                    "dist/de/analysis-sound/silence-and-dynamics.html" : "src/de/analysis-sound/silence-and-dynamics.html",
+                    "dist/de/analysis-sound/subjectivization.html" : "src/de/analysis-sound/subjectivization.html",
 
-                    "src/dist/de/etc/index.html" : "src/de/etc/index.html",
-                    "src/dist/de/etc/about.html" : "src/de/etc/about.html",
-                    "src/dist/de/etc/acknowledgements.html" : "src/de/etc/acknowledgements.html",
-                    "src/dist/de/etc/basics.html" : "src/de/etc/basics.html",
-                    "src/dist/de/etc/conclusion.html" : "src/de/etc/conclusion.html",
-                    "src/dist/de/etc/intro.html" : "src/de/etc/intro.html",
-                    "src/dist/de/etc/references.html" : "src/de/etc/references.html"
+                    "dist/de/etc/index.html" : "src/de/etc/index.html",
+                    "dist/de/etc/about.html" : "src/de/etc/about.html",
+                    "dist/de/etc/acknowledgements.html" : "src/de/etc/acknowledgements.html",
+                    "dist/de/etc/basics.html" : "src/de/etc/basics.html",
+                    "dist/de/etc/conclusion.html" : "src/de/etc/conclusion.html",
+                    "dist/de/etc/intro.html" : "src/de/etc/intro.html",
+                    "dist/de/etc/references.html" : "src/de/etc/references.html"
                 }
             }
         }
