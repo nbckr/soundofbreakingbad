@@ -81,6 +81,21 @@ module.exports = function (grunt) {
                     "src/dist/de/analysis-music/filmmusic-and-identification.html" : "src/de/analysis-music/filmmusic-and-identification.html",
                     "src/dist/de/analysis-music/quality-and-quantity.html" : "src/de/analysis-music/quality-and-quantity.html",
                     "src/dist/de/analysis-music/terminology.html" : "src/de/analysis-music/terminology.html",
+
+                    "src/dist/de/analysis-sound/index.html" : "src/de/analysis-sound/index.html",
+                    "src/dist/de/analysis-sound/acoustic-scenography.html" : "src/de/analysis-sound/acoustic-scenography.html",
+                    "src/dist/de/analysis-sound/language.html" : "src/de/analysis-sound/language.html",
+                    "src/dist/de/analysis-sound/noises.html" : "src/de/analysis-sound/noises.html",
+                    "src/dist/de/analysis-sound/silence-and-dynamics.html" : "src/de/analysis-sound/silence-and-dynamics.html",
+                    "src/dist/de/analysis-sound/subjectivization.html" : "src/de/analysis-sound/subjectivization.html",
+
+                    "src/dist/de/etc/index.html" : "src/de/etc/index.html",
+                    "src/dist/de/etc/about.html" : "src/de/etc/about.html",
+                    "src/dist/de/etc/acknowledgements.html" : "src/de/etc/acknowledgements.html",
+                    "src/dist/de/etc/basics.html" : "src/de/etc/basics.html",
+                    "src/dist/de/etc/conclusion.html" : "src/de/etc/conclusion.html",
+                    "src/dist/de/etc/intro.html" : "src/de/etc/intro.html",
+                    "src/dist/de/etc/references.html" : "src/de/etc/references.html"
                 }
             }
         }
