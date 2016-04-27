@@ -13,7 +13,7 @@ p {
   line-height: 160%;
 
   a {
-    color: $color-primary-1 !important;
+    //color: $color-primary-1 !important;
   }
 }
 
@@ -35,16 +35,13 @@ h3 {
   margin: 0 0 0.5em 0;
   padding: 0;
   font-size: 180%;
-  color: orangered;
-  background-color: yellow;
 }
 
 h4 {
   margin:0 0 0.2em 0;
   padding: 0;
   font-size: 140%;
-  color: blue;
-  background-color: orchid !important;}
+}
 
 h5 {
   margin:0 0 0.2em 0;

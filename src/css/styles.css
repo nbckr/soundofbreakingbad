@@ -384,13 +384,13 @@ textarea {
     min-height: 150px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FFFFFF;
-    overflow: hidden; }
+    overflow: hidden;
+    background-color: silver; }
 
-  #pjax-container {
+  #pjax-wrapper {
     overflow: hidden;
     padding: 15px 0 0 15px;
-    min-width: 520px; } }
+    width: 520px; } }
 html {
   font-family: "PT Sans", sans-serif; }
 
@@ -401,8 +401,6 @@ p {
   text-decoration: none;
   text-indent: 0px;
   line-height: 160%; }
-  p a {
-    color: #00CD65 !important; }
 
 h1 {
   font-family: "Crete Round", serif;
@@ -421,16 +419,12 @@ h3 {
   font-family: "Crete Round", serif;
   margin: 0 0 0.5em 0;
   padding: 0;
-  font-size: 180%;
-  color: orangered;
-  background-color: yellow; }
+  font-size: 180%; }
 
 h4 {
   margin: 0 0 0.2em 0;
   padding: 0;
-  font-size: 140%;
-  color: blue;
-  background-color: orchid !important; }
+  font-size: 140%; }
 
 h5 {
   margin: 0 0 0.2em 0;

@@ -20,7 +20,11 @@ module.exports = function (grunt) {
         watch: {
             sass: {
                 files: "./src/scss/**/*.scss",
-                tasks: ['sass']
+                tasks: ['sass', 'sync']
+            },
+            bake: {
+                files: "./src/**.html",
+                tasks: ['bake', 'sync']
             }
         },
 
@@ -98,6 +102,21 @@ module.exports = function (grunt) {
                     "dist/de/etc/references.html" : "src/de/etc/references.html"
                 }
             }
+        },
+
+        sync: {
+            main: {
+                files: [{
+                    cwd: 'src',
+                    src: ['css/*.css', 'js/**', 'img/**', 'fonts/**', 'data/**'],
+                    dest: 'dist'
+                }],
+                pretend: false,
+                verbose: true,
+                failOnError: true,
+                updateAndDelete: true,
+                ignoreInDest: ['de/**', '**.html']
+            }
         }
     });
 
@@ -122,11 +141,12 @@ module.exports = function (grunt) {
         grunt.log.write('Started web server, aw yeah. Port: ' + options.port);
 
     });
-    grunt.registerTask('default', ['browserSync', 'watch']);
+    grunt.registerTask('default', ['browserSync', 'sync', 'watch']);
 
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-bake');
+    grunt.loadNpmTasks('grunt-sync');
 }
 
