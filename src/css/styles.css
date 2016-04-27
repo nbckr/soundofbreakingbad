@@ -372,35 +372,38 @@ textarea {
 @media screen {
   body {
     margin: 20px 40px 20px 40px;
-    font-size: 100%;
-    font-color: black;
-    font-family: 'PT Sans', sans-serif;
-    font-style: normal; }
+    background-color: gray; }
 
   #container {
     display: block;
-    width: 85%;
+    width: 768px;
     max-width: 930px;
     min-height: 150px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
-    background-color: silver; }
+    overflow: hidden; }
 
-  #pjax-wrapper {
+  #header {
+    background-color: yellow; }
+
+  #pjax-container {
     overflow: hidden;
-    padding: 15px 0 0 15px;
-    width: 520px; } }
-html {
-  font-family: "PT Sans", sans-serif; }
+    padding: 4% 10%;
+    background-color: #FFFFFF; } }
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 115%;
+  font-style: normal; }
 
 p {
   font-weight: normal;
   margin: 0 0 1em 0;
   text-align: left;
   text-decoration: none;
-  text-indent: 0px;
+  text-indent: 0;
   line-height: 160%; }
+  p a {
+    color: #00CD65 !important; }
 
 h1 {
   font-family: "Crete Round", serif;
@@ -417,9 +420,10 @@ h2 {
 
 h3 {
   font-family: "Crete Round", serif;
-  margin: 0 0 0.5em 0;
+  margin: 1.5em 0 0.5em 0;
   padding: 0;
-  font-size: 180%; }
+  font-size: 180%;
+  text-align: center; }
 
 h4 {
   margin: 0 0 0.2em 0;
@@ -551,6 +555,9 @@ nav {
   margin-top: 30px;
   margin-bottom: 30px; }
 
+.c3-chart {
+  margin: 0 2em 1em 2em; }
+
 table {
   display: table;
   text-align: center; }
@@ -574,7 +581,7 @@ table {
   margin: 0 0 1em 1em; }
 
 .table-center {
-  margin: auto; }
+  margin: 0 auto 1em 0; }
 
 /*
 Responsive Accordion

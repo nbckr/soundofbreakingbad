@@ -1,8 +1,8 @@
-$(function() {
+$(function () {
     var chart = c3.generate({
-        bindto: '#chart',
+        bindto: '#chart-duration',
         data: {
-            url: '../../data/de/title-duration-sec.json',
+            url: '/data/de/title-duration-sec.json',
             mimeType: 'json',
             type: 'bar',
             colors: {

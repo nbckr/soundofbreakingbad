@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                 tasks: ['sass', 'sync']
             },
             bake: {
-                files: "./src/**.html",
+                files: "./src/**/*.html",
                 tasks: ['bake', 'sync']
             }
         },
@@ -43,7 +43,8 @@ module.exports = function (grunt) {
                     // these file types cause a live reload
                     src: [
                         "./src/css/*.css",
-                        "./scr/*.html"
+                        //"./scr/*.html",
+                        "./scr/**/*.html"
                     ]
                 },
                 options: {
@@ -141,7 +142,7 @@ module.exports = function (grunt) {
         grunt.log.write('Started web server, aw yeah. Port: ' + options.port);
 
     });
-    grunt.registerTask('default', ['browserSync', 'sync', 'watch']);
+    grunt.registerTask('default', ['bake', 'sync', 'browserSync', 'watch']);
 
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');

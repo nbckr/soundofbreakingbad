@@ -6,7 +6,6 @@ $(function () {
 });
 
 function kickstart() {
-    console.log("start init");
 
     // init bigfoot
     var bigfoot = $.bigfoot(
@@ -35,6 +34,4 @@ function kickstart() {
         $('#content').html(spinner).load(request);
         $('#content').show();
     })
-
-    console.log("stop init");
 }

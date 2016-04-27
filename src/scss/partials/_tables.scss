@@ -1,5 +1,7 @@
 table {
   display: table;
+  //margin: 0 0 $default-vertical-padding 0;
+
   text-align: center;
 
   thead {
@@ -37,5 +39,5 @@ table {
 }
 
 .table-center {
-  margin: auto;
+  margin: 0 auto $default-vertical-padding 0;
 }

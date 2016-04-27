@@ -3,15 +3,14 @@
   body {
     margin: 20px 40px 20px 40px;
 
-    font-size: 100%;
-    font-color: black;
-    font-family: 'PT Sans', sans-serif;
-    font-style: normal;
+    background-color: $gray-color-darker;
   }
 
   #container {
     display: block;
-    width: 85%;
+    //width: 85%;
+    width: 768px;
+
     //min-width: 960px;
     max-width: 930px;
     min-height: 150px;
@@ -19,13 +18,22 @@
     margin-right: auto;
     overflow: hidden;
 
-    background-color: $gray-color-dark;
+  }
+
+  #header {
+    background-color: yellow;
   }
 
   #pjax-wrapper {
+
+  }
+
+  #pjax-container {
     overflow: hidden;
-    padding: 15px 0 0 15px;
-    width: 520px;
+    padding: 4% 10%;
+
+
+    background-color: $color-white;
 
     //max-width: 680px;
   }

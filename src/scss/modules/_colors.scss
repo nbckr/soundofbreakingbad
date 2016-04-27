@@ -12,3 +12,4 @@ $gray-color-bright: #F3F3F3;
 //$gray-color-bright: #EAEAEA;
 $gray-color-medium: darken($gray-color-bright, 10%);
 $gray-color-dark: darken($gray-color-medium, 10%);
+$gray-color-darker: darken($gray-color-dark, 25%);
