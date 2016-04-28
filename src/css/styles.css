@@ -381,19 +381,32 @@ textarea {
     min-height: 150px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden; }
+    overflow: hidden;
+    -webkit-box-shadow: 10px 10px 9px -6px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 10px 10px 9px -6px rgba(0, 0, 0, 0.51);
+    box-shadow: 10px 10px 9px -6px rgba(0, 0, 0, 0.51); }
 
-  #header {
-    background-color: yellow; }
+  header {
+    background-color: #00CD65 !important;
+    color: #FFFFFF !important; }
 
   #pjax-container {
     overflow: hidden;
     padding: 4% 10%;
-    background-color: #FFFFFF; } }
+    background-color: #FFFFFF;
+    border-style: hidden;
+    border-bottom: 0.5em solid #00CD65; } }
+p::selection, p::-moz-selection {
+  background: #00CD65 !important;
+  color: palevioletred !important; }
+
 body {
   font-family: "PT Sans", sans-serif;
-  font-size: 115%;
+  font-size: 111%;
   font-style: normal; }
+  body::selection, body::-moz-selection {
+    background: #00CD65;
+    color: #FFFFFF; }
 
 p {
   font-weight: normal;
@@ -401,7 +414,10 @@ p {
   text-align: left;
   text-decoration: none;
   text-indent: 0;
-  line-height: 160%; }
+  line-height: 150%; }
+  p::selection, p::-moz-selection {
+    background: #00CD65;
+    color: #FFFFFF; }
   p a {
     color: #00CD65 !important; }
 
@@ -505,7 +521,10 @@ nav {
   overflow: hidden;
   background-color: silver;
   font-size: 100%;
-  font-weight: bold; }
+  font-weight: bold;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%); }
   nav .nav-h1 {
     float: none;
     display: block;
@@ -535,12 +554,8 @@ nav {
   position: relative;
   padding-bottom: 56.25%;
   /* 16/9 ratio */
-  padding-top: 30px;
-  /* IE6 workaround*/
   height: 0;
-  overflow: hidden;
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  overflow: hidden; }
 
 .vimeo-link iframe,
 .vimeo-link object,
@@ -655,7 +670,8 @@ License: http://codecanyon.net/licenses/standard
 /* Content
 =================================*/
 .accordion-content {
-  padding: 15px;
+  margin: 0;
+  padding: 1.5% 1.5%;
   display: none;
   border-bottom: solid 1px #e9e9e9;
   font-size: 14px;

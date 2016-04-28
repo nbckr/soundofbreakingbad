@@ -5,11 +5,11 @@
 .vimeo-link, .scribd-link {
   position: relative;
   padding-bottom: 56.25%; /* 16/9 ratio */
-  padding-top: 30px; /* IE6 workaround*/
+  //padding-top: 30px; /* IE6 workaround*/
   height: 0;
   overflow: hidden;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  //margin-top: 20px;
+  //margin-bottom: 20px;
 }
 
 .vimeo-link iframe,

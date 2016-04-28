@@ -18,10 +18,14 @@
     margin-right: auto;
     overflow: hidden;
 
+    -webkit-box-shadow: 10px 10px 9px -6px rgba(0,0,0,0.51);
+    -moz-box-shadow: 10px 10px 9px -6px rgba(0,0,0,0.51);
+    box-shadow: 10px 10px 9px -6px rgba(0,0,0,0.51);
   }
 
-  #header {
-    background-color: yellow;
+  header {
+    background-color: $color-primary-1 !important;
+    color: $color-white !important;
   }
 
   #pjax-wrapper {
@@ -32,8 +36,12 @@
     overflow: hidden;
     padding: 4% 10%;
 
-
     background-color: $color-white;
+
+    border-style: hidden;
+    border-bottom: 0.5em solid $color-primary-1;
+
+
 
     //max-width: 680px;
   }

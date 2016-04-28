@@ -6,6 +6,10 @@ nav {
   font-size: 100%;
   font-weight: bold;
 
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+
   .nav-h1 {
     float: none;
     display: block;

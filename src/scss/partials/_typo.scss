@@ -1,9 +1,20 @@
 $default-vertical-padding: 1em;
 
+
+p::selection, p::-moz-selection {
+  background: $color-primary-1 !important;
+  color: palevioletred !important;
+}
+
 body {
   font-family: $font-sans;
-  font-size: 115%;
+  font-size: 111%;
   font-style: normal;
+
+  &::selection, &::-moz-selection {
+    background: $color-primary-1;
+    color: $color-white;
+  }
 }
 
 p {
@@ -12,7 +23,12 @@ p {
   text-align: left;
   text-decoration: none;
   text-indent: 0;
-  line-height: 160%;
+  line-height: 150%;
+
+  &::selection, &::-moz-selection {
+    background: $color-primary-1;
+    color: $color-white;
+  }
 
   a {
     color: $color-primary-1 !important;
