@@ -308,6 +308,10 @@ $button-transition-properties:      background-color !default;
   text-indent: 0;
 }
 
+.quote .bigfoot-footnote__container {
+  //position: relative;
+  float: right !important;
+}
 
 
 

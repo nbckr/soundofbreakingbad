@@ -2462,6 +2462,9 @@ License: http://codecanyon.net/licenses/standard
   position: relative;
   text-indent: 0; }
 
+.quote .bigfoot-footnote__container {
+  float: right !important; }
+
 @media not print {
   .footnote-print-only {
     display: none !important; } }
