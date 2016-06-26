@@ -2463,7 +2463,7 @@ License: http://codecanyon.net/licenses/standard
   text-indent: 0; }
 
 .quote .bigfoot-footnote__container {
-  float: right !important; }
+  float: right; }
 
 @media not print {
   .footnote-print-only {
@@ -2474,7 +2474,7 @@ License: http://codecanyon.net/licenses/standard
     display: none !important; } }
 .bigfoot-footnote {
   position: absolute;
-  z-index: 10;
+  z-index: 1000;
   top: 0;
   left: 0;
   display: inline-block;
@@ -2527,7 +2527,7 @@ License: http://codecanyon.net/licenses/standard
     position: absolute;
     bottom: 0.3375em;
     left: 0.3375em;
-    z-index: 14;
+    z-index: 1004;
     display: block;
     height: 0.78125em;
     width: 0.625em;
@@ -2541,7 +2541,7 @@ License: http://codecanyon.net/licenses/standard
     content: '';
     position: absolute;
     width: 100%;
-    z-index: 12;
+    z-index: 1002;
     left: 0; }
   .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before {
     top: -1px;
@@ -2561,7 +2561,7 @@ License: http://codecanyon.net/licenses/standard
 
 .bigfoot-footnote__wrapper {
   position: relative;
-  z-index: 14;
+  z-index: 1004;
   width: 22em;
   display: inline-block;
   box-sizing: inherit;
@@ -2573,7 +2573,7 @@ License: http://codecanyon.net/licenses/standard
 
 .bigfoot-footnote__content {
   position: relative;
-  z-index: 8;
+  z-index: 998;
   display: inline-block;
   max-height: 15em;
   padding: 1.1em 1.3em 1.2em;
@@ -2593,7 +2593,7 @@ License: http://codecanyon.net/licenses/standard
 
 .bigfoot-footnote__tooltip {
   position: absolute;
-  z-index: 12;
+  z-index: 1002;
   box-sizing: border-box;
   margin-left: -0.65em;
   width: 1.3em;

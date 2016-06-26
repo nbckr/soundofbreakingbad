@@ -1,0 +1,99 @@
+@import "https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Crete+Round";
+
+body {
+    min-width: 300px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.15em;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 480px;
+    background: url(../img/crawl-space.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+@media screen and (min-width: 550px) {
+    .banner {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .banner {
+        height: 750px;
+    }
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.2em;
+    font-family: 'Crete Round', serif;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0.5em 0.1em 0 0.1em !important;
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        padding: 0.8em;
+    }
+}
+
+h2 {
+    font-size: 1.6em;
+    color: floralwhite;
+    margin: 0;
+
+    transform: rotate(-5deg);
+}
+
+.abstract {
+    padding: 1em 0;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.en {
+    background: darkblue;
+}
+
+.de {
+    background: seagreen;
+    color: #222;
+}
+
+.copyright {
+    padding: 1.3em 0;
+    background: #222;
+    display: inline-block;
+    width: 100%;
+}
+
+p {
+    padding: 0.7em 0;
+    line-height: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+
+    max-width: 600px;
+
+    color: floralwhite;
+}
+
+@media screen and (min-width: 550px) {
+    body {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    body {
+        font-size: 1.4em;
+    }
+}
