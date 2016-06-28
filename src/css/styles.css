@@ -492,7 +492,7 @@ p.footnote-item {
   margin-right: 3px;
   color: slateblue; }
 
-span.work-italic {
+span.work-title {
   font-style: italic;
   font-weight: normal; }
 
@@ -500,7 +500,7 @@ span.italic {
   font-style: italic;
   font-weight: normal; }
 
-span.term-italic {
+span.technical-term {
   font-style: italic;
   font-weight: normal; }
 
