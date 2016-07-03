@@ -1,6 +1,3 @@
-$default-vertical-padding: 1em;
-
-
 p::selection, p::-moz-selection {
   background: $color-primary-1 !important;
   color: palevioletred !important;
@@ -19,7 +16,6 @@ body {
 
 p {
   font-weight: normal;
-  margin: 0 0 $default-vertical-padding 0;
   text-align: left;
   text-decoration: none;
   text-indent: 0;
@@ -83,7 +79,8 @@ li {
   margin: 0 0 $default-vertical-padding/2 0;
 }
 
-blockquote, .quote {
+blockquote {
+  margin: 0;
   padding: 3%;
 
   background-color: $gray-color-bright;

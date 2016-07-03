@@ -1,3 +1,5 @@
+$header-padding: 15px;
+
 header {
   position: fixed;
   top: 0;
@@ -6,10 +8,21 @@ header {
 
   z-index: 3;
 
-  padding: 20px;
+  padding: $header-padding;
   display: block;
 
+  box-sizing:content-box;
+  height: $header-height-sm - (2 * $header-padding);
+
   background-color: $gray-color-medium;
+
+  #container {
+    padding: auto;
+  }
+
+  #menu-toggle {
+    position: fixed;
+  }
 
   h1 {
     font-weight: bold;
