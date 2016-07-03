@@ -1,8 +1,9 @@
-@import "partials/_normalize";
+@import "partials/normalize";
 
 @import "modules/colors";
 @import "modules/fonts";
 @import "modules/mixins";
+@import "modules/sizes";
 
 @import "partials/elements";
 @import "partials/typo";
@@ -11,6 +12,7 @@
 @import "partials/visuals";
 @import "partials/tables";
 
+@import "vendor/snap";
 @import "vendor/accordion";
 @import "vendor/font-awesome";      // to get icons in accordion
 @import "vendor/bigfoot-number";

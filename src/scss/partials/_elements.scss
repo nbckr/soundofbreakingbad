@@ -1,48 +1,58 @@
-@media screen {
+// default: small screens
+
+#pjax-container {
+  //overflow: hidden;
+  //padding: 0.8em;
+  position: relative;
+  z-index: 2;
+
+  padding-top: $header-height-lg;
+
+  background-color: $color-white;
+
+  //border-style: hidden;
+  //border-bottom: 0.5em solid $color-primary-1;
+  //
+}
+
+article {
+
+  p, h1, h2, h3, h4, h5, h6 {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+  }
+}
+
+// medium
+@media screen and (min-width: $breakpoint-1) {
+
+  #pjax-container {
+  }
 
   body {
-    margin: 20px 40px 20px 40px;
 
     background-color: $gray-color-darker;
   }
 
   #container {
-    display: block;
-    //width: 85%;
-    width: 768px;
+    //display: block;
+    ////width: 85%;
+    //width: 768px;
+//
+    ////min-width: 960px;
+    //max-width: 930px;
+    //min-height: 150px;
+    //margin-left: auto;
+    //margin-right: auto;
+    //overflow: hidden;
 
-    //min-width: 960px;
-    max-width: 930px;
-    min-height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-
-    -webkit-box-shadow: 10px 10px 9px -6px rgba(0,0,0,0.51);
-    -moz-box-shadow: 10px 10px 9px -6px rgba(0,0,0,0.51);
-    box-shadow: 10px 10px 9px -6px rgba(0,0,0,0.51);
-  }
-
-  header {
-    background-color: $color-primary-1 !important;
-    color: $color-white !important;
+    -webkit-box-shadow: 10px 10px 9px -6px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 10px 10px 9px -6px rgba(0, 0, 0, 0.51);
+    box-shadow: 10px 10px 9px -6px rgba(0, 0, 0, 0.51);
   }
 
   #pjax-wrapper {
 
   }
 
-  #pjax-container {
-    overflow: hidden;
-    padding: 4% 10%;
-
-    background-color: $color-white;
-
-    border-style: hidden;
-    border-bottom: 0.5em solid $color-primary-1;
-
-
-
-    //max-width: 680px;
-  }
 }

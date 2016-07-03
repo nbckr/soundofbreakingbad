@@ -34,7 +34,4 @@ function kickstart() {
         $('#content').html(spinner).load(request);
         $('#content').show();
     })
-
-    console.log('init jq')
-
 }
