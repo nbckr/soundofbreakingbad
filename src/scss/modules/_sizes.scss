@@ -1,8 +1,10 @@
 // going mobile first, so <= 320 is small, 1 px more is breakpoint
 $breakpoint-1: 321px;
 $breakpoint-2: 769px;
-$breakpoint-3: 1224px;
+$breakpoint-lg: 1224px;
 
 $header-height-sm: 65px;
 
 $default-vertical-padding: 1em;
+
+$menu-width: 265px;

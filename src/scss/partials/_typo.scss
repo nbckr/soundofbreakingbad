@@ -5,7 +5,7 @@ p::selection, p::-moz-selection {
 
 body {
   font-family: $font-sans;
-  font-size: 111%;
+  font-size: 122%;
   font-style: normal;
 
   &::selection, &::-moz-selection {
@@ -81,7 +81,7 @@ li {
 
 blockquote {
   margin: 0;
-  padding: 3%;
+  padding: 1em;
 
   background-color: $gray-color-bright;
   font-style: italic;

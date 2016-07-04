@@ -11,55 +11,13 @@
 
     <!--(bake /de/partials/nav.html)-->
 
-<div id="container">
     <!--(bake /de/partials/header.html)-->
 
-    <div id="pjax-wrapper">
+    <div id="content-pane">
         <div id="pjax-container">
             Herzlich willkommen :P
         </div>
     </div>
-
-</div>
-
-
-<script>
-
-    $(function () {
-        function menuActive() {
-            $('.current-page').removeClass('current-page');
-            var pgurl = window.location.pathname;
-            var pguri = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
-
-            $("nav a").each(function () {
-
-                if ($(this).attr("href") == pgurl || $(this).attr("href") == '') { // Compare url to links
-                    $(this).addClass("current-page");
-                    $(this).siblings('.nav-h1').addClass('current-page'); // Set "active" class on the parent of submenu links
-                }
-            });
-        }
-
-        $("body").on("click", "a", function (event) {
-            $.pjax({
-                "url": $(this).attr("href"),
-                "fragment": "#pjax-container",
-                "container": "#pjax-container"
-            });
-            event.preventDefault();
-        });
-
-        $(document).on('pjax:start', function () {
-        });
-
-        $(document).on('pjax:end', function () {
-            kickstart();
-            menuActive();
-        });
-        //$(document).ready(menuActive); // Update on first load
-    });
-
-</script>
 
 </body>
 </html>
