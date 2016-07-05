@@ -10,7 +10,7 @@ body {
 
   &::selection, &::-moz-selection {
     background: $color-primary-1;
-    color: $color-white;
+    color: $white;
   }
 }
 
@@ -23,7 +23,7 @@ p {
 
   &::selection, &::-moz-selection {
     background: $color-primary-1;
-    color: $color-white;
+    color: $white;
   }
 
   a {
@@ -36,13 +36,23 @@ h1 {
   font-size: 200%; }
 
 h2 {
-  margin:0 0 0.5em 0;;
-  padding: 0;
-  font-family: "Crete Round", serif;
-  background-color: black;;
+  margin:0;
+  font-family: $font-serif;
   color:white;
+  font-size: 180%;
+  padding: 1.8em 0;
   text-align: center;
-  font-size: 180%; }
+}
+
+.h2-banner {
+  background-color: #666;
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/c6/e9/b9/c6e9b9beb1d0fd5073ac762a5b42c076.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  height: 9em;
+  margin: 0 -6em;
+  box-sizing: border-box;
+  padding: 0 7em;
+}
 
 h3 {
   font-family: "Crete Round", serif;

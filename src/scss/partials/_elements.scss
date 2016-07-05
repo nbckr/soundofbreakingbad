@@ -1,6 +1,6 @@
 // default: small screens
 
-body {
+#body-wrapper {
   overflow-x: hidden;
 }
 
@@ -8,11 +8,8 @@ body {
   //overflow: hidden;
   //padding: 0.8em;
   position: relative;
-  z-index: 2;
+  //z-index: 2;
 
-  padding-top: $header-height-sm;
-
-  background-color: $color-white;
 
   max-width: 730px;
   margin: 0 auto;
@@ -23,12 +20,17 @@ body {
 }
 
 #content-pane {
-  z-index: 2;
+  z-index: 1000;
   position: relative;
   background: white;
   //border-width: thick;
   //border-color: black;
   //border-style: dashed;
+  margin-top: $header-height-sm;
+  padding-top: $default-vertical-padding;
+
+  background-color: $white;
+  overflow-x: hidden;
 }
 
 article {
@@ -68,5 +70,7 @@ article {
     //border-style: dashed;
 
     margin-left: $menu-width;
+
+    margin-top: $header-height-l;
   }
 }

@@ -1,4 +1,4 @@
-@import "partials/normalize";
+@import "vendor/_normalize";
 
 @import "modules/colors";
 @import "modules/fonts";
@@ -12,7 +12,7 @@
 @import "partials/visuals";
 @import "partials/tables";
 
-@import "vendor/snap";
+@import "vendor/_snap";
 @import "vendor/accordion";
 @import "vendor/font-awesome";      // to get icons in accordion
 @import "vendor/bigfoot-number";

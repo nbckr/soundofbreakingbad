@@ -8,6 +8,11 @@
 <meta name="author" content="Niels Boecker">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#00CD65">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#00CD65">
+
 <link rel="icon" href="/img/favicon.ico" type="image/x-icon"/>
 
 <link href="/css/styles.css" rel="stylesheet"/>
@@ -69,7 +74,7 @@
         var windowsize = $(window).width();
 
         windowsize = $(window).width();
-        if (windowsize > 900) {
+        if (windowsize > 1224) {
             //if the window is greater than 440px wide then turn on jScrollPane..
             //$('#content-pane').attr('data-snap-ignore', 'true');
             snapper.disable();

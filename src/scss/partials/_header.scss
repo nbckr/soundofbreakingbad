@@ -7,14 +7,18 @@ header {
   left: 0;
   right: 0;
 
-  z-index: 3;
+  z-index: 2000;
 
   display: block;
 
   box-sizing:content-box;
-  //height: $header-height-sm - (2 * $header-padding);
+  height: $header-height-sm;
 
-  background-color: $gray-color-medium;
+  background-color: $green-darkish;
+
+  a, #menu-toggle {
+    color: $white !important;
+  }
 
   #container {
     padding: auto;
@@ -23,6 +27,8 @@ header {
   #menu-toggle {
     position: fixed;
     padding: $header-padding-s;
+    margin-left: 5px;
+    font-size: 140%;
 
     &:hover {
       cursor: pointer;
@@ -44,6 +50,7 @@ header {
 
   header {
 
+    height: $header-height-l;
 
     #menu-toggle {
       display: none;
@@ -51,7 +58,7 @@ header {
     }
 
     h1 {
-      font-size: 130%;
+      font-size: 170%;
     }
   }
 }

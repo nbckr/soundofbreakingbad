@@ -1,4 +1,7 @@
-$color-white: #FFFFFF;
+$white: #f5f5f5;
+$white-medium: darken($white, 15%);
+$white-dark: darken($white-medium, 15%);
+
 $color-black: #000000;
 
 $color-primary-1: #00CD65;
@@ -6,10 +9,14 @@ $color-primary-1: #00CD65;
 //$color-primary-2: mediumspringgreen;
 $color-primary-2: #00FF7F;
 
+$green-darkish: #007B3D;
+$green-bright: #00CD65;
+$green-minty: #33D784;
+
 $contrary-color-1: #B22222;
 
-$gray-color-bright: #F3F3F3;
-//$gray-color-bright: #EAEAEA;
+//$gray-color-bright: #F3F3F3;
+$gray-color-bright: #EAEAEA;
 $gray-color-medium: darken($gray-color-bright, 10%);
 $gray-color-dark: darken($gray-color-medium, 10%);
 $gray-color-darker: darken($gray-color-dark, 25%);

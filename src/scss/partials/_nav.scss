@@ -2,11 +2,13 @@ nav {
   //display: inline;
   //float: left;
   //overflow: hidden;
-  background-color: $gray-color-dark;
+  z-index: 100;
+
+  background-color: #888;
   font-size: 120%;
   font-weight: bold;
 
-  padding-top: $header-height-sm;
+  margin-top: $header-height-sm;
 
   //position: fixed;
   //top: 50%;
@@ -34,26 +36,32 @@ nav {
     padding: 0.3em 1.3em 0.3em 15px;
     margin: 0;
 
-    //color: $color-white;
+
 
     &:hover {
-      color: $color-primary-2;
+      color: $white-medium;
 
       cursor: pointer;
     }
 
      &:active {
-      color: $color-primary-1;
+      color: $green-bright;
     }
 
     &:link {
-    }
-    
-    &:visited {
+      color: $white;
     }
   }
 
   .current-page {
-    color: $contrary-color-1;
+    color: $green-minty;
   }
+}
+
+
+@media screen and (min-width: $breakpoint-lg) {
+  nav {
+    margin-top: $header-height-l;
+  }
+
 }
