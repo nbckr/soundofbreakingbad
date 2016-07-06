@@ -4,15 +4,15 @@ body {
   font-style: normal;
 }
 
-p {
+article p {
   font-weight: normal;
   text-align: left;
   text-decoration: none;
   text-indent: 0;
   line-height: 150%;
 
-  &:selection, &:-moz-selection {
-    background: $color-primary-1;
+  &::selection {
+    background: $green-bright;
     color: $white;
   }
 
