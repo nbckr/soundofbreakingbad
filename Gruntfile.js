@@ -142,7 +142,7 @@ module.exports = function (grunt) {
         grunt.log.write('Started web server, aw yeah. Port: ' + options.port);
 
     });
-    grunt.registerTask('default', ['bake', 'sync', 'browserSync', 'watch']);
+    grunt.registerTask('default', ['sass', 'bake', 'sync', 'browserSync', 'watch']);
 
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
