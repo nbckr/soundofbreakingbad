@@ -1,17 +1,7 @@
-p::selection, p::-moz-selection {
-  background: $color-primary-1 !important;
-  color: palevioletred !important;
-}
-
 body {
   font-family: $font-sans;
   font-size: 122%;
   font-style: normal;
-
-  &::selection, &::-moz-selection {
-    background: $color-primary-1;
-    color: $white;
-  }
 }
 
 p {
@@ -21,13 +11,13 @@ p {
   text-indent: 0;
   line-height: 150%;
 
-  &::selection, &::-moz-selection {
+  &:selection, &:-moz-selection {
     background: $color-primary-1;
     color: $white;
   }
 
   a {
-    color: $color-primary-1 !important;
+    color: pink !important;
   }
 }
 
@@ -49,9 +39,9 @@ h2 {
   background: url(https://s-media-cache-ak0.pinimg.com/736x/c6/e9/b9/c6e9b9beb1d0fd5073ac762a5b42c076.jpg) 50% 50% no-repeat;
   background-size: cover;
   height: 9em;
-  margin: 0 -6em;
+  margin: 0;
   box-sizing: border-box;
-  padding: 0 7em;
+  padding: 0 1em;
 }
 
 h3 {
