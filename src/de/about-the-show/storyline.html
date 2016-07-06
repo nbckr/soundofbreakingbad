@@ -128,14 +128,31 @@
         </div>
         <!-- end of footnotes -->
 
+        <div id="back-to-top">
+        <a href="#" class="fa fa-arrow-circle-up" aria-hidden="true"></a>
+        </div>
+
     </div>
     </div>
+
 
     <script src="/js/jquery.scrollTo.js"></script>
 
     <script>
         $(document).ready(function(){
 
+            var windowHeight = $(window).height(); // get the height of the window
+            var docHeight = $(document).height();
+
+            if (docHeight > 3 * windowHeight) {
+                $("#back-to-top").click(function (evn) {
+                    evn.preventDefault();
+                    $(window).scrollTo(0, 400);
+                });
+            }
+            else {
+                $('#back-to-top').hide();
+            }
 
 
             /**
@@ -144,7 +161,7 @@
              */
             $("nav a").click(function(evn){
                 evn.preventDefault();
-                $('html,body').scrollTo(this.hash, this.hash);
+                $(window).scrollTo(this.hash, this.hash, {offset: -100});
             });
 
             /**
@@ -157,11 +174,10 @@
             console.log("hi");
             for (var i=0; i < aChildren.length; i++) {
                 var aChild = aChildren[i];
-                var ahref = $(aChild).attr('href');
+                //var ahref = $(aChild).attr('href');
+                var aHash = aChild.hash;
 
-                console.log(aChild);
-                console.log(ahref);
-                aArray.push(ahref);
+                aArray.push(aHash);
             } // this for loop fills the aArray with attribute href values
 
             $(window).scroll(function(){
@@ -190,7 +206,6 @@
             });
         });
     </script>
-
 
 </body></div>
 
