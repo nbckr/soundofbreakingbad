@@ -10,7 +10,6 @@
   position: relative;
   //z-index: 2;
 
-
   max-width: 730px;
   margin: 0 auto;
 
@@ -28,9 +27,11 @@
   //border-style: dashed;
   margin-top: $header-height-sm;
   padding-top: $default-vertical-padding;
+  height: calc(100vh - $header-height-sm);
 
   background-color: $white;
   overflow-x: hidden;
+
 }
 
 article {
@@ -71,5 +72,6 @@ article {
     margin-left: $menu-width;
 
     margin-top: $header-height-l;
+    height: calc(100vh - $header-height-l);
   }
 }
