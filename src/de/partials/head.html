@@ -131,6 +131,39 @@
 
 
 
+
+<script type="text/javascript">
+    $(document).ready(function($) {
+        $('.nav1-title').click(function(){
+
+            //Expand or collapse this panel
+            $(this).next().slideToggle('medium');
+
+            //Hide the other panels
+            $('.nav1-inner-container').not($(this).next()).slideUp('fast');
+            $('.nav2-inner-container').slideUp('fast');
+
+        });
+    });
+
+    $(document).ready(function($) {
+        $('.nav2-title').click(function(){
+
+            //Expand or collapse this panel
+            var nextNav2Container = $(this).next();
+
+            if (nextNav2Container.hasClass('nav2-inner-container')) {
+                nextNav2Container.slideToggle('medium');
+
+                //Hide the other panels
+                $('.nav2-inner-container').not(nextNav2Container).slideUp('fast');
+            }
+
+        });
+    });
+</script>
+
+
 <!--script>
     $(document).ready(function(){
 
