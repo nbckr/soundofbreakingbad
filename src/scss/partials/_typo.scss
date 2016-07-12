@@ -107,22 +107,25 @@ p.footnote-item {
 }
 
 .footnote-link {
-  margin-left: 3px;
-  margin-right: 3px;
-  color: slateblue;
+  //margin-left: 3px;
+  //margin-right: 3px;
+  //color: slateblue;
 }
 
-span.work-title {
+.work-title, .actor-name, .technical-term {
   font-style: italic;
   font-weight: normal;
 }
 
-span.italic {
-  font-style: italic;
-  font-weight: normal;
+.work-title {
+  text-transform: uppercase;
 }
 
-span.technical-term {
-  font-style: italic;
-  font-weight: normal;
+.italic {
+  // TODO delete
+  background-color: greenyellow;
+}
+
+.no-break {
+  white-space: nowrap;
 }
