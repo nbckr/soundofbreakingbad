@@ -4,75 +4,125 @@ body {
   font-style: normal;
 }
 
-article p {
-  font-weight: normal;
-  text-align: left;
-  text-decoration: none;
-  text-indent: 0;
-  line-height: 150%;
+article {
 
-  &::selection {
-    background: $green-bright;
-    color: $white;
+  p, ul, h2, h3, h4 {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  p {
+    line-height: 125%;
+
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 150%;
+
+    // &::selection {
+    //   background: $green-bright;
+    //   color: $white;
+    // }
   }
 
   a {
-    color: pink !important;
+    &:link {
+      color: $green-bright;
+    }
+    &:visited {
+      color: $green-darkish;
+    }
+    &:hover {
+      color: $green-minty;
+    }
+  }
+
+  h1 {
+    margin: 0;
+    padding: 3em 0.5em;
+    text-align: center;
+
+    font-family: $font-serif;
+    font-size: 200%;
+    color: $white;
+
+    // replaced by images at _visuals.scss
+    background-color: #666;
+
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+
+    height: 3em;
   }
 }
 
-h1 {
-  font-family: "Crete Round", serif;
-  font-size: 200%; }
+
+
+// .title-banner {
+//   background-color: #666;
+//   background: url(https://s-media-cache-ak0.pinimg.com/736x/c6/e9/b9/c6e9b9beb1d0fd5073ac762a5b42c076.jpg) 50% 50% no-repeat;
+//   background-size: cover;
+//   height: 9em;
+//   margin: 0;
+//   box-sizing: border-box;
+//   padding: 0 1em;
+//
+//   h1 {
+//     margin:0;
+//     padding: 1.8em 0;
+//     text-align: center;
+//
+//     font-family: $font-serif;
+//     font-size: 200%;
+//     color:white;
+//   }
+// }
 
 h2 {
-  margin:0;
-  font-family: $font-serif;
-  color:white;
-  font-size: 180%;
-  padding: 1.8em 0;
-  text-align: center;
-}
+  margin-top: 1.5em;
+  margin-bottom: $default-vertical-padding/2;
 
-.h2-banner {
-  background-color: #666;
-  background: url(https://s-media-cache-ak0.pinimg.com/736x/c6/e9/b9/c6e9b9beb1d0fd5073ac762a5b42c076.jpg) 50% 50% no-repeat;
-  background-size: cover;
-  height: 9em;
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0 1em;
+  font-family: $font-serif;
+  font-size: 170%;
+  text-align: center;
 }
 
 h3 {
-  font-family: "Crete Round", serif;
-  margin: 1.5em 0 0.5em 0;
   padding: 0;
-  font-size: 180%;
-  text-align: center;
+  margin-top: 1em;
+  margin-bottom: $default-vertical-padding/3;
+
+  font-family: $font-sans;
+  font-size: 140%;
+  text-align: left;
 }
 
 h4 {
-  margin:0 0 0.2em 0;
-  padding: 0;
-  font-size: 140%;
+  margin-top: 1em;
+  margin-bottom: $default-vertical-padding/3;
+
+  font-size: 100%;
+  color: grey;
+  padding-left: 1em;
+  font-weight: bold;
 }
 
-h5 {
-  margin:0 0 0.2em 0;
-  padding: 0;
-  font-size: 120%; }
-
-h6 {
-  margin:0 0 0.1em 0;
-  padding: 0;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 100%; }
-
 ul {
+  line-height: 135%;
+
   list-style-type:square;
   display: block;
+}
+
+// for references.html
+#references-article {
+
+  ul {
+    padding: 0;
+  }
 }
 
 li {
@@ -84,10 +134,12 @@ blockquote {
   padding: 1em;
 
   background-color: $gray-color-bright;
+
   font-style: italic;
   font-size: inherit;
   text-decoration: none;
   text-indent: 0px;
+  line-height: 135%;
 
   cite {
     padding-left: 1.5em;
@@ -96,40 +148,35 @@ blockquote {
   }
 }
 
-p.footnote-item {
-
-  font-family: 'PT Sans', sans-serif;
-  font-size: 9px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1.222;
-  margin-bottom: 6px;
-  margin-left: 0px;
-  margin-right: 0px;
-  text-align: justify;
-  text-decoration: none;
-  text-indent: 0px;
-}
-
-.footnote-link {
+//p.footnote-item {
+//
+//  font-family: 'PT Sans', sans-serif;
+//  font-size: 9px;
+//  font-style: normal;
+//  font-variant: normal;
+//  font-weight: normal;
+//  line-height: 1.222;
+//  margin-bottom: 6px;
+//  margin-left: 0px;
+//  margin-right: 0px;
+//  text-align: justify;
+//  text-decoration: none;
+//  text-indent: 0px;
+//}
+//
+//.footnote-link {
   //margin-left: 3px;
   //margin-right: 3px;
   //color: slateblue;
-}
+// }
 
-.work-title, .actor-name, .technical-term {
+.actor-name, .technical-term {
   font-style: italic;
   font-weight: normal;
 }
 
 .work-title {
   text-transform: uppercase;
-}
-
-.italic {
-  // TODO delete
-  background-color: greenyellow;
 }
 
 .no-break {

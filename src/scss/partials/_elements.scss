@@ -34,33 +34,6 @@
 
 }
 
-article {
-
-  p {
-    margin-left: 0.8em;
-    margin-right: 0.8em;
-    margin-bottom: $default-vertical-padding;
-
-    h1, h2, h3, h4, h5, h6 {
-      margin-left: 0.4em;
-      margin-right: 0.4em;
-      margin-bottom: $default-vertical-padding / 2;
-    }
-  }
-
-  // medium
-  @media screen and (min-width: $breakpoint-1) {
-
-    #pjax-container {
-    }
-
-    body {
-
-      background-color: $gray-color-darker;
-    }
-  }
-}
-
 @media screen and (min-width: $breakpoint-lg) {
 
   #content-pane {
