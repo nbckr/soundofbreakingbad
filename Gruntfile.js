@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                 tasks: ['sass', 'sync']
             },
             bake: {
-                files: "./src/**/*.html",
+                files: ["./src/**/*.html", "./src/**/*.js"],
                 tasks: ['bake', 'sync']
             }
         },

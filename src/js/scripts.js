@@ -11,9 +11,11 @@ $(function () {
  */
 function initOnlyOnDirectAccess() {
     console.log("initDirect");
-    
-    initNav();
+
+    initNavBase();
+    initNavToggling();
     initPjax();
+    initBackToTopScroller();
 }
 
 /**
@@ -64,10 +66,9 @@ function initWhatever() {
     //})
 }
 
-function initNav() {
+function initNavBase() {
 
     var snapper = new Snap({
-        //element: document.getElementById('content-pane')
         element: document.getElementById('content-pane')
     });
 
@@ -81,7 +82,7 @@ function initNav() {
         //    flickThreshold: 50,
         //    transitionSpeed: 0.3,
         //    easing: 'ease',
-            maxPosition: 300,
+        maxPosition: 300,
         tapToClose: true
         //    touchToDrag: true,
     });
@@ -99,13 +100,25 @@ function initNav() {
     $(window).resize(function () {
         checkSnapperAfterResize(snapper);
     });
-    
-    
-    
+}
 
-    // hide nav containers
-    //$('.nav1-inner-container').hide();
-    
+function initNavToggling() {
+    // initially hide nav parts except currently active
+    var pgurl = window.location.pathname;
+    var currentNav2Title;
+    var currentNav2InnerContainer;
+    var currentNav1InnerContainer;
+    $('.nav2-title').each(function () {
+        if ($(this).attr("href") == pgurl) {
+            currentNav2Title = $(this);
+            currentNav2InnerContainer = currentNav2Title.next();
+            currentNav1InnerContainer = currentNav2Title.parent();
+        }
+    });
+    $('.nav1-inner-container').not(currentNav1InnerContainer).hide();
+    $('.nav2-inner-container').not(currentNav2InnerContainer).hide();
+
+    // toggle effect for nav1
     $('.nav1-title').click(function(){
 
         //Expand or collapse this panel
@@ -116,7 +129,19 @@ function initNav() {
         $('.nav2-inner-container').slideUp('fast');
     });
 
-    $('.nav2-title').click(function(){
+    // toggle effect for nav2
+    $('.nav2-title').click(function(event){
+
+        event.preventDefault();
+        event.stopImmediatePropagation();
+
+        if ($(this).hasClass('current-page') && $(this).next().is(":visible")) { return; }
+
+        $.pjax({
+            "url": $(this).attr("href"),
+            "fragment": "#pjax-container",
+            "container": "#pjax-container"
+        });
 
         //Expand or collapse this panel
         var nextNav2Container = $(this).next();
@@ -131,17 +156,6 @@ function initNav() {
 }
 
 function initPjax() {
-    $('body').on('click', '.nav2-title', function (event) {
-        $.pjax({
-            "url": $(this).attr("href"),
-            "fragment": "#pjax-container",
-            "container": "#pjax-container"
-        });
-        event.preventDefault();
-    });
-
-    //$(document).on('pjax:start', function () {
-    //});
 
     $(document).on('pjax:end', function () {
         initCurrentPage();
@@ -150,6 +164,85 @@ function initPjax() {
 }
 
 function initScrollTo() {
+
+    var currentNav2Title;
+    var currentNav3Titles;
+    var currentNav3Hashes = [];
+
+    var pgurl = window.location.pathname;
+    $('.nav2-title').each(function () {
+
+        if ($(this).attr("href") == pgurl) {
+            currentNav2Title = $(this);
+
+            if (currentNav2Title.next().hasClass('nav2-inner-container')) {
+                currentNav3Titles = currentNav2Title.next().children();
+            }
+        }
+    });
+
+    if (currentNav3Titles) {
+        // scrolling
+        currentNav3Titles.click(function (event) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            $(window).scrollTo(this.hash, this.hash, {offset: -100});
+        });
+
+        // collect hashes for highlighting
+        for (var i = 0; i < currentNav3Titles.length; i++) {
+            currentNav3Hashes.push(currentNav3Titles.get(i).hash);
+        }
+    }
+
+    console.log(currentNav2Title)
+    console.log(currentNav3Titles)
+    console.log(currentNav3Hashes)
+
+
+
+    $(window).unbind('scroll');
+    $(window).scroll(function () {
+        var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
+        var windowHeight = $(window).height(); // get the height of the window
+        var docHeight = $(document).height();
+
+
+        for (var i = 0; i < currentNav3Titles.length; i++) {
+            var currentNav3Title = currentNav3Titles.get(i);
+            var currentHash = currentNav3Title.hash;
+            var currentPathname = currentNav3Title.pathname;
+
+            var nextNav3Title = currentNav3Titles.get(i + 1);
+
+            var currentDivPos = $(currentHash).offset().top; // get the offset of the div from the top of page
+            var nextDivPos;
+            if (nextNav3Title) {
+                var nextHash = nextNav3Title.hash;
+                nextDivPos = $(nextHash).offset().top;
+            } else {
+                nextDivPos = 99999999999999999;
+            }
+
+            if ((windowPos >= currentDivPos && windowPos < nextDivPos)
+                || !nextDivPos) {
+                $("a[href='" + currentPathname + currentHash + "']").addClass("current-section");
+            } else {
+                $("a[href='" + currentPathname + currentHash + "']").removeClass("current-section");
+            }
+        }
+
+        if (windowPos + windowHeight == docHeight) {
+            if (!$("nav li:last-child a").hasClass("current-section")) {
+                var navActiveCurrent = $(".current-section").attr("href");
+                $("a[href='" + navActiveCurrent + "']").removeClass("current-section");
+                $("nav li:last-child a").addClass("current-section");
+            }
+        }
+    });
+}
+
+function initBackToTopScroller() {
     var windowHeight = $(window).height(); // get the height of the window
     var docHeight = $(document).height();
 
@@ -163,66 +256,13 @@ function initScrollTo() {
     else {
         $('#back-to-top').hide();
     }
-
-
-    /**
-     * This part causes smooth scrolling using scrollto.js
-     * We target all a tags inside the nav, and apply the scrollto.js to it.
-     */
-    $(".nav3-title").click(function (evn) {
-        evn.preventDefault();
-        evn.stopImmediatePropagation();
-        $(window).scrollTo(this.hash, this.hash, {offset: -100});
-    });
-
-    /**
-     * This part handles the highlighting functionality.
-     * We use the scroll functionality again, some array creation and
-     * manipulation, class adding and class removing, and conditional testing
-     */
-    var aChildren = $(".nav2-inner-container").children(); // find the a children of the list items
-    var aArray = []; // create the empty aArray
-    for (var i = 0; i < aChildren.length; i++) {
-        var aChild = aChildren[i];
-        //var ahref = $(aChild).attr('href');
-        var aHash = aChild.hash;
-
-        aArray.push(aHash);
-    } // this for loop fills the aArray with attribute href values
-
-    $(window).scroll(function () {
-        var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
-        var windowHeight = $(window).height(); // get the height of the window
-        var docHeight = $(document).height();
-
-        for (var i = 0; i < aArray.length; i++) {
-            var theID = aArray[i];
-            var divPos = $(theID).offset().top; // get the offset of the div from the top of page
-            var divHeight = $(theID).height(); // get the height of the div in question
-            if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
-                $("a[href='" + theID + "']").addClass("nav-active");
-            } else {
-                $("a[href='" + theID + "']").removeClass("nav-active");
-            }
-        }
-
-        if (windowPos + windowHeight == docHeight) {
-            if (!$("nav li:last-child a").hasClass("nav-active")) {
-                var navActiveCurrent = $(".nav-active").attr("href");
-                $("a[href='" + navActiveCurrent + "']").removeClass("nav-active");
-                $("nav li:last-child a").addClass("nav-active");
-            }
-        }
-    });
 }
-
-
 
 
 
 function checkSnapperAfterResize(snapper) {
     console.log("check snapper")
-    
+
     var windowsize = $(window).width();
 
     windowsize = $(window).width();
