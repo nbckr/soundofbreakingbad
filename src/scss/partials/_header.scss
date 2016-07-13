@@ -33,11 +33,15 @@ header {
     &:hover {
       cursor: pointer;
     }
+
+    &:active {
+      background-color: $green-darkish-darker;
+    }
   }
 
   #page-title {
     font-family: $font-serif;
-    font-size: 111%;
+    font-size: 101%;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
