@@ -2,6 +2,7 @@
 
 //$(document).ready(function($) {
 $(function () {
+    //console.log("doc ready!")
     initOnlyOnDirectAccess();
     initCurrentPage();
 });
@@ -10,24 +11,27 @@ $(function () {
  * Stuff that happens in other elements than pjax-container needs to happen only once.
  */
 function initOnlyOnDirectAccess() {
-    console.log("initDirect");
+    // //console.log("initDirect");
 
     initNavBase();
     initNavToggling();
     initPjax();
-    initBackToTopScroller();
+    highlightActiveMenuItem(); // otherwise only at pjax:end
+
 }
 
 /**
  * Stuff that happens inside the pjax-container needs to be done after each load.
  */
 function initCurrentPage() {
-    console.log("initcurrent");
+    //console.log("initcurrent");
 
-    initBigfoot();
-    initAccordion();
     initWhatever();
     initScrollTo();
+    initBackToTopScroller();
+    initBigfoot();
+    initAccordion();
+
 }
 
 
@@ -56,7 +60,7 @@ function initWhatever() {
 
     // show spinner
     //$('.nav2-title').click(function () {
-    //    console.log("heyYyXXXX");
+    //    //console.log("heyYyXXXX");
 //
     //    var $this = $(this);
     //    var request = $this.data('dest') + '.html';
@@ -129,20 +133,23 @@ function initNavToggling() {
         $('.nav2-inner-container').slideUp('fast');
     });
 
-    // toggle effect for nav2
+    // toggle effect and PJAX loading for nav2
     $('.nav2-title').click(function (event) {
 
         event.preventDefault();
         event.stopImmediatePropagation();
 
         if ($(this).hasClass('current-page') && $(this).next().is(":visible")) {
+            $('#content-pane').scrollTo(0, 400);
             return;
         }
 
         $.pjax({
             "url": $(this).attr("href"),
             "fragment": "#pjax-container",
-            "container": "#pjax-container"
+            "container": "#pjax-container",
+            "timeout": 1000,
+            "scrollTo": 0
         });
 
         //Expand or collapse this panel
@@ -160,25 +167,32 @@ function initNavToggling() {
 function initPjax() {
 
     $(document).on('pjax:end', function () {
+        //console.log("pjax:end")
         initCurrentPage();
         highlightActiveMenuItem();
+
+        $('#content-pane').scrollTo(0, 400);
     });
 }
 
 function initScrollTo() {
 
+    //console.log("init scrollto")
+
     var currentNav2Title = getCurrentNav2Title();
     var currentNav3Titles;
     var currentNav3Hashes = [];
 
-    if (currentNav2Title.next().hasClass('nav2-inner-container')) {
+    // TODO what if there is no nav2 here
+    if (currentNav2Title && currentNav2Title.next().hasClass('nav2-inner-container')) {
         currentNav3Titles = currentNav2Title.next().children();
 
         // scrolling
         currentNav3Titles.click(function (event) {
+            //console.log("click should scroll");
             event.preventDefault();
             event.stopImmediatePropagation();
-            $(window).scrollTo(this.hash, this.hash, {offset: -100});
+            $('#content-pane').scrollTo(this.hash, this.hash);// {offset: -100});
         });
 
         // collect hashes for highlighting
@@ -187,17 +201,25 @@ function initScrollTo() {
         }
     }
 
-    console.log(currentNav2Title)
-    console.log(currentNav3Titles)
-    console.log(currentNav3Hashes)
+    //console.log(currentNav2Title)
+    //console.log(currentNav3Titles)
+    //console.log(currentNav3Hashes)
 
 
-    $(window).unbind('scroll');
-    $(window).scroll(function () {
-        var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
-        var windowHeight = $(window).height(); // get the height of the window
+    $('#content-pane').unbind('scroll');
+    $('#content-pane').scroll(function () {
+        //console.log("SCROLLING like a bitch")
+
+        if (!currentNav3Titles) {
+            return false;
+        }
+
+        var windowPos = $('#content-pane').scrollTop(); // get the offset of the window from the top of page
+        var windowHeight = $('#content-pane').height(); // get the height of the window
         var docHeight = $(document).height();
 
+        ////console.log("pos: " + windowPos + " height: " + windowHeight);
+        //console.log(currentNav3Titles);
 
         for (var i = 0; i < currentNav3Titles.length; i++) {
             var currentNav3Title = currentNav3Titles.get(i);
@@ -206,11 +228,11 @@ function initScrollTo() {
 
             var nextNav3Title = currentNav3Titles.get(i + 1);
 
-            var currentDivPos = $(currentHash).offset().top; // get the offset of the div from the top of page
+            var currentDivPos = $(currentHash).position().top; // get the offset of the div from the top of page
             var nextDivPos;
             if (nextNav3Title) {
                 var nextHash = nextNav3Title.hash;
-                nextDivPos = $(nextHash).offset().top;
+                nextDivPos = $(nextHash).position().top;
             } else {
                 nextDivPos = 99999999999999999;
             }
@@ -223,6 +245,7 @@ function initScrollTo() {
             }
         }
 
+        // TODO wtf?
         if (windowPos + windowHeight == docHeight) {
             if (!$("nav li:last-child a").hasClass("current-section")) {
                 var navActiveCurrent = $(".current-section").attr("href");
@@ -235,13 +258,14 @@ function initScrollTo() {
 
 function initBackToTopScroller() {
     var windowHeight = $(window).height(); // get the height of the window
-    var docHeight = $(document).height();
+    var docHeight = $('#pjax-container').height();
+    //console.log("init backtotop; window: " + windowHeight + ", doc: " + docHeight)
 
     if (docHeight > 3 * windowHeight) {
         $("#back-to-top").click(function (evn) {
             evn.preventDefault();
             evn.stopImmediatePropagation();
-            $(window).scrollTo(0, 400);
+            $('#content-pane').scrollTo(0, 400);
         });
     }
     else {
@@ -251,7 +275,7 @@ function initBackToTopScroller() {
 
 
 function checkSnapperAfterResize(snapper) {
-    console.log("check snapper")
+    //console.log("check snapper")
 
     var windowsize = $(window).width();
 
@@ -271,8 +295,12 @@ function checkSnapperAfterResize(snapper) {
 
 function highlightActiveMenuItem() {
     $('.current-page').removeClass('current-page');
+
+    //var currentNav2Title = getCurrentNav2Title();
+    //currentNav2Title.addClass('current-page');
+    //currentNav2Title.parent().siblings('.nav1-title').addClass('current-page'); // Set "active" class on the parent of submenu links
+
     var pgurl = window.location.pathname;
-    var pguri = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
 
     $('nav a').each(function () {
 
@@ -288,10 +316,13 @@ function getCurrentNav2Title() {
     var currentNav2Title;
     $('.nav2-title').each(function () {
 
+        ////console.log($(this).attr("href"));
+        ////console.log(pgurl);
+
         if ($(this).attr("href") == pgurl) {
             currentNav2Title = $(this);
             return false; // break loop
         }
     });
     return currentNav2Title;
-};
+}

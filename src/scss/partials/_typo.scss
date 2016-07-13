@@ -72,8 +72,11 @@ article {
 // }
 
 h2 {
-  margin-top: 1.5em;
+  margin-top: 0.75em;
   margin-bottom: $default-vertical-padding/2;
+
+  // scrollTo links also go to this position
+  padding-top: 0.75em;
 
   font-family: $font-serif;
   font-size: 170%;
