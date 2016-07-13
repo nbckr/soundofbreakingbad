@@ -12,8 +12,6 @@ article {
   }
 
   p {
-    line-height: 125%;
-
     font-weight: normal;
     text-align: left;
     text-decoration: none;
@@ -46,14 +44,6 @@ article {
     font-family: $font-serif;
     font-size: 200%;
     color: $white;
-
-    // replaced by images at _visuals.scss
-    background-color: #666;
-
-    background-size: cover;
-    background-position-x: 50%;
-    background-position-y: 50%;
-    background-repeat: no-repeat;
 
     height: 3em;
   }
@@ -130,16 +120,27 @@ li {
 }
 
 blockquote {
-  margin: 0;
+  margin: $default-vertical-padding 0;
   padding: 1em;
 
   background-color: $gray-color-bright;
 
+  // TODO clean up upper level and p level
   font-style: italic;
   font-size: inherit;
   text-decoration: none;
   text-indent: 0px;
   line-height: 135%;
+
+  p {
+    margin: $default-vertical-padding/2;
+
+    font-style: italic;
+    font-size: inherit;
+    text-decoration: none;
+    text-indent: 0px;
+    line-height: 135%;
+  }
 
   cite {
     padding-left: 1.5em;
