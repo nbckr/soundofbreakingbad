@@ -42,9 +42,9 @@ module.exports = function (grunt) {
                 bsFiles: {
                     // these file types cause a live reload
                     src: [
-                        "./src/css/*.css",
-                        //"./scr/*.html",
-                        "./scr/**/*.html"
+                        "**/*.css",
+                        "**/*.scss",
+                        "**/*.html"
                     ]
                 },
                 options: {

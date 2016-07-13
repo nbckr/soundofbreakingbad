@@ -119,7 +119,7 @@ function initNavToggling() {
     $('.nav2-inner-container').not(currentNav2InnerContainer).hide();
 
     // toggle effect for nav1
-    $('.nav1-title').click(function(){
+    $('.nav1-title').click(function () {
 
         //Expand or collapse this panel
         $(this).next().slideToggle('medium');
@@ -130,12 +130,14 @@ function initNavToggling() {
     });
 
     // toggle effect for nav2
-    $('.nav2-title').click(function(event){
+    $('.nav2-title').click(function (event) {
 
         event.preventDefault();
         event.stopImmediatePropagation();
 
-        if ($(this).hasClass('current-page') && $(this).next().is(":visible")) { return; }
+        if ($(this).hasClass('current-page') && $(this).next().is(":visible")) {
+            return;
+        }
 
         $.pjax({
             "url": $(this).attr("href"),
@@ -165,23 +167,13 @@ function initPjax() {
 
 function initScrollTo() {
 
-    var currentNav2Title;
+    var currentNav2Title = getCurrentNav2Title();
     var currentNav3Titles;
     var currentNav3Hashes = [];
 
-    var pgurl = window.location.pathname;
-    $('.nav2-title').each(function () {
+    if (currentNav2Title.next().hasClass('nav2-inner-container')) {
+        currentNav3Titles = currentNav2Title.next().children();
 
-        if ($(this).attr("href") == pgurl) {
-            currentNav2Title = $(this);
-
-            if (currentNav2Title.next().hasClass('nav2-inner-container')) {
-                currentNav3Titles = currentNav2Title.next().children();
-            }
-        }
-    });
-
-    if (currentNav3Titles) {
         // scrolling
         currentNav3Titles.click(function (event) {
             event.preventDefault();
@@ -198,7 +190,6 @@ function initScrollTo() {
     console.log(currentNav2Title)
     console.log(currentNav3Titles)
     console.log(currentNav3Hashes)
-
 
 
     $(window).unbind('scroll');
@@ -259,7 +250,6 @@ function initBackToTopScroller() {
 }
 
 
-
 function checkSnapperAfterResize(snapper) {
     console.log("check snapper")
 
@@ -292,3 +282,16 @@ function highlightActiveMenuItem() {
         }
     });
 }
+
+function getCurrentNav2Title() {
+    var pgurl = window.location.pathname;
+    var currentNav2Title;
+    $('.nav2-title').each(function () {
+
+        if ($(this).attr("href") == pgurl) {
+            currentNav2Title = $(this);
+            return false; // break loop
+        }
+    });
+    return currentNav2Title;
+};
