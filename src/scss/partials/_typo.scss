@@ -49,28 +49,6 @@ article {
   }
 }
 
-
-
-// .title-banner {
-//   background-color: #666;
-//   background: url(https://s-media-cache-ak0.pinimg.com/736x/c6/e9/b9/c6e9b9beb1d0fd5073ac762a5b42c076.jpg) 50% 50% no-repeat;
-//   background-size: cover;
-//   height: 9em;
-//   margin: 0;
-//   box-sizing: border-box;
-//   padding: 0 1em;
-//
-//   h1 {
-//     margin:0;
-//     padding: 1.8em 0;
-//     text-align: center;
-//
-//     font-family: $font-serif;
-//     font-size: 200%;
-//     color:white;
-//   }
-// }
-
 h2 {
   margin-top: 0.75em;
   margin-bottom: $default-vertical-padding/2;
@@ -79,7 +57,7 @@ h2 {
   padding-top: 0.75em;
 
   font-family: $font-serif;
-  font-size: 170%;
+  font-size: 140%;
   text-align: center;
 }
 
@@ -185,4 +163,10 @@ blockquote {
 
 .no-break {
   white-space: nowrap;
+}
+
+@media screen and (min-width: $breakpoint-lg) {
+  h2 {
+    font-size: 170%;
+  }
 }

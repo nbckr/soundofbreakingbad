@@ -51,7 +51,7 @@ nav {
   }
 
   .nav3-title {
-    padding: 0.3em 1em;
+    padding: 0.3em 2em;
   }
 
 
@@ -87,12 +87,13 @@ nav {
 
 
 @media screen and (min-width: $breakpoint-lg) {
+
+
   nav {
     margin-top: $header-height-l;
-  }
 
-  .nav3-title {
-    padding: 0.3em 2em;
+    .nav3-title {
+      padding: 0.3em 2em;
+    }
   }
-
 }
