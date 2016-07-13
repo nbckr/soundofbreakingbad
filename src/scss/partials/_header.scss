@@ -28,7 +28,7 @@ header {
     position: fixed;
     padding: $header-padding-s;
     margin-left: 5px;
-    font-size: 140%;
+    font-size: 111%;
 
     &:hover {
       cursor: pointer;
@@ -36,7 +36,7 @@ header {
   }
 
   #page-title {
-    font-size: 200%;
+    font-size: 140%;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
