@@ -306,7 +306,9 @@ function highlightActiveMenuItem() {
 
         if ($(this).attr("href") == pgurl || $(this).attr("href") == '') { // Compare url to links
             $(this).addClass("current-page");
-            $(this).parent().siblings('.nav1-title').addClass('current-page'); // Set "active" class on the parent of submenu links
+            //$(this).parent().siblings('.nav1-title').addClass('current-page'); // nav1-title
+            $(this).parent().addClass('current-page'); // nav2-outer-container
+            $(this).parent().parent().addClass('current-page'); // nav1-outer-container
         }
     });
 }

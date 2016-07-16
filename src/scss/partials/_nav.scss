@@ -4,11 +4,15 @@ nav {
   //overflow: hidden;
   z-index: 100;
 
-  background-color: #888;
+  margin-top: $header-height-sm;
+
+  background-color: $nav-gray;
   font-size: 125%;
   font-weight: bold;
 
-  margin-top: $header-height-sm;
+  border-right-width: 0.75em;
+  border-right-style: solid;
+  border-right-color: $white;
 
   a {
     display: block;
@@ -21,6 +25,10 @@ nav {
     border-bottom: solid;
     border-width: 1px;
     border-color: $gray-color-bright;
+
+    &.current-page {
+      background-color: $nav-darker;
+    }
   }
 
   .nav1-title {
@@ -40,6 +48,16 @@ nav {
     font-size: 80%;
   }
 
+  .nav2-outer-container {
+    transition: all 0.4s;
+    transition-timing-function: ease-in;
+
+    .current-page {
+      background-color: $green-darkish;
+      border-right-width: 0;
+    }
+  }
+
   .nav2-title {
     padding: 0.3em 1em;
 
@@ -52,37 +70,22 @@ nav {
 
   .nav3-title {
     padding: 0.3em 2em;
+
+    transition: background-color 0.275s;
+    transition-timing-function: ease-in;
+
+    &:hover {
+      background-color: $nav-hover;
+    }
   }
-
-
-
-  //a {
-  //  display: block;
-  //  padding: 0.3em 1.3em 0.3em 15px;
-  //  margin: 0;
-//
-  //  &:hover {
-  //    color: $white-medium;
-//
-  //    cursor: pointer;
-  //  }
-//
-  //   &:active {
-  //    color: $green-bright;
-  //  }
-//
-  //  &:link {
-  //    color: $white;
-  //  }
-  //}
 
   .current-page {
-    color: $green-minty;
+    color: $white;
   }
 
-  .current-section {
-    background-color: sienna !important;
-  }
+  //.current-section {
+  //  background-color: $green-darkish;
+  //}
 }
 
 

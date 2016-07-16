@@ -25,14 +25,39 @@ article {
   }
 
   a {
+    border-bottom: 1px solid;
+    line-height: 1.5em;
+    outline: none;
+    padding-bottom: 1px;
+    text-decoration: none;
+    transition: all 100ms linear;
+    -webkit-transition: all 175ms linear;
+
     &:link {
-      color: $green-bright;
+      // color: $green-bright;
     }
     &:visited {
-      color: $green-darkish;
+      // color: $green-darkish;
     }
     &:hover {
-      color: $green-minty;
+      // color: $green-minty;
+      // border-bottom-color: $green-bright;
+      border-bottom-width: 3px;
+      color: $green-bright;
+    }
+
+  }
+
+  .external-link {
+    &:after {
+      content:'\f08e';
+      font-family: FontAwesome;
+      margin-left: 5px;
+      font-size: 86%;
+      font-weight: normal;
+      font-style: normal;
+      margin:0 0 0 10px;
+      text-decoration:none;
     }
   }
 
@@ -83,6 +108,7 @@ h4 {
 
 ul {
   line-height: 135%;
+  padding-left: 1.5em;
 
   list-style-type:square;
   display: block;

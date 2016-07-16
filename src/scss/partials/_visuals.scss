@@ -120,3 +120,16 @@
   background: url(/img/title-banner/bg-windmill.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
+
+#bipolar-model {
+  background-image: url("/img/svg/bipolar-model.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: $font-sans;
+
+  font-size: 250%;
+  color: green;
+
+  height:222px;
+}
