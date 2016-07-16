@@ -28,6 +28,8 @@ header {
     position: fixed;
     padding: $header-padding-s;
     margin-left: 5px;
+    border-radius: 5px;
+
     font-size: 111%;
 
     &:hover {
@@ -35,7 +37,7 @@ header {
     }
 
     &:active {
-      background-color: $green-darkish-darker;
+      background-color: $green-bright;
     }
   }
 

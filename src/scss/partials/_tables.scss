@@ -13,7 +13,7 @@ table {
     background-color: $green-bright;
 
     tr:hover {
-      background-color: darken(darken($green-bright, 4%));
+      background-color: darken($green-bright, 4%);
     }
   }
 

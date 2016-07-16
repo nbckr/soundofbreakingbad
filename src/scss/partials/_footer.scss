@@ -9,11 +9,16 @@ footer {
     text-align: center;
     margin: 0 auto;
     width: 0;  // weird fix
+
+    &:hover {
+      color: $green-bright;
+      transition: color 0.5s ease;
+    }
   }
 
   #copyright {
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1.4px;
     color: $gray-color_dark;
   }
 }

@@ -34,91 +34,120 @@
   margin: 0 2em $default-vertical-padding 2em;
 }
 
-
 // backgrounds for title banners
+
+%bg-base {
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+
 .bg-broken-dish {
-  background: url(/img/title-banner/bg-broken-dish.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-broken-dish.jpg);
 }
+
 .bg-building-2 {
-  background: url(/img/title-banner/bg-building-2.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-building-2.jpg);
 }
+
 .bg-crawl-space-grain {
-  background: url(/img/title-banner/bg-crawl-space-grain.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-crawl-space-grain.jpg);
 }
+
 .bg-desert-rv-1 {
-  background: url(/img/title-banner/bg-desert-rv-1.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-desert-rv-1.jpg);
 }
+
 .bg-desert-rv-6 {
-  background: url(/img/title-banner/bg-desert-rv-6.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-desert-rv-6.jpg);
 }
+
 .bg-say-my-name {
-  background: url(/img/title-banner/bg-say-my-name.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-say-my-name.jpg);
 }
+
 .bg-felina-lab {
-  background: url(/img/title-banner/bg-felina-lab.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-felina-lab.jpg);
 }
+
 .bg-glass-half-full {
-  background: url(/img/title-banner/bg-glass-half-full.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-glass-half-full.jpg);
 }
+
 .bg-jesse-fly-high {
-  background: url(/img/title-banner/bg-jesse-fly-high.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-jesse-fly-high.jpg);
 }
+
 .bg-jesse-loudspeaker-close {
-  background: url(/img/title-banner/bg-jesse-loudspeaker-close.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-jesse-loudspeaker-close.jpg);
 }
+
 .bg-mirrored-face {
-  background: url(/img/title-banner/bg-mirrored-face.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-mirrored-face.jpg);
 }
+
 .bg-mixing-drugs {
-  background: url(/img/title-banner/bg-mixing-drugs.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-mixing-drugs.jpg);
 }
+
 .bg-pants-flying {
-  background: url(/img/title-banner/bg-pants-flying.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-pants-flying.jpg);
 }
+
 .bg-awkward-dinner {
-  background: url(/img/title-banner/bg-awkward-dinner.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-awkward-dinner.jpg);
+  padding-top: 5.5em;
+  padding-bottom: 2.5em;
 }
+
 .bg-skyler-drowning {
-  background: url(/img/title-banner/bg-skyler-drowning.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-skyler-drowning.jpg);
 }
+
 .bg-tios-bell {
-  background: url(/img/title-banner/bg-tios-bell.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-tios-bell.jpg);
 }
+
 .bg-tv-blue {
-  background: url(/img/title-banner/bg-tv-blue.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-tv-blue.jpg);
 }
+
 .bg-tv-with-saul {
-  background: url(/img/title-banner/bg-tv-with-saul.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-tv-with-saul.jpg);
 }
+
 .bg-walter-knife-mirror {
-  background: url(/img/title-banner/bg-walter-knife-mirror.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-walter-knife-mirror.jpg);
 }
+
 .bg-walter-yellow-red {
-  background: url(/img/title-banner/bg-walter-yellow-red.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-walter-yellow-red.jpg);
 }
+
 .bg-windmill {
-  background: url(/img/title-banner/bg-windmill.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-windmill.jpg);
 }
 
 #bipolar-model {
@@ -131,5 +160,5 @@
   font-size: 250%;
   color: green;
 
-  height:222px;
+  height: 222px;
 }
