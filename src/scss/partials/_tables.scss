@@ -1,6 +1,7 @@
 table {
   display: table;
   //margin: 0 0 $default-vertical-padding 0;
+  border-style: none;
 
   text-align: center;
 
@@ -9,18 +10,18 @@ table {
   thead {
     color: $white;
     font-weight: bold;
-    background-color: $color-primary-1;
+    background-color: $green-bright;
 
-    th:hover {
-      background-color: darken($color-primary-1, 2%);
+    tr:hover {
+      background-color: darken(darken($green-bright, 4%));
     }
   }
 
   tbody {
     background-color: $gray-color-bright;
 
-    td:hover {
-      background-color: darken($gray-color-bright, 2%);
+    tr:hover {
+      background-color: darken($gray-color-bright, 4%);
     }
   }
 

@@ -10,87 +10,84 @@ nav {
   font-size: 125%;
   font-weight: bold;
 
-  border-right-width: 0.75em;
-  border-right-style: solid;
-  border-right-color: $white;
-
   a {
     display: block;
     clear: both;
   }
-
-  .nav1-outer-container {
-    padding: 0.5em 0;
-
-    border-bottom: solid;
-    border-width: 1px;
-    border-color: $gray-color-bright;
-
-    &.current-page {
-      background-color: $nav-darker;
-    }
-  }
-
-  .nav1-title {
-    font-family: $font-serif;
-    font-weight: bold;
-
-    cursor: pointer;
-
-    p {
-      padding: 0.5em;
-      margin: 0;
-    }
-  }
-
-  .nav1-inner-container {
-    font-family: $font-sans;
-    font-size: 80%;
-  }
-
-  .nav2-outer-container {
-    transition: all 0.4s;
-    transition-timing-function: ease-in;
-
-    .current-page {
-      background-color: $green-darkish;
-      border-right-width: 0;
-    }
-  }
-
-  .nav2-title {
-    padding: 0.3em 1em;
-
-    font-size: 110%;
-    font-weight: bold;
-  }
-
-  .nav2-inner-container {
-  }
-
-  .nav3-title {
-    padding: 0.3em 2em;
-
-    transition: background-color 0.275s;
-    transition-timing-function: ease-in;
-
-    &:hover {
-      background-color: $nav-hover;
-    }
-  }
-
-  .current-page {
-    color: $white;
-  }
-
-  //.current-section {
-  //  background-color: $green-darkish;
-  //}
 }
 
+.nav1-outer-container {
+  padding: 0.5em 0;
+
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: $gray-color-bright;
+
+  &.current-page {
+    background-color: $nav-darker;
+  }
+}
+
+.nav1-title {
+  font-family: $font-serif;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  p {
+    padding: 0.5em;
+    margin: 0;
+  }
+}
+
+.nav1-inner-container {
+  font-family: $font-sans;
+  font-size: 80%;
+}
+
+.nav2-outer-container {
+  transition: background-color 0.5s;
+  transition-timing-function: ease-in;
+
+  &.current-page {
+    background-color: $green-darkish;
+  }
+}
+
+.nav2-title {
+  padding: 0.3em 1em;
+
+  font-size: 110%;
+  font-weight: bold;
+
+  &.current-page {
+    color: $white;
+  }
+}
+
+.nav2-inner-container {
+}
+
+.nav3-title {
+  padding: 0.3em 2em;
+
+  transition: background-color 0.275s;
+  transition-timing-function: ease-in;
+
+  &:hover {
+    background-color: $nav-hover;
+
+    &.current-page {
+      background-color: $green-minty;
+    }
+  }
+
+  &.current-section {
+    color: $white;
+  }
+}
 
 @media screen and (min-width: $breakpoint-lg) {
-
 
   nav {
     margin-top: $header-height-l;

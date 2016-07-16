@@ -4,6 +4,13 @@ body {
   font-style: normal;
 }
 
+* {
+  &::selection {
+    background: $color-black;
+    color: $white;
+  }
+}
+
 article {
 
   p, ul, h2, h3, h4 {
@@ -17,11 +24,6 @@ article {
     text-decoration: none;
     text-indent: 0;
     line-height: 150%;
-
-    // &::selection {
-    //   background: $green-bright;
-    //   color: $white;
-    // }
   }
 
   a {
