@@ -27,15 +27,16 @@ header {
   #menu-toggle {
     position: fixed;
     padding: $header-padding-s;
-    //margin-left: 5px;
+    margin: 13px;
     border-radius: 5px;
 
-    //font-size: 111%;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+
     font-size: 120%;
     text-align: center;
-
-    width: $header-height-sm;
-    box-sizing: border-box;
+    vertical-align: baseline;
 
     &:hover {
       cursor: pointer;
@@ -43,6 +44,13 @@ header {
 
     &:active {
       background-color: $green-bright;
+    }
+
+    &span {
+      text-align: center;
+      vertical-align: baseline;
+      display: inline-block;
+      margin: 8px;
     }
   }
 
