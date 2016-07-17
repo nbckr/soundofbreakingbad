@@ -1,3 +1,8 @@
+RewriteEngine On
+
+// Redirect start page
+RedirectMatch 301 /index.html$ /de/about-the-show/introduction.html$1
+
 //301 Redirect Old File
 Redirect 301 /index.html /de/index.html
 

@@ -144,13 +144,9 @@ function initNavToggling() {
             return;
         }
 
-        $.pjax({
-            "url": $(this).attr("href"),
-            "fragment": "#pjax-container",
-            "container": "#pjax-container",
-            "timeout": 1000,
-            "scrollTo": 0
-        });
+        loadPjaxContent($(this).attr("href"));
+
+
 
         //Expand or collapse this panel
         var nextNav2Container = $(this).next();
@@ -192,7 +188,7 @@ function initScrollTo() {
             //console.log("click should scroll");
             event.preventDefault();
             event.stopImmediatePropagation();
-            $('#content-pane').scrollTo(this.hash, this.hash);// {offset: -100});
+            $('#content-pane').scrollTo(this.hash, this.hash);
         });
 
         // collect hashes for highlighting
@@ -327,4 +323,14 @@ function getCurrentNav2Title() {
         }
     });
     return currentNav2Title;
+}
+
+function loadPjaxContent(href) {
+    $.pjax({
+        "url": href,
+        "fragment": "#pjax-container",
+        "container": "#pjax-container",
+        "timeout": 1000,
+        "scrollTo": 0
+    });
 }

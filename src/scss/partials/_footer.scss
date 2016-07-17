@@ -4,11 +4,14 @@ footer {
 
   #back-to-top {
     color: $green-darkish;
-    display: block;
     font-size: 285%;
-    text-align: center;
     margin: 0 auto;
-    width: 0;  // weird fix
+
+    display: block;
+    text-align: center;
+    vertical-align: baseline;
+
+    //width: 0;  // weird fix
 
     &:hover {
       color: $green-bright;

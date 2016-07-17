@@ -68,9 +68,8 @@ module.exports = function (grunt) {
                 files: {
                     "dist/index.html" : "src/index.html",
 
-                    "dist/de/index.html": "src/de/index.html",
+                    "dist/de/introduction/introduction.html" : "src/de/introduction/introduction.html",
 
-                    "dist/de/about-the-show/introduction.html" : "src/de/about-the-show/introduction.html",
                     "dist/de/about-the-show/background.html" : "src/de/about-the-show/background.html",
                     "dist/de/about-the-show/structure.html" : "src/de/about-the-show/structure.html",
                     "dist/de/about-the-show/production-1.html" : "src/de/about-the-show/production-1.html",
@@ -91,9 +90,10 @@ module.exports = function (grunt) {
                     "dist/de/analysis-sound/silence-and-dynamics.html" : "src/de/analysis-sound/silence-and-dynamics.html",
                     "dist/de/analysis-sound/subjectivization.html" : "src/de/analysis-sound/subjectivization.html",
 
-                    "dist/de/conclusion/about.html" : "src/de/conclusion/about.html",
                     "dist/de/conclusion/conclusion.html" : "src/de/conclusion/conclusion.html",
-                    "dist/de/conclusion/references.html" : "src/de/conclusion/references.html"
+
+                    "dist/de/about/about.html" : "src/de/about/about.html",
+                    "dist/de/about/references.html" : "src/de/about/references.html"
                 }
             }
         },

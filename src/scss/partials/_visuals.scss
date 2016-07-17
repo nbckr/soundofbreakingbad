@@ -63,12 +63,14 @@
 }
 
 .bg-crawl-space-grain {
+  // TODO unused
   @extend %bg-base;
   @extend %little-lower;
   background-image: url(/img/title-banner/bg-crawl-space-grain.jpg);
 }
 
 .bg-desert-rv-1 {
+  // TODO unused
   @extend %bg-base;
   background-image: url(/img/title-banner/bg-desert-rv-1.jpg);
 }
@@ -169,6 +171,17 @@
   @extend %bg-base;
   @extend %little-lower;
   background-image: url(/img/title-banner/bg-windmill.jpg);
+}
+
+.bg-intro-1 {
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-intro-1.jpg);
+}
+
+.bg-the-fly {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-the-fly.jpg);
 }
 
 #bipolar-model {

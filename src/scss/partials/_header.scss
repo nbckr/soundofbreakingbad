@@ -1,5 +1,5 @@
-$header-padding-s: 15px;
-$header-padding-l: 25px;
+$header-padding-s: 19px;
+$header-padding-l: 20px;
 
 header {
   position: fixed;
@@ -11,7 +11,7 @@ header {
 
   display: block;
 
-  box-sizing:content-box;
+  box-sizing: content-box;
   height: $header-height-sm;
 
   background-color: $green-darkish;
@@ -27,10 +27,15 @@ header {
   #menu-toggle {
     position: fixed;
     padding: $header-padding-s;
-    margin-left: 5px;
+    //margin-left: 5px;
     border-radius: 5px;
 
-    font-size: 111%;
+    //font-size: 111%;
+    font-size: 120%;
+    text-align: center;
+
+    width: $header-height-sm;
+    box-sizing: border-box;
 
     &:hover {
       cursor: pointer;
@@ -55,16 +60,15 @@ header {
 @media screen and (min-width: $breakpoint-lg) {
 
   header {
-
     height: $header-height-l;
 
     #menu-toggle {
       display: none;
-      padding: $header-padding-l;
     }
 
     #page-title {
       font-size: 170%;
+      padding: $header-padding-l;
     }
   }
 }
