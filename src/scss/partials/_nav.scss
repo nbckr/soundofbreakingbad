@@ -38,6 +38,10 @@ nav {
     padding: 0.5em;
     margin: 0;
   }
+
+  &.current-page {
+    text-decoration: underline;
+  }
 }
 
 .nav1-inner-container {
@@ -54,7 +58,7 @@ nav {
 }
 
 .nav2-title {
-  padding: 0.3em 1em;
+  padding: 0.5em 1em;
 
   font-size: 110%;
   font-weight: bold;
@@ -78,9 +82,9 @@ nav {
 }
 
 .nav3-title {
-  padding: 0.3em 2em;
+  padding: 0.5em 2em;
 
-  transition: color 0.75s ease, background-color 0.5s ease;
+  transition: color 0.5s ease, background-color 0.5s ease;
 
   &:hover {
     background-color: $green-bright;
@@ -95,9 +99,32 @@ nav {
 
   nav {
     margin-top: $header-height-l;
+  }
 
-    .nav3-title {
-      padding: 0.3em 2em;
+  .nav1-outer-container {
+  }
+
+  .nav1-title {
+    p {
+      padding: 0.5em 1em;
+      margin: 0;
     }
+  }
+
+  .nav1-inner-container {
+  }
+
+  .nav2-outer-container {
+  }
+
+  .nav2-title {
+    padding: 0.3em 1.5em;
+  }
+
+  .nav2-inner-container {
+  }
+
+  .nav3-title {
+    padding: 0.3em 2.5em;
   }
 }
