@@ -12,12 +12,13 @@ $(function () {
  */
 function initOnlyOnDirectAccess() {
     // //console.log("initDirect");
-
     initNavBase();
-    initNavToggling();
+    hideAllButCurrentPage();
     initPjax();
-    highlightActiveMenuItem(); // otherwise only at pjax:end
 
+    //highlightActiveMenuItem(); // otherwise only at pjax:end
+    setCurrentPageAndCascadeUpwards();
+    setCurrentSection();
 }
 
 /**
@@ -25,8 +26,8 @@ function initOnlyOnDirectAccess() {
  */
 function initCurrentPage() {
     //console.log("initcurrent");
-
-    initWhatever();
+    initNavLinksAndToggling();
+    //initWhatever();
     initScrollTo();
     initBackToTopScroller();
     initBigfoot();
@@ -86,14 +87,14 @@ function initNavBase() {
         //    flickThreshold: 50,
         //    transitionSpeed: 0.3,
         //    easing: 'ease',
-        maxPosition: 300,
+        maxPosition: 315,
         tapToClose: true,
         //    touchToDrag: true,
         slideIntent: 20
     });
 
-    var menuToggleButton = document.getElementById('menu-toggle');
-    menuToggleButton.addEventListener('click', function () {
+    var menuToggleButton = $('#menu-toggle');
+    menuToggleButton.click(function () {
 
         if (snapper.state().state == "left") {
             snapper.close();
@@ -107,73 +108,81 @@ function initNavBase() {
     });
 }
 
-function initNavToggling() {
+function hideAllButCurrentPage() {
 
-    // TODO initially hide nav parts except currently active
-    var pgurl = window.location.pathname;
-    var currentNav2Title;
-    var currentNav2InnerContainer;
-    var currentNav1InnerContainer;
+    var currentNav2Title = getCurrentNav2Title();
+    var currentNav2InnerContainer = currentNav2Title.next();
+    var currentNav1InnerContainer = currentNav2Title.parent().parent();
+    var currentNav1OuterContainer = currentNav1InnerContainer.parent();
 
-    $('.nav2-title').each(function () {
-        if ($(this).attr("href") == pgurl) {
-            currentNav2Title = $(this);
-            currentNav2InnerContainer = currentNav2Title.next();
-            currentNav1InnerContainer = currentNav2Title.parent();
-            return false; // break loop
-        }
-    });
-    $('.nav1-inner-container').not(currentNav1InnerContainer).hide();
-    $('.nav2-inner-container').not(currentNav2InnerContainer).hide();
+    console.log(currentNav2Title, currentNav2InnerContainer, currentNav1InnerContainer);
 
-    // toggle effect for nav1
-    $('.nav1-title').click(function () {
+    $('.nav1-inner-container').hide();
+    $('.nav2-inner-container').hide();
 
-        //Expand or collapse this panel
-        var currentNav1InnerContainer = $(this).next().children();
-        if (currentNav1InnerContainer.length > 1) {
-            $(this).next().slideToggle('medium');
-            // TODO always load 1st child
-        }
+    if (!currentNav1OuterContainer.hasClass('single-parent')) {
+        $(currentNav1InnerContainer).slideDown('slow');
+    }
+    $(currentNav2InnerContainer).show();
+}
 
-        else if (!$(this).hasClass('current-page')) {
-            console.log("HI!")
 
-            var onlyNav2Child = $(this).next();
+function initNavLinksAndToggling() {
 
-            loadPjaxContent(onlyNav2Child.attr('href'));
-            setCurrentPageAndCascadeUpwards(onlyNav2Child);
-        }
+    $('.nav1-title').click(function (event) {
 
-        //Hide the other panels
-        $('.nav1-inner-container').not($(this).next()).slideUp('fast');
-        $('.nav2-inner-container').slideUp('fast');
-    });
-
-    // toggle effect and PJAX loading for nav2
-    $('.nav2-title').click(function (event) {
+        console.log("nav1-title clicked")
 
         event.preventDefault();
         event.stopImmediatePropagation();
 
-        if ($(this).hasClass('current-page') && $(this).next().is(":visible")) {
-            $('#content-pane').scrollTo(0, 400);
-            return;
+        var currentNav1InnerContainer = $(this).next();
+        var currentNav1OuterContainer = $(this).parent();
+        var firstNav2TitleChild = currentNav1InnerContainer.children().first().children().first();
+
+        // Toggle if has more than one child
+        if (!currentNav1OuterContainer.hasClass('single-parent')) {
+            currentNav1InnerContainer.slideToggle('medium');
         }
 
+        // Hide the other panels
+        $('.nav1-inner-container').not(currentNav1InnerContainer).slideUp('fast');
+        $('.nav2-inner-container').not(firstNav2TitleChild.next()).slideUp('fast');
 
-        //Expand or collapse this panel
+        // Load content if not already current page
+        if (!$(this).hasClass('current-page')) {
+            loadPjaxContent(firstNav2TitleChild);
+            firstNav2TitleChild.next().slideDown('fast');
+            setCurrentPageAndCascadeUpwards(firstNav2TitleChild);
+        }
+    });
+
+    $('.nav2-title').click(function (event) {
+
+        console.log("nav2-title clicked")
+
+        event.preventDefault();
+        event.stopImmediatePropagation();
+
+        // If already current page, just scroll to top
+        if ($(this).hasClass('current-page') && $(this).next().is(":visible")) {
+            $('#content-pane').scrollTo(0, 400);
+            return false;
+        }
+
+        // Else, expand this panel
         var nextNav2Container = $(this).next();
 
         if (nextNav2Container.hasClass('nav2-inner-container')) {
-            nextNav2Container.slideToggle('fast');
+            nextNav2Container.slideDown('fast');
         }
 
-        //Hide the other panels
+        // Hide the other panels
         $('.nav2-inner-container').not(nextNav2Container).slideUp('fast');
 
         // load content-pane
-        loadPjaxContent($(this).attr("href"));
+        loadPjaxContent($(this));
+        setCurrentPageAndCascadeUpwards($(this));
     });
 }
 
@@ -182,9 +191,6 @@ function initPjax() {
     $(document).on('pjax:end', function () {
         //console.log("pjax:end")
         initCurrentPage();
-        highlightActiveMenuItem();
-
-
     });
 }
 
@@ -194,9 +200,7 @@ function initScrollTo() {
 
     var currentNav2Title = getCurrentNav2Title();
     var currentNav3Titles;
-    var currentNav3Hashes = [];
 
-    // TODO what if there is no nav2 here
     if (currentNav2Title && currentNav2Title.next().hasClass('nav2-inner-container')) {
         currentNav3Titles = currentNav2Title.next().children();
 
@@ -208,65 +212,58 @@ function initScrollTo() {
             $('#content-pane').scrollTo(this.hash, this.hash);
         });
 
-        // collect hashes for highlighting
-        for (var i = 0; i < currentNav3Titles.length; i++) {
-            currentNav3Hashes.push(currentNav3Titles.get(i).hash);
-        }
+        //console.log(currentNav2Title)
+        //console.log(currentNav3Titles)
+
+        $('#content-pane').unbind('scroll');
+        $('#content-pane').scroll(function () {
+            //console.log("SCROLLING like a bitch")
+
+            //if (!currentNav3Titles) {
+            //    return false;
+            //}
+
+            var windowPos = $('#content-pane').scrollTop(); // get the offset of the window from the top of page
+            var windowHeight = $('#content-pane').height(); // get the height of the window
+            var docHeight = $(document).height();
+
+            ////console.log("pos: " + windowPos + " height: " + windowHeight);
+            //console.log(currentNav3Titles);
+
+            for (var i = 0; i < currentNav3Titles.length; i++) {
+                var currentNav3Title = currentNav3Titles.get(i);
+                var currentHash = currentNav3Title.hash;
+                var currentPathname = currentNav3Title.pathname;
+
+                var nextNav3Title = currentNav3Titles.get(i + 1);
+
+                var currentDivPos = $(currentHash).position().top; // get the offset of the div from the top of page
+                var nextDivPos;
+                if (nextNav3Title) {
+                    var nextHash = nextNav3Title.hash;
+                    nextDivPos = $(nextHash).position().top;
+                } else {
+                    nextDivPos = 99999999999999999;
+                }
+
+                if ((windowPos >= currentDivPos && windowPos < nextDivPos)
+                    || !nextDivPos) {
+                    $("a[href='" + currentPathname + currentHash + "']").addClass("current-section");
+                } else {
+                    $("a[href='" + currentPathname + currentHash + "']").removeClass("current-section");
+                }
+            }
+
+            // TODO wtf?
+            if (windowPos + windowHeight == docHeight) {
+                if (!$("nav li:last-child a").hasClass("current-section")) {
+                    var navActiveCurrent = $(".current-section").attr("href");
+                    $("a[href='" + navActiveCurrent + "']").removeClass("current-section");
+                    $("nav li:last-child a").addClass("current-section");
+                }
+            }
+        });
     }
-
-    //console.log(currentNav2Title)
-    //console.log(currentNav3Titles)
-    //console.log(currentNav3Hashes)
-
-
-    $('#content-pane').unbind('scroll');
-    $('#content-pane').scroll(function () {
-        //console.log("SCROLLING like a bitch")
-
-        if (!currentNav3Titles) {
-            return false;
-        }
-
-        var windowPos = $('#content-pane').scrollTop(); // get the offset of the window from the top of page
-        var windowHeight = $('#content-pane').height(); // get the height of the window
-        var docHeight = $(document).height();
-
-        ////console.log("pos: " + windowPos + " height: " + windowHeight);
-        //console.log(currentNav3Titles);
-
-        for (var i = 0; i < currentNav3Titles.length; i++) {
-            var currentNav3Title = currentNav3Titles.get(i);
-            var currentHash = currentNav3Title.hash;
-            var currentPathname = currentNav3Title.pathname;
-
-            var nextNav3Title = currentNav3Titles.get(i + 1);
-
-            var currentDivPos = $(currentHash).position().top; // get the offset of the div from the top of page
-            var nextDivPos;
-            if (nextNav3Title) {
-                var nextHash = nextNav3Title.hash;
-                nextDivPos = $(nextHash).position().top;
-            } else {
-                nextDivPos = 99999999999999999;
-            }
-
-            if ((windowPos >= currentDivPos && windowPos < nextDivPos)
-                || !nextDivPos) {
-                $("a[href='" + currentPathname + currentHash + "']").addClass("current-section");
-            } else {
-                $("a[href='" + currentPathname + currentHash + "']").removeClass("current-section");
-            }
-        }
-
-        // TODO wtf?
-        if (windowPos + windowHeight == docHeight) {
-            if (!$("nav li:last-child a").hasClass("current-section")) {
-                var navActiveCurrent = $(".current-section").attr("href");
-                $("a[href='" + navActiveCurrent + "']").removeClass("current-section");
-                $("nav li:last-child a").addClass("current-section");
-            }
-        }
-    });
 }
 
 function initBackToTopScroller() {
@@ -327,13 +324,31 @@ function highlightActiveMenuItem() {
     });
 }
 
-function setCurrentPageAndCascadeUpwards(nav2Title) {
-    nav2Title.addClass('current-page'); // nav2-title
-    nav2Title.next().addClass('current-page'); // nav2-inner-container
-    nav2Title.parent().addClass('current-page'); // nav2-outer-container
-    nav2Title.parent().prev().addClass('current-page'); // nav1-title
-    nav2Title.parent().addClass('current-page'); // nav1-inner-container
-    nav2Title.parent().parent().addClass('current-page'); // nav1-outer-container
+
+function setCurrentPageAndCascadeUpwards(nav2title) {
+
+    $('.current-page').removeClass('current-page');
+
+    nav2title = nav2title || getCurrentNav2Title();
+
+    console.log(nav2title);
+
+    nav2title.addClass('current-page');                     // nav2-title
+    nav2title.next().addClass('current-page');              // nav2-inner-container
+    nav2title.parent().addClass('current-page');            // nav2-outer-container
+
+    var nav1Title = nav2title.parent().parent().prev();
+    nav1Title.addClass('current-page');                     // nav1-title
+    nav1Title.next().addClass('current-page');              // nav1-inner-container
+    nav1Title.parent().addClass('current-page');            // nav1-outer-container
+}
+
+function setCurrentSection(nav3title) {
+    nav3title = nav3title || getCurrentNav3Title();
+
+    if (nav3title) {
+        nav3title.addClass('current-section');
+    }
 }
 
 function getCurrentNav2Title() {
@@ -352,7 +367,32 @@ function getCurrentNav2Title() {
     return currentNav2Title;
 }
 
-function loadPjaxContent(href) {
+function getCurrentNav3Title() {
+    if (!window.location.hash) {
+        return false;
+    }
+
+    var href = window.location.pathname + window.location.hash;
+    return getNavObjectByHref(href);
+}
+
+
+function getNavObjectByHref(href) {
+    var navObject;
+
+    $('nav a').each(function () {
+
+        if ($(this).attr("href") == href || $(this).attr("href") == '') { // Compare url to links
+            navObject = $(this);
+            return false;   // break loop
+        }
+    });
+    return navObject;
+}
+
+function loadPjaxContent(nav2title) {
+
+    var href = nav2title.attr("href");
 
     $('#content-pane').scrollTo(0, 0);
     $('#content-pane').hide();
@@ -366,4 +406,6 @@ function loadPjaxContent(href) {
     });
 
     $('#content-pane').fadeIn();
+
+
 }

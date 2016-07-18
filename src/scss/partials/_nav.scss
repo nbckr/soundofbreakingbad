@@ -16,6 +16,10 @@ nav {
   }
 }
 
+.nav1-title, .nav2-title, .nav3-title {
+  padding-right: 0.3em;
+}
+
 .nav1-outer-container {
   padding: 0.5em 0;
 
@@ -25,6 +29,11 @@ nav {
 
   &.current-page {
     background-color: $nav-darker;
+
+    &.single-parent {
+      background-color: $green-darkish;
+      color: $white;
+    }
   }
 }
 
@@ -58,7 +67,9 @@ nav {
 }
 
 .nav2-title {
-  padding: 0.5em 1em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  padding-bottom: 0.5em;
 
   font-size: 110%;
   font-weight: bold;
@@ -82,7 +93,9 @@ nav {
 }
 
 .nav3-title {
-  padding: 0.5em 2em;
+  padding-top: 0.5em;
+  padding-left: 2em;
+  padding-bottom: 0.5em;
 
   transition: color 0.5s ease, background-color 0.5s ease;
 
@@ -106,7 +119,9 @@ nav {
 
   .nav1-title {
     p {
-      padding: 0.5em 1em;
+      padding-top: 0.5em;
+      padding-left: 1em;
+      padding-bottom: 0.5em;
       margin: 0;
     }
   }
@@ -118,13 +133,17 @@ nav {
   }
 
   .nav2-title {
-    padding: 0.3em 1.5em;
+    padding-top: 0.3em;
+    padding-left: 1.5em;
+    padding-bottom: 0.3em;
   }
 
   .nav2-inner-container {
   }
 
   .nav3-title {
-    padding: 0.3em 2.5em;
+    padding-top: 0.3em;
+    padding-left: 2.5em;
+    padding-bottom: 0.3em;
   }
 }
