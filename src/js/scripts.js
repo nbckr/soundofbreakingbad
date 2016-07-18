@@ -76,7 +76,7 @@ function initNavBase() {
         element: document.getElementById('content-pane')
     });
 
-    //checkSnapperAfterResize(snapper);
+    checkSnapperAfterResize(snapper);
 
     snapper.settings({
         disable: 'right',
@@ -89,6 +89,7 @@ function initNavBase() {
         maxPosition: 300,
         tapToClose: true
         //    touchToDrag: true,
+        slideIntent: 20
     });
 
     var menuToggleButton = document.getElementById('menu-toggle');
@@ -126,7 +127,14 @@ function initNavToggling() {
     $('.nav1-title').click(function () {
 
         //Expand or collapse this panel
-        $(this).next().slideToggle('medium');
+        var currentNav1InnerContainer = $(this).next().children();
+        if (currentNav1InnerContainer.length > 1) {
+            $(this).next().slideToggle('medium');
+        }
+
+        if (!$(this).hasClass('current-page')) {
+            // TODO LOAD
+        }
 
         //Hide the other panels
         $('.nav1-inner-container').not($(this).next()).slideUp('fast');
@@ -144,19 +152,28 @@ function initNavToggling() {
             return;
         }
 
-        loadPjaxContent($(this).attr("href"));
-
-
+        $('#content-pane').scrollTo(0, 0);
+        $('#content-pane').hide();
 
         //Expand or collapse this panel
         var nextNav2Container = $(this).next();
 
         if (nextNav2Container.hasClass('nav2-inner-container')) {
-            nextNav2Container.slideToggle('medium');
-
-            //Hide the other panels
-            $('.nav2-inner-container').not(nextNav2Container).slideUp('fast');
+            nextNav2Container.slideToggle('fast');
         }
+
+        //Hide the other panels
+        $('.nav2-inner-container').not(nextNav2Container).slideUp('fast');
+
+        // load content-pane
+        $.pjax({
+            "url": $(this).attr("href"),
+            "fragment": "#pjax-container",
+            "container": "#pjax-container",
+            "timeout": 1000
+        });
+
+        $('#content-pane').fadeIn();
     });
 }
 
@@ -167,7 +184,7 @@ function initPjax() {
         initCurrentPage();
         highlightActiveMenuItem();
 
-        $('#content-pane').scrollTo(0, 400);
+
     });
 }
 
@@ -302,9 +319,10 @@ function highlightActiveMenuItem() {
 
         if ($(this).attr("href") == pgurl || $(this).attr("href") == '') { // Compare url to links
             $(this).addClass("current-page");
-            $(this).parent().siblings('.nav1-title').addClass('current-page'); // nav1-title
-            $(this).parent().parent().parent().addClass('current-page'); // nav1-outer-container
+            $(this).parent().siblings('.nav2-title').addClass('current-page'); // nav2-title
             $(this).parent().addClass('current-page'); // nav2-outer-container
+            $(this).parent().parent().siblings('.nav1-title').addClass('current-page'); // nav1-title
+            $(this).parent().parent().parent().addClass('current-page'); // nav1-outer-container
         }
     });
 }
