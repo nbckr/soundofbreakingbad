@@ -3,9 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/dist" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/ba-final-original" />
       <excludeFolder url="file://$MODULE_DIR$/ba-final-refactored" />
+      <excludeFolder url="file://$MODULE_DIR$/dist" />
       <excludeFolder url="file://$MODULE_DIR$/etc" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules" />
     </content>

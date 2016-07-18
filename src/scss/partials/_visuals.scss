@@ -59,9 +59,15 @@
 }
 
 
-.small-media-container {
+.media-container-small {
+  display: inline-block; //??????
   margin: 0 auto;
   width: 70%;
+}
+
+.media-container-medium {
+  display: inline-block;
+  width: auto;
 }
 
 // override padding from h1 in _typo.scss
@@ -234,7 +240,7 @@
     border-style: solid;
   }
 
-  .small-media-container {
+  .media-container-small {
     float: right;
     margin: 0 0 1em 1em;
     width: auto;
