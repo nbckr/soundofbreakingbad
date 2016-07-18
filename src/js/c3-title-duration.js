@@ -6,7 +6,7 @@ $(function () {
             mimeType: 'json',
             type: 'bar',
             colors: {
-                "Breaking Bad (USA, 2008-2013)": 'darkgreen'
+                "Breaking Bad (USA)": 'darkgreen'
             },
             names: {
                 //"Breaking Bad (USA, 2008-2013)": 'Breaking BAD'
@@ -14,7 +14,7 @@ $(function () {
         },
         bar: {
             width: {
-                ratio: 0.75
+                ratio: 0.8
             }
         },
         color: {

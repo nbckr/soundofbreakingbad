@@ -6,14 +6,15 @@ table {
   text-align: center;
 
   overflow: auto;
+  overflow: scroll;
 
-  thead {
+  th {
     color: $white;
     font-weight: bold;
     background-color: $green-bright;
 
-    tr:hover {
-      background-color: darken($green-bright, 4%);
+    &:hover {
+      background-color: darken($green-bright, 5%);
     }
   }
 
@@ -21,7 +22,7 @@ table {
     background-color: $gray-color-bright;
 
     tr:hover {
-      background-color: darken($gray-color-bright, 4%);
+      background-color: darken($gray-color-bright, 5%);
     }
   }
 
@@ -36,11 +37,13 @@ table {
 
 }
 
-.table-right {
-  float: right;
-  margin: 0 0 1em 1em;
+.table-center {
+  margin: 0 auto;
 }
 
-.table-center {
-  margin: 0 auto $default-vertical-padding 0;
+.small-media-container {
+  table {
+    margin: 0 auto;
+    width: 100%;
+  }
 }

@@ -31,7 +31,37 @@
 
 .c3-chart {
   //padding: 0 1.5em;
-  margin: 0 2em $default-vertical-padding 2em;
+  //margin: $default-vertical-padding 2em $default-vertical-padding 2em;
+}
+
+.bordered {
+  border-style: solid;// none;  spare left and right
+  border-width: 1px;
+  border-color: $gray-color-dark;
+  box-sizing: content-box;
+  padding: 1em;
+  margin: $default-vertical-padding 0 0 0;
+}
+
+.caption {
+  margin: 0 0 $default-vertical-padding 0 !important;
+  background-color: $gray-color-dark;
+
+  p {
+    margin: 0 auto;
+    padding: 0.3em 0.7em;
+
+    display: block;
+    text-align: center;
+    color: $white;
+    font-size: 85%;
+  }
+}
+
+
+.small-media-container {
+  margin: 0 auto;
+  width: 70%;
 }
 
 // override padding from h1 in _typo.scss
@@ -195,4 +225,18 @@
   color: green;
 
   height: 222px;
+}
+
+
+@media screen and (min-width: $breakpoint-2) {
+
+  .bordered {
+    border-style: solid;
+  }
+
+  .small-media-container {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: auto;
+  }
 }

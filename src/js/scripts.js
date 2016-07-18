@@ -2,7 +2,6 @@
 
 //$(document).ready(function($) {
 $(function () {
-    //console.log("doc ready!")
     initOnlyOnDirectAccess();
     initCurrentPage();
 });
@@ -11,7 +10,6 @@ $(function () {
  * Stuff that happens in other elements than pjax-container needs to happen only once.
  */
 function initOnlyOnDirectAccess() {
-    // //console.log("initDirect");
     initNavBase();
     hideAllButCurrentPage();
     initPjax();
@@ -25,23 +23,20 @@ function initOnlyOnDirectAccess() {
  * Stuff that happens inside the pjax-container needs to be done after each load.
  */
 function initCurrentPage() {
-    //console.log("initcurrent");
     initNavLinksAndToggling();
-    //initWhatever();
-    initScrollTo();
+    initNavHighlightingAndScrolling();
     initBackToTopScroller();
     initBigfoot();
     initAccordion();
 
 }
 
-
 function initBigfoot() {
     var bigfoot = $.bigfoot(
         {
-            actionOriginalFN: "delete",
-            footnoteTagname: "p",
-            footnoteParentClass: "footnote",
+            actionOriginalFN: 'delete',
+            footnoteTagname: 'p',
+            footnoteParentClass: 'footnote',
             preventPageScroll: false,
             hoverDelay: 250
         }
@@ -55,22 +50,9 @@ function initAccordion() {
     });
 }
 
-function initWhatever() {
-    // init menu (??)
-    $.ajaxSetup({cache: false});
-
-    // show spinner
-    //$('.nav2-title').click(function () {
-    //    //console.log("heyYyXXXX");
-//
-    //    var $this = $(this);
-    //    var request = $this.data('dest') + '.html';
-    //    var spinner = '<div class="loader">Loading!</div>';
-    //    $('#content-pane').html(spinner).load(request);
-    //    $('#content-pane').show();
-    //})
-}
-
+/**
+ * Creates the nav bar on the left and make it swipeable.
+ */
 function initNavBase() {
 
     var snapper = new Snap({
@@ -96,7 +78,7 @@ function initNavBase() {
     var menuToggleButton = $('#menu-toggle');
     menuToggleButton.click(function () {
 
-        if (snapper.state().state == "left") {
+        if (snapper.state().state == 'left') {
             snapper.close();
         } else {
             snapper.open('left');
@@ -115,8 +97,6 @@ function hideAllButCurrentPage() {
     var currentNav1InnerContainer = currentNav2Title.parent().parent();
     var currentNav1OuterContainer = currentNav1InnerContainer.parent();
 
-    console.log(currentNav2Title, currentNav2InnerContainer, currentNav1InnerContainer);
-
     $('.nav1-inner-container').hide();
     $('.nav2-inner-container').hide();
 
@@ -126,12 +106,12 @@ function hideAllButCurrentPage() {
     $(currentNav2InnerContainer).show();
 }
 
-
+/**
+ * Handles what happens when user clicks on menu level 1 and 2.
+ */
 function initNavLinksAndToggling() {
 
     $('.nav1-title').click(function (event) {
-
-        console.log("nav1-title clicked")
 
         event.preventDefault();
         event.stopImmediatePropagation();
@@ -159,13 +139,11 @@ function initNavLinksAndToggling() {
 
     $('.nav2-title').click(function (event) {
 
-        console.log("nav2-title clicked")
-
         event.preventDefault();
         event.stopImmediatePropagation();
 
         // If already current page, just scroll to top
-        if ($(this).hasClass('current-page') && $(this).next().is(":visible")) {
+        if ($(this).hasClass('current-page') && $(this).next().is(':visible')) {
             $('#content-pane').scrollTo(0, 400);
             return false;
         }
@@ -186,17 +164,10 @@ function initNavLinksAndToggling() {
     });
 }
 
-function initPjax() {
-
-    $(document).on('pjax:end', function () {
-        //console.log("pjax:end")
-        initCurrentPage();
-    });
-}
-
-function initScrollTo() {
-
-    //console.log("init scrollto")
+/**
+ * Defines what happens when user clicks on level 3 menu items and scrolls on page.
+ */
+function initNavHighlightingAndScrolling() {
 
     var currentNav2Title = getCurrentNav2Title();
     var currentNav3Titles;
@@ -206,73 +177,54 @@ function initScrollTo() {
 
         // scrolling
         currentNav3Titles.click(function (event) {
-            //console.log("click should scroll");
             event.preventDefault();
             event.stopImmediatePropagation();
             $('#content-pane').scrollTo(this.hash, this.hash);
         });
 
-        //console.log(currentNav2Title)
-        //console.log(currentNav3Titles)
+        var contentPane = $('#content-pane');
 
-        $('#content-pane').unbind('scroll');
-        $('#content-pane').scroll(function () {
-            //console.log("SCROLLING like a bitch")
+        contentPane.unbind('scroll');
+        contentPane.scroll(function () {
 
-            //if (!currentNav3Titles) {
-            //    return false;
-            //}
-
-            var windowPos = $('#content-pane').scrollTop(); // get the offset of the window from the top of page
-            var windowHeight = $('#content-pane').height(); // get the height of the window
-            var docHeight = $(document).height();
-
-            ////console.log("pos: " + windowPos + " height: " + windowHeight);
-            //console.log(currentNav3Titles);
+            var contentPaneOffset = contentPane.scrollTop(); // get the offset of the window from the top of page
 
             for (var i = 0; i < currentNav3Titles.length; i++) {
                 var currentNav3Title = currentNav3Titles.get(i);
                 var currentHash = currentNav3Title.hash;
                 var currentPathname = currentNav3Title.pathname;
 
-                var nextNav3Title = currentNav3Titles.get(i + 1);
-
                 var currentDivPos = $(currentHash).position().top; // get the offset of the div from the top of page
-                var nextDivPos;
+
+                var nextNav3Title = currentNav3Titles.get(i + 1);
+                var nextDivPos = Number.POSITIVE_INFINITY;
                 if (nextNav3Title) {
                     var nextHash = nextNav3Title.hash;
                     nextDivPos = $(nextHash).position().top;
-                } else {
-                    nextDivPos = 99999999999999999;
                 }
 
-                if ((windowPos >= currentDivPos && windowPos < nextDivPos)
-                    || !nextDivPos) {
+                if ((contentPaneOffset >= currentDivPos && contentPaneOffset < nextDivPos)) {
                     $("a[href='" + currentPathname + currentHash + "']").addClass("current-section");
                 } else {
                     $("a[href='" + currentPathname + currentHash + "']").removeClass("current-section");
-                }
-            }
-
-            // TODO wtf?
-            if (windowPos + windowHeight == docHeight) {
-                if (!$("nav li:last-child a").hasClass("current-section")) {
-                    var navActiveCurrent = $(".current-section").attr("href");
-                    $("a[href='" + navActiveCurrent + "']").removeClass("current-section");
-                    $("nav li:last-child a").addClass("current-section");
                 }
             }
         });
     }
 }
 
+function initPjax() {
+    $(document).on('pjax:end', function () {
+        initCurrentPage();
+    });
+}
+
 function initBackToTopScroller() {
     var windowHeight = $(window).height(); // get the height of the window
     var docHeight = $('#pjax-container').height();
-    //console.log("init backtotop; window: " + windowHeight + ", doc: " + docHeight)
 
     if (docHeight > 3 * windowHeight) {
-        $("#back-to-top").click(function (evn) {
+        $('#back-to-top').click(function (evn) {
             evn.preventDefault();
             evn.stopImmediatePropagation();
             $('#content-pane').scrollTo(0, 400);
@@ -285,43 +237,19 @@ function initBackToTopScroller() {
 
 
 function checkSnapperAfterResize(snapper) {
-    //console.log("check snapper")
 
     var windowsize = $(window).width();
 
     windowsize = $(window).width();
     if (windowsize > 1224) {
-        //if the window is greater than 440px wide then turn on jScrollPane..
-        //$('#content-pane').attr('data-snap-ignore', 'true');
         snapper.disable();
-        if (snapper.state().state == "left") {
+        if (snapper.state().state == 'left') {
             snapper.close();
         }
     } else {
-        $('#content-pane').removeAttr('data-snap-ignore');
+        //$('#content-pane').removeAttr('data-snap-ignore');
         snapper.enable();
     }
-}
-
-function highlightActiveMenuItem() {
-    $('.current-page').removeClass('current-page');
-
-    //var currentNav2Title = getCurrentNav2Title();
-    //currentNav2Title.addClass('current-page');
-    //currentNav2Title.parent().siblings('.nav1-title').addClass('current-page'); // Set "active" class on the parent of submenu links
-
-    var pgurl = window.location.pathname;
-
-    $('nav a').each(function () {
-
-        if ($(this).attr("href") == pgurl || $(this).attr("href") == '') { // Compare url to links
-            $(this).addClass("current-page");
-            $(this).parent().siblings('.nav2-title').addClass('current-page'); // nav2-title
-            $(this).parent().addClass('current-page'); // nav2-outer-container
-            $(this).parent().parent().siblings('.nav1-title').addClass('current-page'); // nav1-title
-            $(this).parent().parent().parent().addClass('current-page'); // nav1-outer-container
-        }
-    });
 }
 
 
@@ -330,8 +258,6 @@ function setCurrentPageAndCascadeUpwards(nav2title) {
     $('.current-page').removeClass('current-page');
 
     nav2title = nav2title || getCurrentNav2Title();
-
-    console.log(nav2title);
 
     nav2title.addClass('current-page');                     // nav2-title
     nav2title.next().addClass('current-page');              // nav2-inner-container
@@ -356,10 +282,7 @@ function getCurrentNav2Title() {
     var currentNav2Title;
     $('.nav2-title').each(function () {
 
-        ////console.log($(this).attr("href"));
-        ////console.log(pgurl);
-
-        if ($(this).attr("href") == pgurl) {
+        if ($(this).attr('href') == pgurl) {
             currentNav2Title = $(this);
             return false; // break loop
         }
@@ -376,13 +299,12 @@ function getCurrentNav3Title() {
     return getNavObjectByHref(href);
 }
 
-
 function getNavObjectByHref(href) {
     var navObject;
 
     $('nav a').each(function () {
 
-        if ($(this).attr("href") == href || $(this).attr("href") == '') { // Compare url to links
+        if ($(this).attr('href') == href || $(this).attr('href') == '') { // Compare url to links
             navObject = $(this);
             return false;   // break loop
         }
@@ -392,20 +314,19 @@ function getNavObjectByHref(href) {
 
 function loadPjaxContent(nav2title) {
 
-    var href = nav2title.attr("href");
+    var href = nav2title.attr('href');
+    const contentPane = $('#content-pane');
 
-    $('#content-pane').scrollTo(0, 0);
-    $('#content-pane').hide();
+    contentPane.scrollTo(0, 0);
+    contentPane.hide();
 
     $.pjax({
-        "url": href,
-        "fragment": "#pjax-container",
-        "container": "#pjax-container",
-        "timeout": 1000,
-        "scrollTo": 0
+        'url': href,
+        'fragment': '#pjax-container',
+        'container': '#pjax-container',
+        'timeout': 1000,
+        'scrollTo': 0
     });
 
-    $('#content-pane').fadeIn();
-
-
+    contentPane.fadeIn();
 }
