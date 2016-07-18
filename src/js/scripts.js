@@ -87,7 +87,7 @@ function initNavBase() {
         //    transitionSpeed: 0.3,
         //    easing: 'ease',
         maxPosition: 300,
-        tapToClose: true
+        tapToClose: true,
         //    touchToDrag: true,
         slideIntent: 20
     });
@@ -108,16 +108,19 @@ function initNavBase() {
 }
 
 function initNavToggling() {
-    // initially hide nav parts except currently active
+
+    // TODO initially hide nav parts except currently active
     var pgurl = window.location.pathname;
     var currentNav2Title;
     var currentNav2InnerContainer;
     var currentNav1InnerContainer;
+
     $('.nav2-title').each(function () {
         if ($(this).attr("href") == pgurl) {
             currentNav2Title = $(this);
             currentNav2InnerContainer = currentNav2Title.next();
             currentNav1InnerContainer = currentNav2Title.parent();
+            return false; // break loop
         }
     });
     $('.nav1-inner-container').not(currentNav1InnerContainer).hide();
@@ -130,10 +133,16 @@ function initNavToggling() {
         var currentNav1InnerContainer = $(this).next().children();
         if (currentNav1InnerContainer.length > 1) {
             $(this).next().slideToggle('medium');
+            // TODO always load 1st child
         }
 
-        if (!$(this).hasClass('current-page')) {
-            // TODO LOAD
+        else if (!$(this).hasClass('current-page')) {
+            console.log("HI!")
+
+            var onlyNav2Child = $(this).next();
+
+            loadPjaxContent(onlyNav2Child.attr('href'));
+            setCurrentPageAndCascadeUpwards(onlyNav2Child);
         }
 
         //Hide the other panels
@@ -152,8 +161,6 @@ function initNavToggling() {
             return;
         }
 
-        $('#content-pane').scrollTo(0, 0);
-        $('#content-pane').hide();
 
         //Expand or collapse this panel
         var nextNav2Container = $(this).next();
@@ -166,14 +173,7 @@ function initNavToggling() {
         $('.nav2-inner-container').not(nextNav2Container).slideUp('fast');
 
         // load content-pane
-        $.pjax({
-            "url": $(this).attr("href"),
-            "fragment": "#pjax-container",
-            "container": "#pjax-container",
-            "timeout": 1000
-        });
-
-        $('#content-pane').fadeIn();
+        loadPjaxContent($(this).attr("href"));
     });
 }
 
@@ -327,6 +327,15 @@ function highlightActiveMenuItem() {
     });
 }
 
+function setCurrentPageAndCascadeUpwards(nav2Title) {
+    nav2Title.addClass('current-page'); // nav2-title
+    nav2Title.next().addClass('current-page'); // nav2-inner-container
+    nav2Title.parent().addClass('current-page'); // nav2-outer-container
+    nav2Title.parent().prev().addClass('current-page'); // nav1-title
+    nav2Title.parent().addClass('current-page'); // nav1-inner-container
+    nav2Title.parent().parent().addClass('current-page'); // nav1-outer-container
+}
+
 function getCurrentNav2Title() {
     var pgurl = window.location.pathname;
     var currentNav2Title;
@@ -344,6 +353,10 @@ function getCurrentNav2Title() {
 }
 
 function loadPjaxContent(href) {
+
+    $('#content-pane').scrollTo(0, 0);
+    $('#content-pane').hide();
+
     $.pjax({
         "url": href,
         "fragment": "#pjax-container",
@@ -351,4 +364,6 @@ function loadPjaxContent(href) {
         "timeout": 1000,
         "scrollTo": 0
     });
+
+    $('#content-pane').fadeIn();
 }
