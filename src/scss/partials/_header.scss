@@ -30,6 +30,10 @@ header {
     margin: 13px;
     border-radius: 5px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     box-sizing: border-box;
     width: 40px;
     height: 40px;
@@ -39,6 +43,7 @@ header {
     vertical-align: baseline;
 
     &:hover {
+      background-color: $nav-hover;
       cursor: pointer;
     }
 

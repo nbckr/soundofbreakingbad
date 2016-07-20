@@ -1,6 +1,10 @@
 $(function () {
     var chart = c3.generate({
         bindto: '#chart-duration',
+        size: {
+            //height: 240,
+            width: 664
+        },
         data: {
             url: '/data/de/title-duration-sec.json',
             mimeType: 'json',

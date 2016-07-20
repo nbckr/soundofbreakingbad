@@ -12,17 +12,25 @@ table {
     color: $white;
     font-weight: bold;
     background-color: $green-bright;
+  }
 
-    &:hover {
+  tr:hover {
+    td {
+      background-color: darken($gray-color-bright, 5%);
+
+    }
+    th {
       background-color: darken($green-bright, 5%);
     }
   }
 
   tbody {
     background-color: $gray-color-bright;
+  }
 
-    tr:hover {
-      background-color: darken($gray-color-bright, 5%);
+  thead {
+    &:hover {
+      background-color: darken($green-bright, 5%);
     }
   }
 

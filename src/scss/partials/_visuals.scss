@@ -34,6 +34,27 @@
   //margin: $default-vertical-padding 2em $default-vertical-padding 2em;
 }
 
+%media-container-base {
+  max-width: $pjax-container-max-width;
+  display: block; //??????
+  margin: 0 auto;
+}
+
+.media-container-small {
+  @extend %media-container-base;
+  width: 70%;
+}
+
+.media-container-medium {
+  @extend %media-container-base;
+  display: block;
+  width: auto;
+
+  .bordered {
+    border-style: solid none;
+  }
+}
+
 .bordered {
   border-style: solid;// none;  spare left and right
   border-width: 1px;
@@ -41,6 +62,8 @@
   box-sizing: content-box;
   padding: 1em;
   margin: $default-vertical-padding 0 0 0;
+
+  width: 100%;
 }
 
 .caption {
@@ -56,18 +79,6 @@
     color: $white;
     font-size: 85%;
   }
-}
-
-
-.media-container-small {
-  display: inline-block; //??????
-  margin: 0 auto;
-  width: 70%;
-}
-
-.media-container-medium {
-  display: inline-block;
-  width: auto;
 }
 
 // override padding from h1 in _typo.scss
@@ -237,7 +248,7 @@
 @media screen and (min-width: $breakpoint-2) {
 
   .bordered {
-    border-style: solid;
+    border-style: solid !important;
   }
 
   .media-container-small {
