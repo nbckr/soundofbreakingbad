@@ -17,6 +17,7 @@ function initOnlyOnDirectAccess() {
     //highlightActiveMenuItem(); // otherwise only at pjax:end
     setCurrentPageAndCascadeUpwards();
     setCurrentSection();
+    //scrollToCurrentSection();
 }
 
 /**
@@ -274,6 +275,16 @@ function setCurrentSection(nav3title) {
 
     if (nav3title) {
         nav3title.addClass('current-section');
+    }
+}
+
+function scrollToCurrentSection(nav3title) {
+    nav3title = nav3title || getCurrentNav3Title();
+
+    // TODO!
+    console.log(nav3title)
+    if (nav3title) {
+        $('#content-pane').scrollTo(nav3title.children(0).hash, 0);
     }
 }
 

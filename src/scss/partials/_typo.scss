@@ -57,22 +57,27 @@ article {
       font-size: 86%;
       font-weight: normal;
       font-style: normal;
-      margin:0 0 0 10px;
+      margin:0 0 0 6px;
       text-decoration:none;
     }
   }
 
-  h1 {
-    margin: 0;
-    padding: 4.5em 0.5em 2.5em 0.5em;
-    text-align: center;
-
-    font-family: $font-serif;
-    font-size: 200%;
-    color: $white;
-
-    height: 3em;
+  .more-margin-before {
+    margin-top: 1.75em;
+    margin-bottom: 2.75em;
   }
+}
+
+h1 {
+  margin: 0;
+  padding: 4.5em 0.5em 2.5em 0.5em;
+  text-align: center;
+
+  font-family: $font-serif;
+  font-size: 200%;
+  color: $white;
+
+  height: 3em;
 }
 
 h2 {
@@ -200,6 +205,13 @@ blockquote {
       margin-right: 33px;
     }}
 
+}
+
+@media screen and (min-width: $breakpoint-1b) {
+  h1 {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 @media screen and (min-width: $breakpoint-lg) {

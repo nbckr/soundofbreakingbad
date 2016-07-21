@@ -55,6 +55,10 @@
   }
 }
 
+.scroll-x {
+  overflow-x: auto;
+}
+
 .bordered {
   border-style: solid;// none;  spare left and right
   border-width: 1px;
@@ -131,6 +135,7 @@
 .bg-say-my-name {
   @extend %bg-base;
   background-image: url(/img/title-banner/bg-say-my-name.jpg);
+  background-position-x: 60%;
 }
 
 .bg-felina-lab {
@@ -146,7 +151,8 @@
 
 .bg-jesse-fly-high {
   @extend %bg-base;
-  @extend %little-lower;
+  //@extend %little-lower;
+  //@extend %little-lower;
   background-image: url(/img/title-banner/bg-jesse-fly-high.jpg);
 }
 
@@ -154,12 +160,14 @@
   @extend %bg-base;
   @extend %little-higher;
   background-image: url(/img/title-banner/bg-jesse-loudspeaker-close.jpg);
+  background-position-x: 25%;
 }
 
 .bg-mirrored-face {
   @extend %bg-base;
   @extend %little-lower;
   background-image: url(/img/title-banner/bg-mirrored-face.jpg);
+  background-position-x: 82%;
 }
 
 .bg-mixing-drugs {
@@ -172,6 +180,7 @@
   @extend %bg-base;
   @extend %little-lower;
   background-image: url(/img/title-banner/bg-pants-flying.jpg);
+  background-position-x: 22%;
 }
 
 .bg-awkward-dinner {
@@ -190,6 +199,7 @@
   @extend %bg-base;
   @extend %little-lower;
   background-image: url(/img/title-banner/bg-tios-bell.jpg);
+  background-position-x: 37%;
 }
 
 .bg-tv-blue {
@@ -218,6 +228,7 @@
   @extend %bg-base;
   @extend %little-lower;
   background-image: url(/img/title-banner/bg-windmill.jpg);
+  background-position-x: 80%;
 }
 
 .bg-intro-1 {

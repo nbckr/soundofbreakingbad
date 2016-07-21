@@ -92,7 +92,7 @@ module.exports = function (grunt) {
 
                     "dist/de/conclusion/conclusion.html" : "src/de/conclusion/conclusion.html",
 
-                    "dist/de/about/about.html" : "src/de/about/about.html",
+                    "dist/de/about/origin-story.html" : "src/de/about/origin-story.html",
                     "dist/de/about/references.html" : "src/de/about/references.html"
                 }
             }
