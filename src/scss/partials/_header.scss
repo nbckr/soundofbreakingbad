@@ -42,6 +42,8 @@ header {
     text-align: center;
     vertical-align: baseline;
 
+    transition: background-color 0.3s ease;
+
     &:hover {
       background-color: $nav-hover;
       cursor: pointer;

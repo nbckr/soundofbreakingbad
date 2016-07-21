@@ -38,17 +38,19 @@
   max-width: $pjax-container-max-width;
   display: block; //??????
   margin: 0 auto;
+  width: auto;
 }
 
 .media-container-small {
   @extend %media-container-base;
-  width: 70%;
+
+  .bordered {
+    width: auto;
+  }
 }
 
 .media-container-medium {
   @extend %media-container-base;
-  display: block;
-  width: auto;
 
   .bordered {
     border-style: solid none;
@@ -274,6 +276,6 @@ svg {
   .media-container-small {
     float: right;
     margin: 0 0 1em 1em;
-    width: auto;
+    //width: auto;
   }
 }
