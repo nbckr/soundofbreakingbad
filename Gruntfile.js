@@ -45,6 +45,7 @@ module.exports = function (grunt) {
                         "**/*.css",
                         "**/*.scss",
                         "**/*.js",
+                        "**/*.svg",
                         "**/*.html"
                     ]
                 },

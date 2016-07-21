@@ -52,6 +52,9 @@
 
   .bordered {
     border-style: solid none;
+
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
@@ -253,6 +256,12 @@
   color: green;
 
   height: 222px;
+}
+
+svg {
+  .primary-color {
+    fill: $green-darkish;
+  }
 }
 
 
