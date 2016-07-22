@@ -257,14 +257,12 @@
 
 }
 
+// TODO??
 .box1 {
   fill: red;
 }
 
 svg {
-  .primary-color {
-    fill: $green-darkish;
-  }
 }
 
 .svg-wrapper {
@@ -323,7 +321,9 @@ svg {
     width: 45%;
   }
 
-  #structuralistic-model {
+  #structuralistic-model, #heisenberg-theme {
     width: 100%;
   }
+
+
 }
