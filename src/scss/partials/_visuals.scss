@@ -267,6 +267,10 @@ svg {
   }
 }
 
+.svg-wrapper {
+  margin: 0 auto;
+}
+
 .bright {
   fill: $gray-color-bright;
 }
@@ -289,11 +293,19 @@ svg {
   #structuralistic-model {
     width: 70%;
   }
+
+  #heisenberg-theme {
+    width: 85%;
+  }
 }
 
 @media screen and (min-width: $breakpoint-1c) {
   #structuralistic-model {
     width: 60%;
+  }
+
+  #heisenberg-theme {
+    width: 70%;
   }
 }
 
