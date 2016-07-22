@@ -171,9 +171,6 @@ blockquote {
   &:after {
     clear: both;
   }
-
-  *zoom: 1; /* Für den IE6 und IE7 */
-
 }
 
 .actor-name, .technical-term {
