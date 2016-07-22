@@ -161,6 +161,19 @@ blockquote {
     display: inline-block;
     padding-top: 0.7em;
   }
+
+  // clearfix stuff for floated BigFoot buttons
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+  *zoom: 1; /* Für den IE6 und IE7 */
+
 }
 
 .actor-name, .technical-term {
