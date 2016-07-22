@@ -64,15 +64,13 @@ function initNavBase() {
 
     snapper.settings({
         disable: 'right',
-        //    addBodyClasses: true,
         hyperextensible: false,
         //    resistance: 0.5,
         //    flickThreshold: 50,
         //    transitionSpeed: 0.3,
-        //    easing: 'ease',
         maxPosition: 315,
         tapToClose: true,
-        //    touchToDrag: true,
+        minDragDistance: 10,
         slideIntent: 20
     });
 
