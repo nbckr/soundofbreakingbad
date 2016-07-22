@@ -177,9 +177,25 @@ blockquote {
 }
 
 svg {
-  text {
-    font-family: $font-sans;
-    font-size: 0.66em;
+  font-family: $font-sans;
+  font-size: 0.66em;
+
+  .bold {
+    font-weight: bold;
+  }
+
+  #dramaturgic-arcs {
+    font-size: 0.7em;
+  }
+
+
+}
+
+#simple-sound-model {
+  svg {
+    text {
+      font-size: 0.65em;
+    }
   }
 }
 
