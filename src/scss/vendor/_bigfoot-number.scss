@@ -313,8 +313,12 @@ blockquote .bigfoot-footnote__container {
 }
 
 // TODO
-.caption.bigfoot-footnote__container {
+.caption .bigfoot-footnote__container {
   float: right;
+
+  button {
+    background-color: $white;
+  }
 }
 
 

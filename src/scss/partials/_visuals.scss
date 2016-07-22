@@ -90,6 +90,10 @@
     color: $white;
     font-size: 85%;
   }
+
+  .bigfoot-footnote p {
+    color: black;
+  }
 }
 
 // override padding from h1 in _typo.scss
