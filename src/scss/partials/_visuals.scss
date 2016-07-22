@@ -44,6 +44,8 @@
 .media-container-small {
   @extend %media-container-base;
 
+  text-align: center;
+
   .bordered {
     width: auto;
   }
@@ -53,7 +55,7 @@
   @extend %media-container-base;
 
   .bordered {
-    border-style: solid none;
+    //border-style: solid none;
 
     width: 100%;
     box-sizing: border-box;
@@ -65,11 +67,11 @@
 }
 
 .bordered {
-  border-style: solid;// none;  spare left and right
+  border-style: solid none; // none;  spare left and right
   border-width: 1px;
   border-color: $gray-color-dark;
   box-sizing: content-box;
-  padding: 1em;
+  padding: 0.3em;
   margin: $default-vertical-padding 0 0 0;
 
   width: 100%;
@@ -95,6 +97,7 @@
   padding-top: 5.5em;
   padding-bottom: 1.5em;
 }
+
 %little-higher {
   padding-top: 3em;
   padding-bottom: 4em;
@@ -107,6 +110,7 @@
   background-position-y: 50%;
   background-size: cover;
 }
+
 .bg-broken-dish {
   @extend %bg-base;
   background-image: url(/img/title-banner/bg-broken-dish.jpg);
@@ -247,17 +251,14 @@
   background-image: url(/img/title-banner/bg-the-fly.jpg);
 }
 
-#bipolar-model {
-  background-image: url("/img/svg/bipolar-model.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+#structuralistic-model {
+  width: 100%;
+  font-size: 0.5em;
 
-  font-family: $font-sans;
+}
 
-  font-size: 250%;
-  color: green;
-
-  height: 222px;
+.box1 {
+  fill: red;
 }
 
 svg {
@@ -266,16 +267,51 @@ svg {
   }
 }
 
+.bright {
+  fill: $gray-color-bright;
+}
+
+.medium {
+  fill: $gray-color-medium;
+}
+
+.dark {
+  fill: $gray-color-dark;
+}
+
+@media screen and (min-width: $breakpoint-1a) {
+  #structuralistic-model {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: $breakpoint-1b) {
+  #structuralistic-model {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: $breakpoint-1c) {
+  #structuralistic-model {
+    width: 60%;
+  }
+}
 
 @media screen and (min-width: $breakpoint-2) {
 
   .bordered {
     border-style: solid !important;
+    padding: 0.8em;
   }
 
   .media-container-small {
     float: right;
     margin: 0 0 1em 1em;
     //width: auto;
+    width: 45%;
+  }
+
+  #structuralistic-model {
+    width: 100%;
   }
 }
