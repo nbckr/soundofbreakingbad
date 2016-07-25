@@ -60,7 +60,7 @@ function initNavBase() {
         element: document.getElementById('content-pane')
     });
 
-    checkSnapperAfterResize(snapper);
+    checkElementsAfterResize(snapper);
 
     snapper.settings({
         disable: 'right',
@@ -85,7 +85,7 @@ function initNavBase() {
     });
 
     $(window).resize(function () {
-        checkSnapperAfterResize(snapper);
+        checkElementsAfterResize(snapper);
     });
 }
 
@@ -235,7 +235,9 @@ function initBackToTopScroller() {
 }
 
 
-function checkSnapperAfterResize(snapper) {
+function checkElementsAfterResize(snapper) {
+
+    console.log("resize")
 
     var windowsize = $(window).width();
 
@@ -246,8 +248,17 @@ function checkSnapperAfterResize(snapper) {
             snapper.close();
         }
     } else {
-        //$('#content-pane').removeAttr('data-snap-ignore');
         snapper.enable();
+    }
+
+    var ctCharts = $('.ct-chart');
+
+    if (windowsize < 600) {
+        ctCharts.removeClass('ct-perfect-fifth');
+        ctCharts.addClass('ct-square');
+    } else {
+        ctCharts.removeClass('ct-square');
+        ctCharts.addClass('ct-perfect-fifth');
     }
 }
 

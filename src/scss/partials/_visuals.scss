@@ -67,7 +67,7 @@
 }
 
 .bordered {
-  border-style: solid none; // none;  spare left and right
+  border-style: solid none none none;
   border-width: 1px;
   border-color: $gray-color-dark;
   box-sizing: content-box;
@@ -306,7 +306,7 @@
 @media screen and (min-width: $breakpoint-2) {
 
   .bordered {
-    border-style: solid !important;
+    border-style: solid solid none solid !important;
     padding: 0.8em;
   }
 
