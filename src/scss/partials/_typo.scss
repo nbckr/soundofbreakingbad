@@ -147,7 +147,7 @@ blockquote {
   line-height: 135%;
 
   p {
-    margin: $default-vertical-padding/2;
+    margin: $default-vertical-padding/2 0 !important;
 
     font-style: italic;
     font-size: inherit;

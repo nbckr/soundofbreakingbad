@@ -84,13 +84,13 @@ License: http://codecanyon.net/licenses/standard
 }
 
 // long title
-.accordion-title-long {
+.accordion-title-long, .accordion-header .work-title {
   color: #434955;
   display: none;
 }
 
 @media screen and (min-width: $breakpoint-2) {
-  .accordion-title-long {
+  .accordion-title-long, .accordion-header .work-title {
     display: inline;
   }
 }
@@ -190,17 +190,3 @@ License: http://codecanyon.net/licenses/standard
   background-color: #AC92EC;
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
