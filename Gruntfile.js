@@ -67,8 +67,6 @@ module.exports = function (grunt) {
                 },
 
                 files: {
-                    "dist/index.html" : "src/index.html",
-
                     "dist/de/introduction/introduction.html" : "src/de/introduction/introduction.html",
 
                     "dist/de/about-the-show/background.html" : "src/de/about-the-show/background.html",
