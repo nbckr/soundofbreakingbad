@@ -237,8 +237,6 @@ function initBackToTopScroller() {
 
 function checkElementsAfterResize(snapper) {
 
-    console.log("resize")
-
     var windowsize = $(window).width();
 
     windowsize = $(window).width();
