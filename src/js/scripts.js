@@ -149,7 +149,7 @@ function initNavLinksAndToggling() {
 
         // If already current page, just scroll to top
         if ($(this).hasClass('current-page') && $(this).next().is(':visible')) {
-            $(window).scrollTo(0, 400);
+            $('#content-pane').scrollTo(0, 400);
             return false;
         }
 
@@ -184,7 +184,7 @@ function initNavHighlightingAndScrolling() {
         currentNav3Titles.click(function (event) {
             event.preventDefault();
             event.stopImmediatePropagation();
-            $(window).scrollTo(this.hash, this.hash);
+            $('#content-pane').scrollTo(this.hash, this.hash);
         });
 
         var contentPane = $('#content-pane');
@@ -232,7 +232,7 @@ function initBackToTopScroller() {
         $('#back-to-top').click(function (evn) {
             evn.preventDefault();
             evn.stopImmediatePropagation();
-            $(window).scrollTo(0, 400);
+            $('#content-pane').scrollTo(0, 400);
         });
     }
     else {
@@ -344,7 +344,7 @@ function loadPjaxContent(nav2title) {
     var href = nav2title.attr('href');
     const contentPane = $('#content-pane');
 
-    $(window).scrollTo(0, 400);
+    $('#content-pane').scrollTo(0, 400);
     //contentPane.hide();
 
 
