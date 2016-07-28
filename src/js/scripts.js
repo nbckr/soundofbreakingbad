@@ -1,5 +1,7 @@
 /* All the stuff that needs to happen every time a page is accessed directly or the pjax-container is loaded. */
 
+var mySnap;
+
 //$(document).ready(function($) {
 $(function () {
     initOnlyOnDirectAccess();
@@ -60,6 +62,8 @@ function initNavBase() {
         element: document.getElementById('content-pane')
     });
 
+    mySnap = snapper;
+
     checkElementsAfterResize(snapper);
 
     snapper.settings({
@@ -68,7 +72,9 @@ function initNavBase() {
         //    resistance: 0.5,
         //    flickThreshold: 50,
         //    transitionSpeed: 0.3,
-        maxPosition: 315,
+
+        touchToDrag: true,
+        maxPosition: 270,
         tapToClose: true,
         minDragDistance: 10,
         slideIntent: 20
@@ -331,6 +337,8 @@ function getNavObjectByHref(href) {
 }
 
 function loadPjaxContent(nav2title) {
+
+    //mySnap.close();
 
     var href = nav2title.attr('href');
     const contentPane = $('#content-pane');

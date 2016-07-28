@@ -18,23 +18,42 @@
 
   //border-style: hidden;
   //border-bottom: 0.5em solid $color-primary-1;
-  //
+
+  overflow-y: auto; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+
 }
 
 #content-pane {
   z-index: 1000;
   position: relative;
-  background: white;
   //border-width: thick;
   //border-color: black;
   //border-style: dashed;
+  //padding-top: $default-vertical-padding;
+  height: calc(100vh - #{$header-height-sm} - 0); // subtract header and padding-top
+
+  // title banners directly after header in mobile view
+  padding-top: 0;
   margin-top: $header-height-sm;
-  padding-top: $default-vertical-padding;
-  height: calc(100vh - #{$header-height-sm} - #{$default-vertical-padding}); // subtract header and padding-top
 
   background-color: $white;
   overflow-x: hidden;
 
+  // Adress bar Android fix!
+  //overflow-y: scroll; /* has to be scroll, not auto */
+  //-webkit-overflow-scrolling: touch;
+
+}
+
+
+
+@media screen and (min-width: $breakpoint-2) {
+
+  #content-pane {
+    // gap before title banner
+    padding-top: $header-height-sm;
+  }
 }
 
 @media screen and (min-width: $breakpoint-lg) {
