@@ -31,6 +31,8 @@
   -ms-transition: width 0.3s ease;
   -o-transition: width 0.3s ease;
   transition: width 0.3s ease;
+
+  transition: margin-top 0.5s ease;
 }
 
 .snap-drawer-left {
@@ -46,6 +48,12 @@
 .snapjs-expand-left .snap-drawer-left,
 .snapjs-expand-right .snap-drawer-right {
   width: 100%;
+}
+
+@media screen and (min-width: $breakpoint-1b) {
+  .snap-drawer {
+    width: $menu-width-m;
+  }
 }
 
 @media screen and (min-width: $breakpoint-lg) {

@@ -4,6 +4,7 @@
 
 #body-wrapper, body {
   overflow-x: hidden;
+  background: $white;
 }
 
 #pjax-container {
@@ -31,7 +32,7 @@
   //border-color: black;
   //border-style: dashed;
   //padding-top: $default-vertical-padding;
-  height: calc(100vh - #{$header-height-sm} - 0); // subtract header and padding-top
+  height: calc(100vh - #{$header-height-sm}); // subtract header
 
   // title banners directly after header in mobile view
   padding-top: 0;
@@ -44,17 +45,17 @@
   //overflow-y: scroll; /* has to be scroll, not auto */
   //-webkit-overflow-scrolling: touch;
 
-  transition: margin-left 0.5s ease;
-
+  transition: margin-left 0.5s ease, margin-top 0.5s ease;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
 }
 
 
 
-@media screen and (min-width: $breakpoint-2) {
+@media screen and (min-width: $breakpoint-1b) {
 
   #content-pane {
-    // gap before title banner
-    //padding-top: $header-height-sm;
+    //margin-left: $menu-width-m;
   }
 }
 
@@ -69,6 +70,9 @@
     margin-left: $menu-width-l;
 
     margin-top: $header-height-l;
-    height: calc(100vh - #{$header-height-l} - #{$default-vertical-padding});
+    height: calc(100vh - #{$header-height-l});
+
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
   }
 }

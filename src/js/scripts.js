@@ -248,13 +248,22 @@ function checkElementsAfterResize(snapper) {
     windowsize = $(window).width();
     if (windowsize > 1224) {
         snapper.disable();
-        snapper.settings({maxPosition: 315});
         if (snapper.state().state == 'left') {
             snapper.close();
         }
     } else {
         snapper.enable();
+    }
+
+
+    if (windowsize > 500) {
+        snapper.settings({maxPosition: 300});
+        if (snapper.state().state == 'left') {
+            snapper.expand();
+        }
+    } else {
         snapper.settings({maxPosition: 270});
+        console.log("D")
     }
 
     var ctCharts = $('.ct-chart');

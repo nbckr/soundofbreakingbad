@@ -17,6 +17,8 @@ header {
   background-color: $green-darkish;
 
   transition: all 0.4s ease;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 
   a, #menu-toggle {
     color: $white !important;
@@ -71,6 +73,9 @@ header {
     vertical-align: middle;
     margin: 0;
     padding: $header-padding-s;
+
+    transition: font-size 0.4s ease;
+
   }
 }
 
@@ -78,6 +83,9 @@ header {
 
   header {
     height: $header-height-l;
+
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
 
     #menu-toggle {
       display: none;
