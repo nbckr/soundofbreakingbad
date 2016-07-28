@@ -32,7 +32,7 @@
   //border-color: black;
   //border-style: dashed;
   //padding-top: $default-vertical-padding;
-  height: calc(100vh - #{$header-height-sm} + 1); // subtract header
+  height: calc(100vh - #{$header-height-sm} - 1); // subtract header
 
   // title banners directly after header in mobile view
   padding-top: 0;
@@ -42,8 +42,8 @@
   overflow-x: hidden;
 
   // Adress bar Android fix!
-  //overflow-y: scroll; /* has to be scroll, not auto */
-  //-webkit-overflow-scrolling: touch;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 
   transition: margin-left 0.5s ease, margin-top 0.5s ease;
   -webkit-transition-delay: 0s;

@@ -150,6 +150,7 @@ function initNavLinksAndToggling() {
         // If already current page, just scroll to top
         if ($(this).hasClass('current-page') && $(this).next().is(':visible')) {
             $('#content-pane').scrollTo(0, 400);
+            $(window).scrollTo(0, 400);
             return false;
         }
 
@@ -185,6 +186,7 @@ function initNavHighlightingAndScrolling() {
             event.preventDefault();
             event.stopImmediatePropagation();
             $('#content-pane').scrollTo(this.hash, this.hash);
+            $(window).scrollTo(this.hash, this.hash);
         });
 
         var contentPane = $('#content-pane');
@@ -233,6 +235,7 @@ function initBackToTopScroller() {
             evn.preventDefault();
             evn.stopImmediatePropagation();
             $('#content-pane').scrollTo(0, 400);
+            $(window).scrollTo(0, 400);
         });
     }
     else {
@@ -309,6 +312,7 @@ function scrollToCurrentSection(nav3title) {
     console.log(nav3title)
     if (nav3title) {
         $('#content-pane').scrollTo(nav3title.children(0).hash, 0);
+        $(window).scrollTo(nav3title.children(0).hash, 0);
     }
 }
 
@@ -354,6 +358,7 @@ function loadPjaxContent(nav2title) {
     const contentPane = $('#content-pane');
 
     $('#content-pane').scrollTo(0, 400);
+    $(window).scrollTo(0, 400);
     //contentPane.hide();
 
 
