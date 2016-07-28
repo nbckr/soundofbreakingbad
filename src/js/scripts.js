@@ -355,7 +355,6 @@ function loadPjaxContent(nav2title) {
 
 
     var href = nav2title.attr('href');
-    const contentPane = $('#content-pane');
 
     $('#content-pane').scrollTo(0, 400);
     $(window).scrollTo(0, 400);
