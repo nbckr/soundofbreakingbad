@@ -20,8 +20,8 @@
   //border-style: hidden;
   //border-bottom: 0.5em solid $color-primary-1;
 
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+  //overflow-y: auto;
+  //-webkit-overflow-scrolling: touch;
 
 }
 
@@ -32,7 +32,7 @@
   //border-color: black;
   //border-style: dashed;
   //padding-top: $default-vertical-padding;
-  height: calc(100vh - #{$header-height-sm}); // subtract header
+  height: calc(100vh - #{$header-height-sm} + 1); // subtract header
 
   // title banners directly after header in mobile view
   padding-top: 0;
