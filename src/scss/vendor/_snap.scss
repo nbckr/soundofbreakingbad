@@ -47,3 +47,9 @@
 .snapjs-expand-right .snap-drawer-right {
   width: 100%;
 }
+
+@media screen and (min-width: $breakpoint-lg) {
+  .snap-drawer {
+    width: $menu-width-l;
+  }
+}

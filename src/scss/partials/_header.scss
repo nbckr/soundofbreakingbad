@@ -16,6 +16,8 @@ header {
 
   background-color: $green-darkish;
 
+  transition: all 0.4s ease;
+
   a, #menu-toggle {
     color: $white !important;
   }

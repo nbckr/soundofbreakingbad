@@ -149,7 +149,7 @@ function initNavLinksAndToggling() {
 
         // If already current page, just scroll to top
         if ($(this).hasClass('current-page') && $(this).next().is(':visible')) {
-            $('#content-pane').scrollTo(0, 400);
+            $(window).scrollTo(0, 400);
             return false;
         }
 
@@ -184,7 +184,7 @@ function initNavHighlightingAndScrolling() {
         currentNav3Titles.click(function (event) {
             event.preventDefault();
             event.stopImmediatePropagation();
-            $('#content-pane').scrollTo(this.hash, this.hash);
+            $(window).scrollTo(this.hash, this.hash);
         });
 
         var contentPane = $('#content-pane');
@@ -232,7 +232,7 @@ function initBackToTopScroller() {
         $('#back-to-top').click(function (evn) {
             evn.preventDefault();
             evn.stopImmediatePropagation();
-            $('#content-pane').scrollTo(0, 400);
+            $(window).scrollTo(0, 400);
         });
     }
     else {
@@ -248,11 +248,13 @@ function checkElementsAfterResize(snapper) {
     windowsize = $(window).width();
     if (windowsize > 1224) {
         snapper.disable();
+        snapper.settings({maxPosition: 315});
         if (snapper.state().state == 'left') {
             snapper.close();
         }
     } else {
         snapper.enable();
+        snapper.settings({maxPosition: 270});
     }
 
     var ctCharts = $('.ct-chart');
@@ -338,21 +340,26 @@ function getNavObjectByHref(href) {
 
 function loadPjaxContent(nav2title) {
 
-    //mySnap.close();
 
     var href = nav2title.attr('href');
     const contentPane = $('#content-pane');
 
-    contentPane.scrollTo(0, 0);
-    contentPane.hide();
+    $(window).scrollTo(0, 400);
+    //contentPane.hide();
+
+
+    mySnap.close();
+
 
     $.pjax({
         'url': href,
         'fragment': '#pjax-container',
         'container': '#pjax-container',
-        'timeout': 1000,
-        'scrollTo': 0
+        'timeout': 1000
+        //'scrollTo': 0
     });
 
-    contentPane.fadeIn();
+    //contentPane.fadeIn();
+
+
 }

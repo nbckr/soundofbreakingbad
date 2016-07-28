@@ -19,7 +19,7 @@
   //border-style: hidden;
   //border-bottom: 0.5em solid $color-primary-1;
 
-  overflow-y: auto; /* has to be scroll, not auto */
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 
 }
@@ -44,6 +44,8 @@
   //overflow-y: scroll; /* has to be scroll, not auto */
   //-webkit-overflow-scrolling: touch;
 
+  transition: all 0.5s ease;
+
 }
 
 
@@ -52,7 +54,7 @@
 
   #content-pane {
     // gap before title banner
-    padding-top: $header-height-sm;
+    //padding-top: $header-height-sm;
   }
 }
 
@@ -64,7 +66,7 @@
     //border: black;
     //border-style: dashed;
 
-    margin-left: $menu-width;
+    margin-left: $menu-width-l;
 
     margin-top: $header-height-l;
     height: calc(100vh - #{$header-height-l} - #{$default-vertical-padding});
