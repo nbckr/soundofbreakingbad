@@ -1,7 +1,5 @@
 /* All the stuff that needs to happen every time a page is accessed directly or the pjax-container is loaded. */
 
-var mySnap;
-
 //$(document).ready(function($) {
 $(function () {
     initOnlyOnDirectAccess();
@@ -12,7 +10,8 @@ $(function () {
  * Stuff that happens in other elements than pjax-container needs to happen only once.
  */
 function initOnlyOnDirectAccess() {
-    initNavBase();
+    initNavMenu();
+    initResizeCheck();
     hideAllButCurrentPage();
     initPjax();
 
@@ -56,42 +55,25 @@ function initAccordion() {
 /**
  * Creates the nav bar on the left and make it swipeable.
  */
-function initNavBase() {
-
-    var snapper = new Snap({
-        element: document.getElementById('content-pane')
-    });
-
-    mySnap = snapper;
-
-    checkElementsAfterResize(snapper);
-
-    snapper.settings({
-        disable: 'right',
-        hyperextensible: false,
-        //    resistance: 0.5,
-        //    flickThreshold: 50,
-        //    transitionSpeed: 0.3,
-
-        touchToDrag: true,
-        maxPosition: 270,
-        tapToClose: true,
-        minDragDistance: 10,
-        slideIntent: 20
-    });
+function initNavMenu() {
 
     var menuToggleButton = $('#menu-toggle');
+    var nav = $('nav');
+
     menuToggleButton.click(function () {
 
-        if (snapper.state().state == 'left') {
-            snapper.close();
+        if (nav.hasClass('off-screen')) {
+            nav.removeClass('off-screen')
         } else {
-            snapper.open('left');
+            nav.addClass('off-screen');
         }
-    });
 
+    });
+}
+
+function initResizeCheck() {
     $(window).resize(function () {
-        checkElementsAfterResize(snapper);
+        checkElementsAfterResize();
     });
 }
 
@@ -150,7 +132,6 @@ function initNavLinksAndToggling() {
         // If already current page, just scroll to top
         if ($(this).hasClass('current-page') && $(this).next().is(':visible')) {
             $('#content-pane').scrollTo(0, 400);
-            $(window).scrollTo(0, 400);
             return false;
         }
 
@@ -186,7 +167,6 @@ function initNavHighlightingAndScrolling() {
             event.preventDefault();
             event.stopImmediatePropagation();
             $('#content-pane').scrollTo(this.hash, this.hash);
-            $(window).scrollTo(this.hash, this.hash);
         });
 
         var contentPane = $('#content-pane');
@@ -235,7 +215,6 @@ function initBackToTopScroller() {
             evn.preventDefault();
             evn.stopImmediatePropagation();
             $('#content-pane').scrollTo(0, 400);
-            $(window).scrollTo(0, 400);
         });
     }
     else {
@@ -244,40 +223,25 @@ function initBackToTopScroller() {
 }
 
 
-function checkElementsAfterResize(snapper) {
+function checkElementsAfterResize() {
 
     var windowsize = $(window).width();
+    var nav = $('nav');
 
     windowsize = $(window).width();
     if (windowsize > 1224) {
-        snapper.disable();
-        if (snapper.state().state == 'left') {
-            snapper.close();
-        }
     } else {
-        snapper.enable();
     }
 
-
-    if (windowsize > 500) {
-        snapper.settings({maxPosition: 300});
-        if (snapper.state().state == 'left') {
-            snapper.expand();
-        }
-    } else {
-        snapper.settings({maxPosition: 270});
-        console.log("D")
-    }
-
-    var ctCharts = $('.ct-chart');
-
-    if (windowsize < 600) {
-        ctCharts.removeClass('ct-perfect-fifth');
-        ctCharts.addClass('ct-square');
-    } else {
-        ctCharts.removeClass('ct-square');
-        ctCharts.addClass('ct-perfect-fifth');
-    }
+    //var ctCharts = $('.ct-chart');
+//
+    //if (windowsize < 600) {
+    //    ctCharts.removeClass('ct-perfect-fifth');
+    //    ctCharts.addClass('ct-square');
+    //} else {
+    //    ctCharts.removeClass('ct-square');
+    //    ctCharts.addClass('ct-perfect-fifth');
+    //}
 }
 
 
@@ -312,7 +276,6 @@ function scrollToCurrentSection(nav3title) {
     console.log(nav3title)
     if (nav3title) {
         $('#content-pane').scrollTo(nav3title.children(0).hash, 0);
-        $(window).scrollTo(nav3title.children(0).hash, 0);
     }
 }
 
@@ -355,13 +318,13 @@ function loadPjaxContent(nav2title) {
 
 
     var href = nav2title.attr('href');
+    var nav = $('nav');
+    var contentPane = $('#content-pane');
 
-    $('#content-pane').scrollTo(0, 400);
-    $(window).scrollTo(0, 400);
-    //contentPane.hide();
+    contentPane.scrollTo(0, 0);
+    contentPane.hide();
 
-
-    mySnap.close();
+    nav.addClass('off-screen');
 
 
     $.pjax({
@@ -372,7 +335,6 @@ function loadPjaxContent(nav2title) {
         //'scrollTo': 0
     });
 
-    //contentPane.fadeIn();
-
+    contentPane.fadeIn();
 
 }

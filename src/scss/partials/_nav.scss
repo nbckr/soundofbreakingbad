@@ -2,7 +2,7 @@ nav {
   //display: inline;
   //float: left;
   //overflow: hidden;
-  z-index: 100;
+  z-index: 1500;
 
   margin-top: $header-height-sm;
 
@@ -10,7 +10,21 @@ nav {
   font-size: 125%;
   font-weight: bold;
 
-  transition: margin-top 0.5s ease;
+  overflow-y: auto;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+
+  transition: left 0.5s ease, width 0.3s ease, margin-top 0.5s ease;
+
+  width: $nav-width-s;
+
+  &.off-screen {
+    left: - $nav-width-s;
+  }
 
   a {
     display: block;
@@ -111,10 +125,25 @@ nav {
 }
 
 
+@media screen and (min-width: $breakpoint-1b) {
+
+  nav {
+    width: $nav-width-m;
+    &.off-screen {
+      left: - $nav-width-m;
+    }
+  }
+}
+
 @media screen and (min-width: $breakpoint-lg) {
 
   nav {
     margin-top: $header-height-l;
+
+    width: $nav-width-l;
+    &.off-screen {
+      left: 0;  // not really off-screen
+    }
   }
 
   .nav1-outer-container {

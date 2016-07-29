@@ -20,7 +20,7 @@
   //border-style: hidden;
   //border-bottom: 0.5em solid $color-primary-1;
 
-  //overflow-y: auto;
+  //overflow-y: scroll;
   //-webkit-overflow-scrolling: touch;
 
 }
@@ -32,7 +32,7 @@
   //border-color: black;
   //border-style: dashed;
   //padding-top: $default-vertical-padding;
-  height: calc(100vh - #{$header-height-sm} - 1); // subtract header
+  height: calc(100vh - #{$header-height-sm}); // subtract header
 
   // title banners directly after header in mobile view
   padding-top: 0;
@@ -67,12 +67,12 @@
     //border: black;
     //border-style: dashed;
 
-    margin-left: $menu-width-l;
+    margin-left: $nav-width-l;
 
     margin-top: $header-height-l;
     height: calc(100vh - #{$header-height-l});
 
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
   }
 }
