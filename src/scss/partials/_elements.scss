@@ -20,6 +20,7 @@
   //border-style: hidden;
   //border-bottom: 0.5em solid $color-primary-1;
 
+  overflow: hidden;
   //overflow-y: scroll;
   //-webkit-overflow-scrolling: touch;
 
@@ -32,7 +33,8 @@
   //border-color: black;
   //border-style: dashed;
   //padding-top: $default-vertical-padding;
-  height: calc(100vh - #{$header-height-sm}); // subtract header
+  //height: calc(100vh - #{$header-height-sm}); // subtract header
+  height: 100%;
 
   // title banners directly after header in mobile view
   padding-top: 0;
@@ -42,8 +44,8 @@
   overflow-x: hidden;
 
   // Adress bar Android fix!
-  overflow-y: scroll; /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
+  //overflow-y: scroll; /* has to be scroll, not auto */
+  //-webkit-overflow-scrolling: touch;
 
   transition: margin-left 0.5s ease, margin-top 0.5s ease;
   -webkit-transition-delay: 0s;
