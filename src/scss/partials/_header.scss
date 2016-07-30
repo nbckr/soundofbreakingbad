@@ -109,6 +109,11 @@ header {
     #page-title {
       font-size: 170%;
       //padding: $header-padding-l;
+
+      &:hover {
+        transition: transform 0.2s ease;
+        transform: scale(1.035, 1.035);
+      }
     }
   }
 }

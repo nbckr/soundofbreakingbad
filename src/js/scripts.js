@@ -11,7 +11,6 @@ $(function () {
  */
 function initOnlyOnDirectAccess() {
     initNavMenu();
-    initResizeCheck();
     hideAllButCurrentPage();
     initPjax();
 
@@ -25,11 +24,12 @@ function initOnlyOnDirectAccess() {
  * Stuff that happens inside the pjax-container needs to be done after each load.
  */
 function initCurrentPage() {
+    console.log("initcurrentpage")
     initNavLinksAndToggling();
-    initNavHighlightingAndScrolling();
     initBackToTopScroller();
     initBigfoot();
     initAccordion();
+    initNavHighlightingAndScrolling();
 
 }
 
@@ -68,12 +68,6 @@ function initNavMenu() {
             nav.addClass('off-screen');
         }
 
-    });
-}
-
-function initResizeCheck() {
-    $(window).resize(function () {
-        checkElementsAfterResize();
     });
 }
 
@@ -131,7 +125,7 @@ function initNavLinksAndToggling() {
 
         // If already current page, just scroll to top
         if ($(this).hasClass('current-page') && $(this).next().is(':visible')) {
-            $('#content-pane').scrollTo(0, 400);
+            $('body').scrollTo(0, 400);
             return false;
         }
 
@@ -156,25 +150,38 @@ function initNavLinksAndToggling() {
  */
 function initNavHighlightingAndScrolling() {
 
+    console.log("initnavhigh")
+
     var currentNav2Title = getCurrentNav2Title();
     var currentNav3Titles;
 
     if (currentNav2Title && currentNav2Title.next().hasClass('nav2-inner-container')) {
         currentNav3Titles = currentNav2Title.next().children();
 
-        // scrolling
+        var body = $('body');
+
+        // scrolling when clicked
         currentNav3Titles.click(function (event) {
             event.preventDefault();
             event.stopImmediatePropagation();
-            $('#content-pane').scrollTo(this.hash, this.hash);
+            body.scrollTo(this.hash, this.hash, {offset: -60});
         });
 
-        var contentPane = $('#content-pane');
+        // highlighting
+        $(window).unbind('scroll');
+        $(window).scroll(function () {
 
-        contentPane.unbind('scroll');
-        contentPane.scroll(function () {
+            var windowPos = body.scrollTop(); // get the offset of the window from the top of page
+            var windowHeight = $(window).height(); // get the height of the window
+            var docHeight = $(document).height();
 
-            var contentPaneOffset = contentPane.scrollTop(); // get the offset of the window from the top of page
+            // special case for last element (might be smaller than one window height)
+            if (windowPos + windowHeight == docHeight) {
+                $('.nav3-title.current-section').removeClass('current-section');
+                currentNav3Titles.last().before().removeClass('current-section');
+                currentNav3Titles.last().addClass("current-section");
+                return;
+            }
 
             for (var i = 0; i < currentNav3Titles.length; i++) {
                 var currentNav3Title = currentNav3Titles.get(i);
@@ -190,7 +197,7 @@ function initNavHighlightingAndScrolling() {
                     nextDivPos = $(nextHash).position().top;
                 }
 
-                if ((contentPaneOffset >= currentDivPos && contentPaneOffset < nextDivPos)) {
+                if ((windowPos >= currentDivPos && windowPos < nextDivPos)) {
                     $("a[href='" + currentPathname + currentHash + "']").addClass("current-section");
                 } else {
                     $("a[href='" + currentPathname + currentHash + "']").removeClass("current-section");
@@ -214,36 +221,13 @@ function initBackToTopScroller() {
         $('#back-to-top').click(function (evn) {
             evn.preventDefault();
             evn.stopImmediatePropagation();
-            $('#content-pane').scrollTo(0, 400);
+            $('body').scrollTo(0, 400);
         });
     }
     else {
         $('#back-to-top').hide();
     }
 }
-
-
-function checkElementsAfterResize() {
-
-    var windowsize = $(window).width();
-    var nav = $('nav');
-
-    windowsize = $(window).width();
-    if (windowsize > 1224) {
-    } else {
-    }
-
-    //var ctCharts = $('.ct-chart');
-//
-    //if (windowsize < 600) {
-    //    ctCharts.removeClass('ct-perfect-fifth');
-    //    ctCharts.addClass('ct-square');
-    //} else {
-    //    ctCharts.removeClass('ct-square');
-    //    ctCharts.addClass('ct-perfect-fifth');
-    //}
-}
-
 
 function setCurrentPageAndCascadeUpwards(nav2title) {
 
@@ -275,7 +259,7 @@ function scrollToCurrentSection(nav3title) {
     // TODO!
     console.log(nav3title)
     if (nav3title) {
-        $('#content-pane').scrollTo(nav3title.children(0).hash, 0);
+        $('#pjax-container').scrollTo(nav3title.children(0).hash, 0);
     }
 }
 
@@ -321,7 +305,7 @@ function loadPjaxContent(nav2title) {
     var nav = $('nav');
     var contentPane = $('#content-pane');
 
-    contentPane.scrollTo(0, 0);
+    $('body').scrollTo(0, 0);
     contentPane.hide();
 
     nav.addClass('off-screen');
@@ -332,7 +316,7 @@ function loadPjaxContent(nav2title) {
         'fragment': '#pjax-container',
         'container': '#pjax-container',
         'timeout': 1000
-        //'scrollTo': 0
+        //'scrollTo': 0x
     });
 
     contentPane.fadeIn();

@@ -66,6 +66,7 @@ nav {
 
   &.current-page {
     text-decoration: underline;
+    color: $white;
   }
 }
 
@@ -133,6 +134,28 @@ nav {
       left: - $nav-width-m;
     }
   }
+
+  // make nav entries slimmer in larger devices, but further indented
+  .nav1-title {
+    p {
+      padding-top: 0.5em;
+      padding-left: 1em;
+      padding-bottom: 0.5em;
+      margin: 0;
+    }
+  }
+
+  .nav2-title {
+    padding-top: 0.3em;
+    padding-left: 1.5em;
+    padding-bottom: 0.3em;
+  }
+
+  .nav3-title {
+    padding-top: 0.3em;
+    padding-left: 2.5em;
+    padding-bottom: 0.3em;
+  }
 }
 
 @media screen and (min-width: $breakpoint-lg) {
@@ -144,38 +167,5 @@ nav {
     &.off-screen {
       left: 0;  // not really off-screen
     }
-  }
-
-  .nav1-outer-container {
-  }
-
-  .nav1-title {
-    p {
-      padding-top: 0.5em;
-      padding-left: 1em;
-      padding-bottom: 0.5em;
-      margin: 0;
-    }
-  }
-
-  .nav1-inner-container {
-  }
-
-  .nav2-outer-container {
-  }
-
-  .nav2-title {
-    padding-top: 0.3em;
-    padding-left: 1.5em;
-    padding-bottom: 0.3em;
-  }
-
-  .nav2-inner-container {
-  }
-
-  .nav3-title {
-    padding-top: 0.3em;
-    padding-left: 2.5em;
-    padding-bottom: 0.3em;
   }
 }
