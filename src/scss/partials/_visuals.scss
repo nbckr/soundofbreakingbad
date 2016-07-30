@@ -1,3 +1,14 @@
+#loading-indicator {
+  width: 200px;
+  margin: 0 auto;
+  display: none;
+  padding: 15vmin 0;
+
+  &.block-fix {
+    display: block;
+  }
+}
+
 .banner {
   width: 100%;
 }
