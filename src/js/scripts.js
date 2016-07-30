@@ -1,6 +1,5 @@
 /* All the stuff that needs to happen every time a page is accessed directly or the pjax-container is loaded. */
 
-//$(document).ready(function($) {
 $(function () {
     initOnlyOnDirectAccess();
     initCurrentPage();
@@ -14,7 +13,6 @@ function initOnlyOnDirectAccess() {
     hideAllButCurrentPage();
     initPjax();
 
-    //highlightActiveMenuItem(); // otherwise only at pjax:end
     setCurrentPageAndCascadeUpwards();
     setCurrentSection();
     //scrollToCurrentSection();
@@ -24,13 +22,12 @@ function initOnlyOnDirectAccess() {
  * Stuff that happens inside the pjax-container needs to be done after each load.
  */
 function initCurrentPage() {
-    console.log("initcurrentpage")
     initNavLinksAndToggling();
+    initNavHighlightingAndScrolling();
+    hideNavWhenClickOnContentPane();
     initBackToTopScroller();
     initBigfoot();
     initAccordion();
-    initNavHighlightingAndScrolling();
-
 }
 
 function initBigfoot() {
@@ -150,12 +147,14 @@ function initNavLinksAndToggling() {
  */
 function initNavHighlightingAndScrolling() {
 
-    console.log("initnavhigh")
-
     var currentNav2Title = getCurrentNav2Title();
+    var currentNav1OuterContainer = currentNav2Title.parents('.nav1-outer-container');
     var currentNav3Titles;
 
-    if (currentNav2Title && currentNav2Title.next().hasClass('nav2-inner-container')) {
+    // always unbind scroll highlighting function from last content-pane
+    $(window).unbind('scroll');
+
+    if (!currentNav1OuterContainer.hasClass('single-parent')) {
         currentNav3Titles = currentNav2Title.next().children();
 
         var body = $('body');
@@ -164,11 +163,10 @@ function initNavHighlightingAndScrolling() {
         currentNav3Titles.click(function (event) {
             event.preventDefault();
             event.stopImmediatePropagation();
-            body.scrollTo(this.hash, this.hash, {offset: -60});
+            body.scrollTo(this.hash, this.hash, {offset: -70});
         });
 
         // highlighting
-        $(window).unbind('scroll');
         $(window).scroll(function () {
 
             var windowPos = body.scrollTop(); // get the offset of the window from the top of page
@@ -205,6 +203,14 @@ function initNavHighlightingAndScrolling() {
             }
         });
     }
+}
+
+function hideNavWhenClickOnContentPane() {
+    $('#content-pane').click(function(e) {
+        if ($(e.target).closest('nav').not('.off-screen').length === 0) {
+            $('nav').addClass('off-screen');
+        }
+    });
 }
 
 function initPjax() {
