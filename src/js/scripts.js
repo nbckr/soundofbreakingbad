@@ -170,7 +170,8 @@ function initNavHighlightingAndScrolling() {
         currentNav3Titles.click(function (event) {
             event.preventDefault();
             event.stopImmediatePropagation();
-            body.scrollTo(this.hash, this.hash, {offset: -70});
+            //body.scrollTo(this.hash, this.hash, {offset: -70});
+            scrollToCurrentSection($(this))
         });
 
         // highlighting
@@ -288,7 +289,8 @@ function scrollToCurrentSection(nav3title) {
     nav3title = nav3title || getCurrentNav3Title();
 
     if (nav3title) {
-        $('body').scrollTo(nav3title.prop('hash'), 500, {offset: 0});
+        $('body').scrollTo(nav3title.prop('hash'), nav3title.prop('hash'), {offset: -70});
+
     }
 }
 
