@@ -28,6 +28,7 @@ function initCurrentPage() {
     initBackToTopScroller();
     initBigfoot();
     initAccordion();
+    initIndexSections();
 }
 
 function initBigfoot() {
@@ -113,7 +114,7 @@ function initNavLinksAndToggling() {
 
         // Load content if not already current page
         if (!$(this).hasClass('current-page')) {
-            loadPjaxContent(firstNav2TitleChild);
+            loadPjaxContent(firstNav2TitleChild.attr('href'));
             firstNav2TitleChild.next().slideDown('fast');
             setCurrentPageAndCascadeUpwards(firstNav2TitleChild);
         }
@@ -141,7 +142,7 @@ function initNavLinksAndToggling() {
         $('.nav2-inner-container').not(nextNav2Container).slideUp('fast');
 
         // load content-pane
-        loadPjaxContent($(this));
+        loadPjaxContent($(this).attr('href'));
         setCurrentPageAndCascadeUpwards($(this));
     });
 }
@@ -213,6 +214,14 @@ function initNavHighlightingAndScrolling() {
     }
 }
 
+function initIndexSections() {
+    $('#index-sections a').click(function (event) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        loadPjaxContent($(this).attr('href'))
+    });
+}
+
 function hideNavWhenClickOnContentPane() {
     $('#content-pane').click(function(e) {
         if ($(e.target).closest('nav').not('.off-screen').length === 0) {
@@ -247,9 +256,9 @@ function initBackToTopScroller() {
     var docHeight = $('#pjax-container').height();
 
     if (docHeight > 3 * windowHeight) {
-        $('#back-to-top').click(function (evn) {
-            evn.preventDefault();
-            evn.stopImmediatePropagation();
+        $('#back-to-top').click(function (event) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
             $('body').scrollTo(0, 400);
         });
     }
@@ -328,11 +337,9 @@ function getNavObjectByHref(href) {
     return navObject;
 }
 
-function loadPjaxContent(nav2title) {
+function loadPjaxContent(href) {
 
-    var href = nav2title.attr('href');
     var nav = $('nav');
-
     nav.addClass('off-screen');
 
     $.pjax({
