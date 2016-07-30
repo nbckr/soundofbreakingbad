@@ -21,7 +21,7 @@ header {
   transition-delay: 0.2s;
 
   a, #menu-toggle {
-    color: $white !important;
+    color: white !important;
   }
 
   #container {
@@ -80,7 +80,7 @@ header {
   display: flex;
   align-items: center;
 
-  transition: font-size 0.4s ease;
+  transition: all 0.4s ease;
 
 }
 
@@ -102,7 +102,9 @@ header {
 
   }
   #page-logo {
-    display: none;
+    //display: none;
+    height: 1.5rem;
+    padding-left: 0.3em;
   }
 }
 
@@ -113,6 +115,11 @@ header {
 }
 
 @media screen and (min-width: $breakpoint-lg) {
+
+  #page-logo {
+    //display: none;
+    height: 2rem;
+  }
 
   header {
     height: $header-height-l;
