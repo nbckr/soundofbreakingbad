@@ -15,7 +15,7 @@ function initOnlyOnDirectAccess() {
 
     setCurrentPageAndCascadeUpwards();
     setCurrentSection();
-    //scrollToCurrentSection();
+    scrollToCurrentSection();
 }
 
 /**
@@ -70,16 +70,20 @@ function initNavMenu() {
 
 function hideAllButCurrentPage() {
 
+    $('.nav1-inner-container').hide();
+    $('.nav2-inner-container').hide();
+
     var currentNav2Title = getCurrentNav2Title();
+    if (!currentNav2Title) {
+        return false;
+    }
+
     var currentNav2InnerContainer = currentNav2Title.next();
     var currentNav1InnerContainer = currentNav2Title.parent().parent();
     var currentNav1OuterContainer = currentNav1InnerContainer.parent();
 
-    $('.nav1-inner-container').hide();
-    $('.nav2-inner-container').hide();
-
     if (!currentNav1OuterContainer.hasClass('single-parent')) {
-        $(currentNav1InnerContainer).slideDown('slow');
+        $(currentNav1InnerContainer).show();
     }
     $(currentNav2InnerContainer).show();
 }
@@ -148,6 +152,9 @@ function initNavLinksAndToggling() {
 function initNavHighlightingAndScrolling() {
 
     var currentNav2Title = getCurrentNav2Title();
+    if (!currentNav2Title) {
+        return false;
+    }
     var currentNav1OuterContainer = currentNav2Title.parents('.nav1-outer-container');
     var currentNav3Titles;
 
@@ -178,7 +185,7 @@ function initNavHighlightingAndScrolling() {
                 $('.nav3-title.current-section').removeClass('current-section');
                 currentNav3Titles.last().before().removeClass('current-section');
                 currentNav3Titles.last().addClass("current-section");
-                return;
+                return false;
             }
 
             for (var i = 0; i < currentNav3Titles.length; i++) {
@@ -221,7 +228,6 @@ function initPjax() {
 
     // only XHR request, not cached data
     $(document).on('pjax:send', function () {
-        console.log("show")
         $('#loading-indicator').addClass('block-fix')
         $('#loading-indicator').show();
     });
@@ -256,6 +262,9 @@ function setCurrentPageAndCascadeUpwards(nav2title) {
     $('.current-page').removeClass('current-page');
 
     nav2title = nav2title || getCurrentNav2Title();
+    if (!nav2title) {
+        return false;
+    }
 
     nav2title.addClass('current-page');                     // nav2-title
     nav2title.next().addClass('current-page');              // nav2-inner-container
@@ -278,10 +287,8 @@ function setCurrentSection(nav3title) {
 function scrollToCurrentSection(nav3title) {
     nav3title = nav3title || getCurrentNav3Title();
 
-    // TODO!
-    console.log(nav3title)
     if (nav3title) {
-        $('#pjax-container').scrollTo(nav3title.children(0).hash, 0);
+        $('body').scrollTo(nav3title.prop('hash'), 500, {offset: 0});
     }
 }
 
