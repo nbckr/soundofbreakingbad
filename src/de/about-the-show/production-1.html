@@ -40,6 +40,17 @@
                 </div>
             </div>
 
+            <script src="/js/pdfobject.js"></script>
+            <script>
+                var options = {
+                    height: "70vh",
+                    pdfOpenParams: { page: '1', view: 'FitH'}
+                };
+                PDFObject.embed("http://www.pages.drexel.edu/~ina22/splaylib/Screenplay-Breaking_Bad-Pilot.PDF",
+                        "#script-pilot",
+                        options);
+            </script>
+
             <p>Ab diesem Arbeitsschritt wird es in Hinblick auf die Tongestaltung interessant. Die Drehbücher sind sehr detailliert und lebendig geschrieben; sie zeugen von einem tiefen Verständnis des audiovisuellen Mediums Fernsehen. Das drückt sich dadurch aus, dass alle drei Schichten der filmischen Informationsvermittlung sowie deren Interaktion bereits latent oder manifest zum Ausdruck kommen. Barbara Flückinger definiert diese Schichten wie folgt:</p>
             <blockquote>[D]er narrative Kontext, der gewisse psychische Dispositionen, Urteile oder Antizipationen nahe legt; der Bildausschnitt, der die Perspektive der Kamera repräsentiert; die Aufbereitung des akustischen Umfelds.<a id="footnote-238-34-backlink" class="footnote-link" href="#footnote-238-34">34</a>
             </blockquote>
@@ -224,17 +235,6 @@
 
     </div>
     </div>
-
-    <script src="/js/pdfobject.js"></script>
-    <script>
-        var options = {
-            height: "70vh",
-            pdfOpenParams: { page: '1', view: 'FitH'}
-        };
-        PDFObject.embed("http://www.pages.drexel.edu/~ina22/splaylib/Screenplay-Breaking_Bad-Pilot.PDF",
-                "#script-pilot",
-                options);
-    </script>
 
 </div></body>
 

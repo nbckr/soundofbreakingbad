@@ -8,6 +8,12 @@
     display: block;
   }
 }
+// assert that desktop has fast connection; don't show spinner
+@media screen and (min-width: $breakpoint-2) {
+  #loading-indicator {
+    visibility: hidden;
+  }
+}
 
 .banner {
   width: 100%;
