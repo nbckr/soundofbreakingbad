@@ -1,0 +1,54 @@
+#structuralistic-model {
+  width: 100%;
+  font-size: 0.5em;
+
+}
+
+.svg-wrapper {
+  margin: 0 auto;
+}
+
+.bright {
+  fill: $gray-color-bright;
+}
+
+.medium {
+  fill: $gray-color-medium;
+}
+
+.dark {
+  fill: $gray-color-dark;
+}
+
+
+@media screen and (min-width: $breakpoint-1a) {
+  #structuralistic-model {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: $breakpoint-1b) {
+  #structuralistic-model {
+    width: 70%;
+  }
+
+  #heisenberg-theme {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: $breakpoint-1c) {
+  #structuralistic-model {
+    width: 60%;
+  }
+
+  #heisenberg-theme {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: $breakpoint-2) {
+  #structuralistic-model, #heisenberg-theme {
+    width: 100%;
+  }
+}

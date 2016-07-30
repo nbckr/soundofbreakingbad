@@ -1,0 +1,85 @@
+// sections on index.html
+
+.section-box {
+  margin: 1.5em 0;
+  color: white;
+  padding: 1em;
+  min-height: 10rem;
+
+  transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+
+  h3, p {
+    text-align: center;
+    color: $white;
+  }
+
+  &:hover {
+    transform: scale(1.05, 1.05);
+
+    h3, p {
+      //color: $green-bright;
+      color: white;
+    }
+    h3 {
+      text-decoration: underline;
+    }
+  }
+}
+
+.bg-section-pants-flying {
+  background-image: url(/img/title-banner/bg-pants-flying.jpg);
+  background-position-x: 50%;
+  background-position-y: 100%;
+  &:hover {
+    background-position-y: 10%;
+  }
+}
+
+.bg-section-intro-1 {
+  background-image: url(/img/title-banner/bg-intro-1.jpg);
+  background-position-x: 70%;
+  background-position-y: 30%;
+  &:hover {
+    background-position-y: 70%;
+  }
+}
+
+.bg-section-the-fly {
+  background-image: url(/img/title-banner/bg-the-fly.jpg);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  &:hover {
+    background-position-y: 100%;
+  }
+}
+
+.bg-section-tios-bell {
+  background-image: url(/img/title-banner/bg-tios-bell.jpg);
+  background-position-x: 50%;
+  background-position-y: 54%;
+  &:hover {
+    background-position-y: 44%;
+  }
+}
+
+.bg-section-desert-rv-6 {
+  background-image: url(/img/title-banner/bg-desert-rv-6.jpg);
+  background-position-x: 95%;
+  background-position-y: 100%;
+  &:hover {
+    background-position-y: 42%;
+  }
+}
+
+.bg-section-broken-dish {
+  background-image: url(/img/title-banner/bg-broken-dish.jpg);
+  background-position-x: 70%;
+  background-position-y: 15%;
+  &:hover {
+    background-position-y: 60%;
+  }
+}

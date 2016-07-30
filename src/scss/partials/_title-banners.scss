@@ -1,0 +1,158 @@
+// override padding from h1 in _typo.scss
+%little-lower {
+  padding-top: 5.5em;
+  padding-bottom: 1.5em;
+}
+
+%little-higher {
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+
+// backgrounds for title banners
+%bg-base {
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+
+.bg-broken-dish {
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-broken-dish.jpg);
+}
+
+.bg-building-2 {
+  @extend %bg-base;
+  @extend %little-higher;
+  background-image: url(/img/title-banner/bg-building-2.jpg);
+}
+
+.bg-crawl-space-grain {
+  // TODO unused
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-crawl-space-grain.jpg);
+}
+
+.bg-desert-rv-1 {
+  // TODO unused
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-desert-rv-1.jpg);
+}
+
+.bg-desert-rv-6 {
+  @extend %bg-base;
+  @extend %little-higher;
+  background-image: url(/img/title-banner/bg-desert-rv-6.jpg);
+}
+
+.bg-say-my-name {
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-say-my-name.jpg);
+  background-position-x: 60%;
+}
+
+.bg-felina-lab {
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-felina-lab.jpg);
+}
+
+.bg-glass-half-full {
+  @extend %bg-base;
+  @extend %little-higher;
+  background-image: url(/img/title-banner/bg-glass-half-full.jpg);
+}
+
+.bg-jesse-fly-high {
+  @extend %bg-base;
+  //@extend %little-lower;
+  //@extend %little-lower;
+  background-image: url(/img/title-banner/bg-jesse-fly-high.jpg);
+}
+
+.bg-jesse-loudspeaker-close {
+  @extend %bg-base;
+  @extend %little-higher;
+  background-image: url(/img/title-banner/bg-jesse-loudspeaker-close.jpg);
+  background-position-x: 25%;
+}
+
+.bg-mirrored-face {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-mirrored-face.jpg);
+  background-position-x: 82%;
+}
+
+.bg-mixing-drugs {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-mixing-drugs.jpg);
+}
+
+.bg-pants-flying {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-pants-flying.jpg);
+  background-position-x: 22%;
+}
+
+.bg-awkward-dinner {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-awkward-dinner.jpg);
+}
+
+.bg-skyler-drowning {
+  @extend %bg-base;
+  //@extend %little-lower;
+  background-image: url(/img/title-banner/bg-skyler-drowning.jpg);
+}
+
+.bg-tios-bell {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-tios-bell.jpg);
+  background-position-x: 37%;
+}
+
+.bg-tv-blue {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-tv-blue.jpg);
+}
+
+.bg-tv-with-saul {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-tv-with-saul.jpg);
+}
+
+.bg-walter-knife-mirror {
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-walter-knife-mirror.jpg);
+}
+
+.bg-walter-yellow-red {
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-walter-yellow-red.jpg);
+}
+
+.bg-windmill {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-windmill.jpg);
+  background-position-x: 80%;
+}
+
+.bg-intro-1 {
+  @extend %bg-base;
+  background-image: url(/img/title-banner/bg-intro-1.jpg);
+}
+
+.bg-the-fly {
+  @extend %bg-base;
+  @extend %little-lower;
+  background-image: url(/img/title-banner/bg-the-fly.jpg);
+}
