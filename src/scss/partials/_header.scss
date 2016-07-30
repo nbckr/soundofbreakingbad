@@ -20,7 +20,7 @@ header {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 
-  a, #menu-toggle {
+  p, #menu-toggle {
     color: white !important;
   }
 
@@ -87,7 +87,6 @@ header {
   align-items: center;
 
   transition: all 0.4s ease;
-
 }
 
 #page-name {

@@ -357,6 +357,6 @@ function loadPjaxContent(href) {
         'url': href,
         'fragment': '#pjax-container',
         'container': '#pjax-container',
-        'timeout': 2000
+        'timeout': 8000     // mobile connection might take some time
     });
 }

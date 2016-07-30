@@ -2,7 +2,6 @@
 
 .section-box {
   margin: 1.5em 0;
-  color: white;
   padding: 1em;
   min-height: 10rem;
 
@@ -18,10 +17,9 @@
   }
 
   &:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.04, 1.04);
 
     h3, p {
-      //color: $green-bright;
       color: white;
     }
     h3 {
