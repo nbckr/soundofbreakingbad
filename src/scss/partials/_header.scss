@@ -64,6 +64,12 @@ header {
     display: inline-block;
     margin: 8px;
   }
+
+  .fa-bars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 #page-title {
@@ -104,7 +110,7 @@ header {
   #page-logo {
     //display: none;
     height: 1.5rem;
-    padding-left: 0.3em;
+    margin-left: 0.3em;
   }
 }
 
