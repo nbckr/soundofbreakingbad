@@ -10,7 +10,7 @@ $(function () {
  */
 function initOnlyOnDirectAccess() {
     initNavMenu();
-    hideAllButCurrentPage();
+    hideAllButCurrentNavItem();
     initPjax();
 
     setCurrentPageAndCascadeUpwards();
@@ -69,7 +69,7 @@ function initNavMenu() {
     });
 }
 
-function hideAllButCurrentPage() {
+function hideAllButCurrentNavItem(animate) {
 
     $('.nav1-inner-container').hide();
     $('.nav2-inner-container').hide();
@@ -84,9 +84,17 @@ function hideAllButCurrentPage() {
     var currentNav1OuterContainer = currentNav1InnerContainer.parent();
 
     if (!currentNav1OuterContainer.hasClass('single-parent')) {
-        $(currentNav1InnerContainer).show();
+        if (animate) {
+            $(currentNav1InnerContainer).slideDown('medium');
+        } else {
+            $(currentNav1InnerContainer).show();
+        }
     }
-    $(currentNav2InnerContainer).show();
+    if (animate) {
+        $(currentNav2InnerContainer).slideDown('medium');
+    } else {
+        $(currentNav2InnerContainer).show();
+    }
 }
 
 /**
@@ -99,6 +107,7 @@ function initNavLinksAndToggling() {
         event.preventDefault();
         event.stopImmediatePropagation();
 
+        // TODO use extracted method
         var currentNav1InnerContainer = $(this).next();
         var currentNav1OuterContainer = $(this).parent();
         var firstNav2TitleChild = currentNav1InnerContainer.children().first().children().first();
@@ -116,7 +125,7 @@ function initNavLinksAndToggling() {
         if (!$(this).hasClass('current-page')) {
             loadPjaxContent(firstNav2TitleChild.attr('href'));
             firstNav2TitleChild.next().slideDown('fast');
-            setCurrentPageAndCascadeUpwards(firstNav2TitleChild);
+            setCurrentPageAndCascadeUpwards(firstNav2TitleChild, false);
         }
     });
 
@@ -143,7 +152,7 @@ function initNavLinksAndToggling() {
 
         // load content-pane
         loadPjaxContent($(this).attr('href'));
-        setCurrentPageAndCascadeUpwards($(this));
+        setCurrentPageAndCascadeUpwards($(this), false);
     });
 }
 
@@ -218,7 +227,9 @@ function initIndexSections() {
     $('#index-sections a').click(function (event) {
         event.preventDefault();
         event.stopImmediatePropagation();
-        loadPjaxContent($(this).attr('href'))
+        loadPjaxContent($(this).attr('href'));
+        setCurrentPageAndCascadeUpwards(null, true);
+        hideAllButCurrentNavItem(true);
     });
 }
 
