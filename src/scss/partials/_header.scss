@@ -76,15 +76,33 @@ header {
   //padding: $header-padding-s;
   height: 100%;
 
-  display: flex;
   justify-content: center;
+  display: flex;
+  align-items: center;
 
   transition: font-size 0.4s ease;
 
-  a {
+}
+
+#page-name {
+  display: none;
+}
+#page-logo {
+  height: 2rem;
+  image-rendering: pixelated;
+
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: $breakpoint-1a2) {
+  #page-name {
     display: flex;
-    align-items: center;
     justify-content: center;
+
+  }
+  #page-logo {
+    display: none;
   }
 }
 
