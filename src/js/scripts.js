@@ -290,7 +290,6 @@ function scrollToCurrentSection(nav3title) {
 
     if (nav3title) {
         $('body').scrollTo(nav3title.prop('hash'), nav3title.prop('hash'), {offset: -70});
-
     }
 }
 
