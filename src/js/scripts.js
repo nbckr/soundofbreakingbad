@@ -216,23 +216,20 @@ function hideNavWhenClickOnContentPane() {
 function initPjax() {
     $(document).on('pjax:start', function () {
         $('#pjax-container').hide();
-        $('#loading-indicator').addClass('block-fix')
-        $('#loading-indicator').show();
         $('body').scrollTo(0, 0);
     });
 
     // only XHR request, not cached data
     $(document).on('pjax:send', function () {
         console.log("show")
+        $('#loading-indicator').addClass('block-fix')
+        $('#loading-indicator').show();
     });
 
     $(document).on('pjax:end', function () {
         initCurrentPage();
         $('#loading-indicator').hide();
         $('#loading-indicator').removeClass('block-fix')
-
-        console.log("hide")
-
 
         $('#pjax-container').fadeIn();
     });
@@ -324,7 +321,6 @@ function getNavObjectByHref(href) {
 }
 
 function loadPjaxContent(nav2title) {
-
 
     var href = nav2title.attr('href');
     var nav = $('nav');
