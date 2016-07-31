@@ -1,5 +1,3 @@
-$header-padding-s: 19px;
-
 header {
   position: fixed;
   top: 0;
@@ -8,12 +6,14 @@ header {
 
   z-index: 2000;
 
-  display: block;
-
   box-sizing: content-box;
   height: $header-height-sm;
 
   background-color: $green-darkish;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   transition: all 0.4s ease;
   -webkit-transition-delay: 0.2s;
@@ -22,82 +22,68 @@ header {
   p, #menu-toggle {
     color: white !important; // not $white because of logo
   }
-
-  #container {
-    padding: auto;
-  }
 }
 
 #menu-toggle {
   position: fixed;
-  padding: $header-padding-s;
-  margin: 13px;
-  border-radius: 5px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  left: 0;
+  top: 0;
+  margin: 12px;
 
   box-sizing: border-box;
   width: 40px;
   height: 40px;
+  border-radius: 5px;
 
-  font-size: 120%;
-  text-align: center;
-  vertical-align: baseline;
+  background: red;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   transition: background-color 0.3s ease;
-
   &:hover {
     background-color: $nav-hover;
     cursor: pointer;
   }
-
   &:active {
     background-color: $green-bright;
   }
 
-  &span {
-    text-align: center;
-    vertical-align: baseline;
-    display: inline-block;
-    margin: 8px;
-  }
-
-  .fa-bars {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  span {
+    font-size: 120%;
+    display: block;
   }
 }
 
-#page-title {
+#page-name-and-logo-link-wrapper {
+  flex: none;
+  justify-self: center;
+}
+
+#page-name-and-logo {
+  display: flex;
+  align-items: center;
+}
+
+#page-name {
+  display: none;
+
   font-family: $font-serif;
-  font-size: 5vw;
+  font-size: 101%;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
   margin: 0;
-  //padding: $header-padding-s;
-  height: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   transition: all 0.4s ease;
 }
 
-#page-name-and-logo {
-  display: block;
-}
-#page-name {
-  display: none;
-}
 #page-logo {
   display: inline;
   height: 2rem;
-  image-rendering: pixelated;
+
+  transition: all 0.4s ease;
 }
 
 /* Media queries ******************************************************************************************************/
@@ -105,7 +91,6 @@ header {
 @media screen and (min-width: $breakpoint-420) {
   #page-name {
     display: inline;
-
   }
   #page-logo {
     height: 1.5rem;
@@ -113,35 +98,28 @@ header {
   }
 }
 
-@media screen and (min-width: $breakpoint-320) {
-  #page-title {
-    font-size: 101%;
-  }
-}
-
 @media screen and (min-width: $breakpoint-l) {
-
-  #page-logo {
-    height: 2rem;
-  }
 
   header {
     height: $header-height-l;
 
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
+  }
 
-    #menu-toggle {
-      display: none;
+  #menu-toggle {
+    display: none;
+  }
+
+  #page-name {
+    font-size: 170%;
+
+    &:hover {
+      transition: transform 0.2s ease;
+      transform: scale(1.02, 1.02);
     }
-
-    #page-title {
-      font-size: 170%;
-
-      &:hover {
-        transition: transform 0.2s ease;
-        transform: scale(1.02, 1.02);
-      }
-    }
+  }
+  #page-logo {
+    height: 2rem;
   }
 }
