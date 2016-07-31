@@ -10,7 +10,7 @@ $(function () {
  */
 function initOnlyOnDirectAccess() {
     initNavMenu();
-    hideAllButCurrentNavItem();
+    collapseAllButCurrentNavItem();
     initPjax();
     initClickOnPageTitle();
 
@@ -70,7 +70,7 @@ function initNavMenu() {
     });
 }
 
-function hideAllButCurrentNavItem(animate) {
+function collapseAllButCurrentNavItem(animate) {
 
     $('.nav1-inner-container').hide();
     $('.nav2-inner-container').hide();
@@ -229,13 +229,19 @@ function initIndexSections() {
         event.preventDefault();
         event.stopImmediatePropagation();
         loadPjaxContent($(this).attr('href'));
-        setCurrentPageAndCascadeUpwards(null, true);
-        hideAllButCurrentNavItem(true);
+        setCurrentPageAndCascadeUpwards();
+        collapseAllButCurrentNavItem(true);
     });
 }
 
 function initClickOnPageTitle() {
-
+    $('#page-name-and-logo-link-wrapper').on('click', function(event) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        loadPjaxContent($(this).attr('href'));
+        setCurrentPageAndCascadeUpwards();
+        collapseAllButCurrentNavItem(true);
+    });
 }
 
 function hideNavWhenClickOnContentPane() {
