@@ -100,6 +100,8 @@ header {
   image-rendering: pixelated;
 }
 
+/* Media queries ******************************************************************************************************/
+
 @media screen and (min-width: $breakpoint-1b) {
   #page-name {
     display: inline;
