@@ -1,5 +1,4 @@
 $header-padding-s: 19px;
-$header-padding-l: 20px;
 
 header {
   position: fixed;
@@ -21,7 +20,7 @@ header {
   transition-delay: 0.2s;
 
   p, #menu-toggle {
-    color: white !important;
+    color: white !important; // not $white because of logo
   }
 
   #container {
@@ -82,32 +81,31 @@ header {
   //padding: $header-padding-s;
   height: 100%;
 
-  justify-content: center;
   display: flex;
+  justify-content: center;
   align-items: center;
 
   transition: all 0.4s ease;
 }
 
+#page-name-and-logo {
+  display: block;
+}
 #page-name {
   display: none;
 }
 #page-logo {
+  display: inline;
   height: 2rem;
   image-rendering: pixelated;
-
-  display: flex;
-  justify-content: center;
 }
 
-@media screen and (min-width: $breakpoint-1a2) {
+@media screen and (min-width: $breakpoint-1b) {
   #page-name {
-    display: flex;
-    justify-content: center;
+    display: inline;
 
   }
   #page-logo {
-    //display: none;
     height: 1.5rem;
     margin-left: 0.3em;
   }
@@ -122,7 +120,6 @@ header {
 @media screen and (min-width: $breakpoint-lg) {
 
   #page-logo {
-    //display: none;
     height: 2rem;
   }
 
@@ -138,11 +135,10 @@ header {
 
     #page-title {
       font-size: 170%;
-      //padding: $header-padding-l;
 
       &:hover {
         transition: transform 0.2s ease;
-        transform: scale(1.035, 1.035);
+        transform: scale(1.02, 1.02);
       }
     }
   }
