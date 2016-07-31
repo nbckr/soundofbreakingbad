@@ -70,7 +70,6 @@ module.exports = function (grunt) {
                     "dist/de/index.html" : "src/de/index.html",
                     "dist/de/404.html" : "src/de/404.html",
 
-
                     "dist/de/introduction/introduction.html" : "src/de/introduction/introduction.html",
 
                     "dist/de/about-the-show/background.html" : "src/de/about-the-show/background.html",
@@ -105,7 +104,7 @@ module.exports = function (grunt) {
             main: {
                 files: [{
                     cwd: 'src',
-                    src: ['css/*.css', 'js/**', 'img/**', 'fonts/**', 'data/**'],
+                    src: ['*.png', 'css/*.css', 'js/**', 'img/**', 'fonts/**', 'data/**'],
                     dest: 'dist'
                 }],
                 pretend: false,
