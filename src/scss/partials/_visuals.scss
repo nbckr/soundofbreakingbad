@@ -57,6 +57,11 @@
   .bordered {
     width: auto;
   }
+
+  table {
+    display: inline-table;
+    width: 80vw;
+  }
 }
 
 .media-container-medium {
@@ -96,7 +101,7 @@
     display: block;
     text-align: center;
     color: $white;
-    font-size: 85%;
+    //font-size: 85%;
   }
 
   .bigfoot-footnote p {
@@ -116,7 +121,11 @@
   .media-container-small {
     float: right;
     margin: 0 0 1em 1em;
-    //width: auto;
     width: 45%;
+
+    table {
+      display: table;
+      width: 100%;
+    }
   }
 }
