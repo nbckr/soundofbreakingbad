@@ -127,7 +127,7 @@ nav {
 
 /* Media queries ******************************************************************************************************/
 
-@media screen and (min-width: $breakpoint-1b) {
+@media screen and (min-width: $breakpoint-500) {
 
   nav {
     width: $nav-width-m;
@@ -159,7 +159,7 @@ nav {
   }
 }
 
-@media screen and (min-width: $breakpoint-lg) {
+@media screen and (min-width: $breakpoint-l) {
 
   nav {
     margin-top: $header-height-l;

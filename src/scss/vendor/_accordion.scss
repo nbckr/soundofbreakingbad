@@ -89,7 +89,7 @@ License: http://codecanyon.net/licenses/standard
   display: none;
 }
 
-@media screen and (min-width: $breakpoint-2) {
+@media screen and (min-width: $breakpoint-750) {
   .accordion-title-long, .accordion-header .work-title {
     display: inline;
   }

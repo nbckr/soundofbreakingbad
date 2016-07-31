@@ -102,7 +102,7 @@ header {
 
 /* Media queries ******************************************************************************************************/
 
-@media screen and (min-width: $breakpoint-1b) {
+@media screen and (min-width: $breakpoint-420) {
   #page-name {
     display: inline;
 
@@ -113,13 +113,13 @@ header {
   }
 }
 
-@media screen and (min-width: $breakpoint-1) {
+@media screen and (min-width: $breakpoint-320) {
   #page-title {
     font-size: 101%;
   }
 }
 
-@media screen and (min-width: $breakpoint-lg) {
+@media screen and (min-width: $breakpoint-l) {
 
   #page-logo {
     height: 2rem;

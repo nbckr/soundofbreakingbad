@@ -12,6 +12,7 @@ function initOnlyOnDirectAccess() {
     initNavMenu();
     hideAllButCurrentNavItem();
     initPjax();
+    initClickOnPageTitle();
 
     setCurrentPageAndCascadeUpwards();
     setCurrentSection();
@@ -231,6 +232,10 @@ function initIndexSections() {
         setCurrentPageAndCascadeUpwards(null, true);
         hideAllButCurrentNavItem(true);
     });
+}
+
+function initClickOnPageTitle() {
+
 }
 
 function hideNavWhenClickOnContentPane() {

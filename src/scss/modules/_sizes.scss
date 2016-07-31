@@ -1,11 +1,10 @@
-// going mobile first, so <= 320 is small, 1 px more is breakpoint
-$breakpoint-1: 321px;
-$breakpoint-1a: 370px;
-$breakpoint-1a2: 420px;
-$breakpoint-1b: 500px;
-$breakpoint-1c: 620px;
-$breakpoint-2: 749px;//769px;
-$breakpoint-lg: 1224px;
+$breakpoint-320: 320px;
+$breakpoint-370: 370px;
+$breakpoint-420: 420px;
+$breakpoint-500: 500px;
+$breakpoint-620: 620px;
+$breakpoint-750: 750px;
+$breakpoint-l: 1224px;
 
 $header-height-sm: 65px;
 $header-height-l: 80px;

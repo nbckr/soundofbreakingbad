@@ -37,14 +37,14 @@
 
 /* Media queries ******************************************************************************************************/
 
-@media screen and (min-width: $breakpoint-1b) {
+@media screen and (min-width: $breakpoint-500) {
 
   #content-pane {
     //margin-left: $menu-width-m;
   }
 }
 
-@media screen and (min-width: $breakpoint-lg) {
+@media screen and (min-width: $breakpoint-l) {
 
   #content-pane {
     //background: red;

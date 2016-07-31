@@ -22,13 +22,13 @@
 
 /* Media queries ******************************************************************************************************/
 
-@media screen and (min-width: $breakpoint-1a) {
+@media screen and (min-width: $breakpoint-370) {
   #structuralistic-model {
     width: 80%;
   }
 }
 
-@media screen and (min-width: $breakpoint-1b) {
+@media screen and (min-width: $breakpoint-500) {
   #structuralistic-model {
     width: 70%;
   }
@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (min-width: $breakpoint-1c) {
+@media screen and (min-width: $breakpoint-620) {
   #structuralistic-model {
     width: 60%;
   }
@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (min-width: $breakpoint-2) {
+@media screen and (min-width: $breakpoint-750) {
   #structuralistic-model, #heisenberg-theme {
     width: 100%;
   }
