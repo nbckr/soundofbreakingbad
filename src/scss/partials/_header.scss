@@ -23,12 +23,12 @@ header {
   padding-top: 50px;
   margin-top: -50px;
 
-  p, #menu-toggle {
+  p, #nav-toggle {
     color: white !important; // not $white because of logo
   }
 }
 
-#menu-toggle {
+#nav-toggle {
   position: fixed;
   left: 0;
   top: 0;
@@ -109,7 +109,7 @@ header {
     transition-delay: 0s;
   }
 
-  #menu-toggle {
+  #nav-toggle {
     display: none;
   }
 
