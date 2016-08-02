@@ -63,6 +63,7 @@ function initCurrentPage() {
     initBigfoot();
     initAccordion();
     initIndexSectionsLinks();
+    initArrowButtons();
 }
 
 function initBigfoot() {
@@ -97,8 +98,8 @@ function initNavToggleButton() {
     });
 }
 
-function collapseAllButCurrentNavItem(animate) {
-    if (animate) {
+function collapseAllButCurrentNavItem(animate, collapse) {
+    if (animate && collapse) {
         $nav1InnerContainers.slideUp();
         $nav2InnerContainers.slideUp();
     } else {
@@ -259,6 +260,37 @@ function initIndexSectionsLinks() {
     });
 }
 
+function initArrowButtons() {
+    $('#next-page, #last-page').each(function() {
+
+        var currentButton = $(this);
+        var href = currentButton.attr('href');
+        if (href === '#') {
+            return false;   // break loop and ignore "#" link from back-to-top button
+        }
+        else if (href === 'hidden') {
+            currentButton.hide();
+        }
+        else if (href === 'disabled') {
+            currentButton.addClass('disabled');
+            currentButton.on('click', function () {
+                event.preventDefault();
+                event.stopImmediatePropagation();
+            });
+        }
+        else {
+            currentButton.on('click', function () {
+                event.preventDefault();
+                event.stopImmediatePropagation();
+
+                loadPjaxContent(href);
+                setCurrentPageAndCascadeUpwards();
+                collapseAllButCurrentNavItem(true, false);
+            });
+        }
+    });
+}
+
 function initClickOnPageTitle() {
     $('#page-name-and-logo-link-wrapper').on('click', function(event) {
         event.preventDefault();
@@ -285,14 +317,14 @@ function initPjax() {
 
     // only XHR request, not cached data
     $document.on('pjax:send', function () {
-        $loadingIndicator.addClass('block-fix')
+        $loadingIndicator.addClass('block-fix');
         $loadingIndicator.show();
     });
 
     $document.on('pjax:end', function () {
         initCurrentPage();
         $loadingIndicator.hide();
-        $loadingIndicator.removeClass('block-fix')
+        $loadingIndicator.removeClass('block-fix');
 
         $pjaxContainer.fadeIn();
     });

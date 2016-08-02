@@ -2,22 +2,40 @@ footer {
 
   margin-top: 2em;
 
+  #arrow-buttons {
+    display: table;
+    margin: 0 auto;
+  }
+
   .arrow-button {
     color: $green-darkish;
     font-size: 285%;
-    margin: 0 auto;
+    width: 48px;
+    margin: 0 4vw;
 
-    display: block;
+    display: inline-block;
     text-align: center;
     vertical-align: baseline;
 
     width: 48px;
 
-    &:hover {
+    &:hover:not(.disabled) {
       color: $green-bright;
       transition: color 0.5s ease;
     }
+
+    &.disabled {
+      color: $gray-color-dark;
+      cursor: not-allowed;
+    }
   }
+
+  // #last-page, #next-page {
+  //   flex-grow: 3;
+  // }
+  // #back-to-top {
+  //   flex-grow: 1;
+  // }
 
   #copyright {
     text-align: center;
