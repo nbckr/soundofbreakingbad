@@ -1,10 +1,7 @@
 nav {
-  //display: inline;
-  //float: left;
-  //overflow: hidden;
   z-index: 1500;
 
-  margin-top: $header-height-sm;
+  padding-top: $header-height-sm;
 
   background-color: $nav-gray;
   font-size: 125%;
@@ -162,7 +159,7 @@ nav {
 @media screen and (min-width: $breakpoint-l) {
 
   nav {
-    margin-top: $header-height-l;
+    padding-top: $header-height-l;
 
     width: $nav-width-l;
     &.off-screen {

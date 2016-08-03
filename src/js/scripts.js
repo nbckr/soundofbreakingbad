@@ -30,7 +30,7 @@ function collectGlobalVariables() {
     $loadingIndicator = $('#loading-indicator');
     $contentPane = $('#content-pane');
     $pjaxContainer = $('#pjax-container');
-    $nav1InnerContainers= $('.nav1-inner-container');
+    $nav1InnerContainers = $('.nav1-inner-container');
     $nav2InnerContainers = $('.nav2-inner-container');
     $nav1Titles = $('.nav1-title');
     $nav2Titles = $('.nav2-title');
@@ -59,11 +59,11 @@ function initCurrentPage() {
     initNavLinksAndToggling();
     initNavHighlightingAndScrolling();
     hideNavWhenClickOnContentPane();
-    initBackToTopScroller();
     initBigfoot();
     initAccordion();
     initIndexSectionsLinks();
-    initArrowButtons();
+    initTopArrowButton();
+    initLeftRightArrowButtons();
 }
 
 function initBigfoot() {
@@ -98,21 +98,29 @@ function initNavToggleButton() {
     });
 }
 
-function collapseAllButCurrentNavItem(animate, collapse) {
-    if (animate && collapse) {
+
+function collapseAllNav1InnerContainers(animate) {
+    if (animate) {
         $nav1InnerContainers.slideUp();
-        $nav2InnerContainers.slideUp();
     } else {
         $nav1InnerContainers.hide();
+    }
+}
+
+function collapseAllNav2InnerContainers(animate) {
+    if (animate) {
+        $nav2InnerContainers.slideUp();
+    } else {
         $nav2InnerContainers.hide();
     }
+}
 
+function expandCurrentNav1InnerContainer(animate) {
     var currentNav2Title = getCurrentNav2Title();
     if (!currentNav2Title) {
         return false;
     }
 
-    var currentNav2InnerContainer = currentNav2Title.next();
     var currentNav1InnerContainer = currentNav2Title.parent().parent();
     var currentNav1OuterContainer = currentNav1InnerContainer.parent();
 
@@ -123,11 +131,28 @@ function collapseAllButCurrentNavItem(animate, collapse) {
             $(currentNav1InnerContainer).show();
         }
     }
+}
+
+function expandCurrentNav2InnerContainer(animate) {
+    var currentNav2Title = getCurrentNav2Title();
+    if (!currentNav2Title) {
+        return false;
+    }
+
+    var currentNav2InnerContainer = currentNav2Title.next();
+
     if (animate) {
         $(currentNav2InnerContainer).slideDown('medium');
     } else {
         $(currentNav2InnerContainer).show();
     }
+}
+
+function collapseAllButCurrentNavItem(animate) {
+    collapseAllNav1InnerContainers(animate);
+    collapseAllNav2InnerContainers(animate);
+    expandCurrentNav1InnerContainer(animate);
+    expandCurrentNav2InnerContainer(animate);
 }
 
 /**
@@ -206,7 +231,7 @@ function initNavHighlightingAndScrolling() {
         currentNav3Titles = currentNav2Title.next().children();
 
         // scrolling when clicked
-        currentNav3Titles.click(function (event) {
+        currentNav3Titles.on('click', function (event) {
             event.preventDefault();
             event.stopImmediatePropagation();
             scrollToCurrentSection($(this))
@@ -251,7 +276,7 @@ function initNavHighlightingAndScrolling() {
 }
 
 function initIndexSectionsLinks() {
-    $('#index-sections').find('a').on ('click', function (event) {
+    $('#index-sections').find('a').on('click', function (event) {
         event.preventDefault();
         event.stopImmediatePropagation();
         loadPjaxContent($(this).attr('href'));
@@ -260,16 +285,36 @@ function initIndexSectionsLinks() {
     });
 }
 
-function initArrowButtons() {
-    $('#next-page, #last-page').each(function() {
+
+/**
+ * Shows back to top scroller if page is high enough and makes it scroll to top.
+ */
+function initTopArrowButton() {
+    var windowHeight = $window.height(); // get the height of the window
+    var docHeight = $pjaxContainer.height();
+    var $backToTopButton = $('#back-to-top');
+
+    if (docHeight > 3 * windowHeight) {
+        $backToTopButton.on('click', function (event) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            $body.scrollTo(0, 400);
+        });
+    }
+    else {
+        $backToTopButton.hide();
+    }
+}
+
+
+function initLeftRightArrowButtons() {
+    $('#next-page, #last-page').each(function () {
 
         var currentButton = $(this);
         var href = currentButton.attr('href');
-        if (href === '#') {
-            return false;   // break loop and ignore "#" link from back-to-top button
-        }
-        else if (href === 'hidden') {
-            currentButton.hide();
+
+        if (href === 'hidden') {
+            currentButton.remove();
         }
         else if (href === 'disabled') {
             currentButton.addClass('disabled');
@@ -283,20 +328,29 @@ function initArrowButtons() {
                 event.preventDefault();
                 event.stopImmediatePropagation();
 
-                $nav2InnerContainers.slideUp();
+                var switchedChapter = hrefLeadsToDifferentChapter(href);
 
-                //getNavObjectByHref()
-//
-                //loadPjaxContent(href);
-                //setCurrentPageAndCascadeUpwards();
-                //collapseAllButCurrentNavItem(true, false);
+                collapseAllNav2InnerContainers(true);
+                if (switchedChapter) {
+                    collapseAllNav1InnerContainers(true);
+                }
+
+                loadPjaxContent(href);
+                setCurrentPageAndCascadeUpwards();
+                setCurrentSection();
+
+                expandCurrentNav2InnerContainer(true);
+                if (switchedChapter) {
+                    expandCurrentNav1InnerContainer(true);
+                }
+
             });
         }
     });
 }
 
 function initClickOnPageTitle() {
-    $('#page-name-and-logo-link-wrapper').on('click', function(event) {
+    $('#page-name-and-logo-link-wrapper').on('click', function (event) {
         event.preventDefault();
         event.stopImmediatePropagation();
         loadPjaxContent($(this).attr('href'));
@@ -306,7 +360,7 @@ function initClickOnPageTitle() {
 }
 
 function hideNavWhenClickOnContentPane() {
-    $contentPane.on('click', function(event) {
+    $contentPane.on('click', function (event) {
         if ($(event.target).closest('nav').not('.off-screen').length === 0) {
             $nav.addClass('off-screen');
         }
@@ -334,26 +388,6 @@ function initPjax() {
     });
 }
 
-/**
- * Shows back to top scroller if page is high enough and makes it scroll to top.
- */
-function initBackToTopScroller() {
-    var windowHeight = $window.height(); // get the height of the window
-    var docHeight = $pjaxContainer.height();
-    var $backToTopButton = $('#back-to-top');
-
-    if (docHeight > 3 * windowHeight) {
-        $backToTopButton.on('click', function (event) {
-            event.preventDefault();
-            event.stopImmediatePropagation();
-            $body.scrollTo(0, 400);
-        });
-    }
-    else {
-        $backToTopButton.hide();
-    }
-}
-
 function setCurrentPageAndCascadeUpwards(nav2title) {
 
     $('.current-page').removeClass('current-page');
@@ -374,6 +408,9 @@ function setCurrentPageAndCascadeUpwards(nav2title) {
 }
 
 function setCurrentSection(nav3title) {
+
+    $('.current-section').removeClass('current-section');
+
     nav3title = nav3title || getCurrentNav3Title();
 
     if (nav3title) {
@@ -433,4 +470,13 @@ function loadPjaxContent(href) {
         'container': '#pjax-container',
         'timeout': 8000     // mobile connection might take some time
     });
+}
+
+function hrefLeadsToDifferentChapter(href) {
+    var currentLocation = window.location.pathname;
+    var currentChapter = currentLocation.split('/')[2];
+
+    var newChapter = href.split('/')[2];
+    console.log (currentChapter + " und " + newChapter)
+    return currentChapter != newChapter;
 }
