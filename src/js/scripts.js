@@ -313,10 +313,10 @@ function initLeftRightArrowButtons() {
         var currentButton = $(this);
         var href = currentButton.attr('href');
 
-        if (href === 'hidden') {
+        if (href === '') {
             currentButton.remove();
         }
-        else if (href === 'disabled') {
+        else if (href === '#') {
             currentButton.addClass('disabled');
             currentButton.on('click', function () {
                 event.preventDefault();
@@ -477,6 +477,5 @@ function hrefLeadsToDifferentChapter(href) {
     var currentChapter = currentLocation.split('/')[2];
 
     var newChapter = href.split('/')[2];
-    console.log (currentChapter + " und " + newChapter)
     return currentChapter != newChapter;
 }
