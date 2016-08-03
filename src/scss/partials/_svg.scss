@@ -1,33 +1,49 @@
-svg {
+// default font-size in svg text elements
+tspan, text {
+  font-family: $font-sans;
+  font-size: 0.55rem;
+}
 
-  tspan, text {
-    font-family: $font-sans;
-    font-size: 0.43rem;
-  }
+.bold {
+  font-weight: bold;
+}
 
-  .bold {
-    font-weight: bold;
-  }
-  .title {
-    font-size: 0.9rem;
-  }
+.title {
+  font-size: 0.9rem;
 }
 
 #dramaturgic-arcs {
-  //font-size: 0.7em;
+  text {
+    font-size: 0.6rem;
+  }
+
 }
 
 #simple-sound-model {
-  svg {
-    text {
-      font-size: 0.65em;
-    }
+  tspan {
+    font-size: 0.52rem;
   }
+
 }
 
 #structuralistic-model {
+  text, tspan {
+    font-size: 0.57rem;
+  }
+
   width: 100%;
-  //font-size: 0.5em;
+}
+
+#waves-dlz, #waves-shootout {
+  text {
+    font-size: 0.8rem;
+  }
+}
+
+#pie-chart {
+  text, tspan {
+    font-size: 0.43rem;
+  }
 }
 
 .svg-wrapper {

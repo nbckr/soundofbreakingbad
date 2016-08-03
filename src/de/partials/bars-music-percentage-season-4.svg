@@ -1,4 +1,4 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width=100%" viewBox="0 0 336.3 190.4" enable-background="new 0 0 336.3 190.4" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 336.3 190.4" enable-background="new 0 0 336.3 190.4" xml:space="preserve">
 <g id="frame">
 	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#007C3E" points="136,175.4 140.5,175.4 140.5,180 136,180 136,175.4 	"/>
 	<text transform="matrix(1 0 0 1 142.4038 180.4385)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="8.5727">Komponiert</text>
@@ -960,7 +960,7 @@
 			<use xlink:href="#SVGID_169_"  overflow="visible"/>
 		</clipPath>
 		<g clip-path="url(#SVGID_170_)">
-			<text transform="matrix(1 0 0 1 146.918 22.1548)" fill="#5A5A5A" font-family="'HelveticaLTStd-Bold'" font-size="14.0006">Staffel 4</text>
+			<text transform="matrix(1 0 0 1 146.918 22.1548)" fill="#5A5A5A" font-family="'HelveticaLTStd-Bold'" font-size="14.0006" class="bold title">Staffel 4</text>
 		</g>
 	</g>
 </g>

@@ -136,7 +136,7 @@
         <tspan class="bold" x="-8.9" y="9.6">im eigentlichen</tspan>
         <tspan class="bold" x="7.7" y="19.2">Sinne</tspan>
     </text>
-    <text class="bold" transform="matrix(1 0 0 1 19.7617 128.4565)">Diegese</text>
+    <text transform="matrix(1 0 0 1 19.7617 128.4565)"><tspan class="bold">Diegese</tspan></text>
     <text transform="matrix(1 0 0 1 126.3271 78.8335)">
         <tspan class="bold" x="0" y="0" fill="#FFFFFF">Filmmusik</tspan>
         <tspan x="-20.8" y="9.6" fill="#FFFFFF">syntaktische Funktionen</tspan>

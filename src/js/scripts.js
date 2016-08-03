@@ -256,6 +256,10 @@ function initNavHighlightingAndScrolling() {
                 var currentPathname = currentNav3Title.pathname;
                 var currentHash = currentNav3Title.hash;
 
+                if (!currentHash) {
+                    continue;
+                }
+
                 var currentDivPos = $(currentHash).position().top; // get the offset of the div from the top of page
 
                 var nextNav3Title = currentNav3Titles.get(i + 1);
