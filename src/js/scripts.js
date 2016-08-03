@@ -283,9 +283,13 @@ function initArrowButtons() {
                 event.preventDefault();
                 event.stopImmediatePropagation();
 
-                loadPjaxContent(href);
-                setCurrentPageAndCascadeUpwards();
-                collapseAllButCurrentNavItem(true, false);
+                $nav2InnerContainers.slideUp();
+
+                //getNavObjectByHref()
+//
+                //loadPjaxContent(href);
+                //setCurrentPageAndCascadeUpwards();
+                //collapseAllButCurrentNavItem(true, false);
             });
         }
     });

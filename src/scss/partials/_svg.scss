@@ -1,7 +1,33 @@
+svg {
+
+  tspan, text {
+    font-family: $font-sans;
+    font-size: 0.43rem;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+  .title {
+    font-size: 0.9rem;
+  }
+}
+
+#dramaturgic-arcs {
+  //font-size: 0.7em;
+}
+
+#simple-sound-model {
+  svg {
+    text {
+      font-size: 0.65em;
+    }
+  }
+}
+
 #structuralistic-model {
   width: 100%;
-  font-size: 0.5em;
-
+  //font-size: 0.5em;
 }
 
 .svg-wrapper {
@@ -23,23 +49,23 @@
 /* Media queries ******************************************************************************************************/
 
 @media screen and (min-width: $breakpoint-370) {
-  #structuralistic-model {
+  #structuralistic-model, #pie-chart {
     width: 80%;
   }
 }
 
 @media screen and (min-width: $breakpoint-500) {
-  #structuralistic-model {
+  #structuralistic-model, #pie-chart {
     width: 70%;
   }
 
-  #heisenberg-theme {
+  #heisenberg-theme, #pie-chart {
     width: 85%;
   }
 }
 
 @media screen and (min-width: $breakpoint-620) {
-  #structuralistic-model {
+  #structuralistic-model, #pie-chart {
     width: 60%;
   }
 
@@ -49,7 +75,7 @@
 }
 
 @media screen and (min-width: $breakpoint-750) {
-  #structuralistic-model, #heisenberg-theme {
+  #structuralistic-model, #heisenberg-theme, #pie-chart {
     width: 100%;
   }
 }

@@ -187,7 +187,7 @@
 			<text transform="matrix(1 0 0 1 302.0264 146.5488)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="7.8725">7</text>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 147.9839 21.7363)" fill="#5A5A5A" font-family="'HelveticaLTStd-Bold'" font-size="13.9607">Staffel 1</text>
+	<text transform="matrix(1 0 0 1 147.9839 21.7363)" fill="#5A5A5A" font-family="'HelveticaLTStd-Bold'" font-size="13.9607" class="bold title">Staffel 1</text>
 </g>
 <g id="Ebene_3" display="none">
 	<g display="inline">

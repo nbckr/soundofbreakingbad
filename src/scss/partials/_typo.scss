@@ -188,28 +188,6 @@ blockquote {
   white-space: nowrap;
 }
 
-svg {
-  font-family: $font-sans;
-  font-size: 0.66em;
-
-  .bold {
-    font-weight: bold;
-  }
-
-  #dramaturgic-arcs {
-    font-size: 0.7em;
-  }
-
-}
-
-#simple-sound-model {
-  svg {
-    text {
-      font-size: 0.65em;
-    }
-  }
-}
-
 /* Media queries ******************************************************************************************************/
 
 @media screen and (min-width: $breakpoint-500) {
