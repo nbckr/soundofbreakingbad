@@ -84,6 +84,7 @@ header {
 #page-logo {
   display: inline;
   height: 2rem;
+  image-rendering: pixelated;
 
   transition: all 0.4s ease;
 }
