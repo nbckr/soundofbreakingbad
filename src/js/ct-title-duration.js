@@ -5,6 +5,12 @@ new Chartist.Bar('#ct-title-duration', {
         [157, 100, 99, 98, 92, 92, 92, 91, 89, 52, 42, 37, 31, 31, 18, 12]
     ]
 }, {
+    chartPadding: {
+        top: 0,
+        right: 0,
+        bottom: 30,
+        left: 30
+    },
     seriesBarDistance: 10,
     reverseData: true,
     horizontalBars: true,
@@ -17,7 +23,7 @@ new Chartist.Bar('#ct-title-duration', {
                 axisTitle: 'Dauer in Sekunden',
                 axisClass: 'ct-axis-title',
                 offset: {
-                    x: 22,
+                    x: 30,
                     y: 38
                 },
                 textAnchor: 'middle'
@@ -27,10 +33,10 @@ new Chartist.Bar('#ct-title-duration', {
                 axisClass: 'ct-axis-title',
                 offset: {
                     x: 0,
-                    y: 0
+                    y: 15
                 },
                 textAnchor: 'middle',
-                flipTitle: false
+                flipTitle: true
             }
         })
     ]
