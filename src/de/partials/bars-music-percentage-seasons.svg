@@ -1,67 +1,111 @@
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 361.6 211" enable-background="new 0 0 361.6 211" xml:space="preserve">
-<path fill="none" stroke="#D9D9D9" stroke-width="0.72" stroke-linejoin="round" stroke-miterlimit="10" d="M37.6,152h313.1
+    <path fill="none" stroke="#D9D9D9" stroke-width="0.72" stroke-linejoin="round" stroke-miterlimit="10" d="M37.6,152h313.1
 	 M37.6,136.4h313.1 M37.6,120.7h313.1 M37.6,105.1h313.1 M37.6,89.4h313.1 M37.6,73.8h313.1 M37.6,58.1h313.1 M37.6,42.5h313.1
-	 M37.6,26.8h313.1 M37.6,11.2h313.1"/>
-<g>
-	<defs>
-		<polygon id="SVGID_1_" points="37.6,168.5 351.2,168.5 351.2,11 37.6,11 37.6,168.5 		"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
-	</clipPath>
-	<path clip-path="url(#SVGID_2_)" fill="#007C3E" d="M56.4,148.4h25v19.3h-25V148.4L56.4,148.4z M118.9,158.2H144v9.6h-25.1V158.2
+	 M37.6,26.8h313.1 M37.6,11.2h313.1" />
+    <g>
+        <defs>
+            <polygon id="SVGID_1_" points="37.6,168.5 351.2,168.5 351.2,11 37.6,11 37.6,168.5 		" />
+        </defs>
+        <clipPath id="SVGID_2_">
+            <use xlink:href="#SVGID_1_" overflow="visible" />
+        </clipPath>
+        <path clip-path="url(#SVGID_2_)" fill="#007C3E" d="M56.4,148.4h25v19.3h-25V148.4L56.4,148.4z M118.9,158.2H144v9.6h-25.1V158.2
 		L118.9,158.2z M181.6,152.5h25.1v15.2h-25.1V152.5L181.6,152.5z M244.2,148.8h25v19h-25V148.8L244.2,148.8z M306.7,148.6h25.1v19.2
-		h-25.1V148.6L306.7,148.6z"/>
-</g>
-<g>
-	<defs>
-		<polygon id="SVGID_3_" points="37.6,168.5 351.2,168.5 351.2,11 37.6,11 37.6,168.5 		"/>
-	</defs>
-	<clipPath id="SVGID_4_">
-		<use xlink:href="#SVGID_3_"  overflow="visible"/>
-	</clipPath>
-	<path clip-path="url(#SVGID_4_)" fill="#E4171C" d="M56.4,140h25v8.4h-25V140L56.4,140z M118.9,152.8H144v5.4h-25.1V152.8
+		h-25.1V148.6L306.7,148.6z" />
+    </g>
+    <g>
+        <defs>
+            <polygon id="SVGID_3_" points="37.6,168.5 351.2,168.5 351.2,11 37.6,11 37.6,168.5 		" />
+        </defs>
+        <clipPath id="SVGID_4_">
+            <use xlink:href="#SVGID_3_" overflow="visible" />
+        </clipPath>
+        <path clip-path="url(#SVGID_4_)" fill="#E4171C" d="M56.4,140h25v8.4h-25V140L56.4,140z M118.9,152.8H144v5.4h-25.1V152.8
 		L118.9,152.8z M181.6,147.1h25.1v5.4h-25.1V147.1L181.6,147.1z M244.2,144.4h25v4.4h-25V144.4L244.2,144.4z M306.7,143.5h25.1v5
-		h-25.1V143.5L306.7,143.5z"/>
-</g>
-<g>
-	<defs>
-		<polygon id="SVGID_5_" points="37.6,168.5 351.2,168.5 351.2,11 37.6,11 37.6,168.5 		"/>
-	</defs>
-	<clipPath id="SVGID_6_">
-		<use xlink:href="#SVGID_5_"  overflow="visible"/>
-	</clipPath>
-	<path clip-path="url(#SVGID_6_)" fill="#B7B7B7" d="M56.4,11.2h25V140h-25V11.2L56.4,11.2z M118.9,11.2H144v141.6h-25.1V11.2
+		h-25.1V143.5L306.7,143.5z" />
+    </g>
+    <g>
+        <defs>
+            <polygon id="SVGID_5_" points="37.6,168.5 351.2,168.5 351.2,11 37.6,11 37.6,168.5 		" />
+        </defs>
+        <clipPath id="SVGID_6_">
+            <use xlink:href="#SVGID_5_" overflow="visible" />
+        </clipPath>
+        <path clip-path="url(#SVGID_6_)" fill="#B7B7B7" d="M56.4,11.2h25V140h-25V11.2L56.4,11.2z M118.9,11.2H144v141.6h-25.1V11.2
 		L118.9,11.2z M181.6,11.2h25.1v136h-25.1V11.2L181.6,11.2z M244.2,11.2h25v133.2h-25V11.2L244.2,11.2z M306.7,11.2h25.1v132.4
-		h-25.1V11.2L306.7,11.2z"/>
-</g>
-<line fill="none" stroke="#D9D9D9" stroke-width="0.72" stroke-linejoin="round" stroke-miterlimit="10" x1="37.6" y1="167.8" x2="350.6" y2="167.8"/>
-<path fill="none" stroke="#D9D9D9" stroke-width="0.72" stroke-linejoin="round" stroke-miterlimit="10" d="M37.6,167.8v2.8
-	 M100.2,167.8v2.8 M162.8,167.8v2.8 M225.4,167.8v2.8 M288,167.8v2.8 M350.6,167.8v2.8"/>
-<text transform="matrix(1 0 0 1 16.5771 170.605)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 11.5693 154.9409)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">1</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 11.5693 139.2769)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">2</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 11.5693 123.605)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">3</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 11.5693 107.9487)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">4</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 11.5693 92.2769)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">5</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 11.5693 76.6128)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">6</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 11.5693 60.9487)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">7</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 11.5693 45.2847)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">8</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 11.5693 29.6206)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">9</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 6.5693 13.9565)"><tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">1</tspan><tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan><tspan x="13.8" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan></text>
-<text transform="matrix(1 0 0 1 66.374 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">1</text>
-<text transform="matrix(1 0 0 1 128.9834 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">2</text>
-<text transform="matrix(1 0 0 1 191.585 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">3</text>
-<text transform="matrix(1 0 0 1 254.1865 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">4</text>
-<text transform="matrix(1 0 0 1 316.7959 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">5</text>
-<g>
-	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#007C3E" points="104.9,194.4 109.5,194.4 109.5,199 104.9,199 
-		104.9,194.4 	"/>
-	<text transform="matrix(1 0 0 1 111.3662 199.4561)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="8.5727">Komponiert</text>
-	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#E4171C" points="166.6,194.4 171.2,194.4 171.2,199 166.6,199 
-		166.6,194.4 	"/>
-	<text transform="matrix(1 0 0 1 173.0762 199.4561)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="8.5727">Lizenziert</text>
-	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#B7B7B7" points="221,194.4 225.6,194.4 225.6,199 221,199 221,194.4 	"/>
-	<text transform="matrix(1 0 0 1 227.4854 199.4561)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="8.5727">Keine Musik</text>
-</g>
+		h-25.1V11.2L306.7,11.2z" />
+    </g>
+    <line fill="none" stroke="#D9D9D9" stroke-width="0.72" stroke-linejoin="round" stroke-miterlimit="10" x1="37.6" y1="167.8" x2="350.6" y2="167.8" />
+    <path fill="none" stroke="#D9D9D9" stroke-width="0.72" stroke-linejoin="round" stroke-miterlimit="10" d="M37.6,167.8v2.8
+	 M100.2,167.8v2.8 M162.8,167.8v2.8 M225.4,167.8v2.8 M288,167.8v2.8 M350.6,167.8v2.8" />
+    <text transform="matrix(1 0 0 1 16.5771 170.605)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 11.5693 154.9409)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">1</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 11.5693 139.2769)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">2</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 11.5693 123.605)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">3</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 11.5693 107.9487)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">4</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 11.5693 92.2769)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">5</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 11.5693 76.6128)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">6</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 11.5693 60.9487)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">7</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 11.5693 45.2847)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">8</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 11.5693 29.6206)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">9</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 6.5693 13.9565)">
+        <tspan x="0" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">1</tspan>
+        <tspan x="4.7" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="9.2" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">0</tspan>
+        <tspan x="13.8" y="0" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">%</tspan>
+    </text>
+    <text transform="matrix(1 0 0 1 66.374 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">1</text>
+    <text transform="matrix(1 0 0 1 128.9834 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">2</text>
+    <text transform="matrix(1 0 0 1 191.585 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">3</text>
+    <text transform="matrix(1 0 0 1 254.1865 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">4</text>
+    <text transform="matrix(1 0 0 1 316.7959 181.7378)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="9">5</text>
+    <g>
+        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#007C3E" points="104.9,194.4 109.5,194.4 109.5,199 104.9,199 
+		104.9,194.4 	" />
+        <text transform="matrix(1 0 0 1 111.3662 199.4561)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="8.5727">Komponiert</text>
+        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#E4171C" points="166.6,194.4 171.2,194.4 171.2,199 166.6,199 
+		166.6,194.4 	" />
+        <text transform="matrix(1 0 0 1 173.0762 199.4561)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="8.5727">Lizenziert</text>
+        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#B7B7B7" points="221,194.4 225.6,194.4 225.6,199 221,199 221,194.4 	" />
+        <text transform="matrix(1 0 0 1 227.4854 199.4561)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="8.5727">Keine Musik</text>
+    </g>
 </svg>

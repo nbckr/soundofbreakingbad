@@ -123,7 +123,7 @@
         </g>
     </g>
     <rect x="79.8" y="64.8" fill="#BE1823" width="136.1" height="34" />
-                    <text transform="matrix(1 0 0 1 675.5234 72.1665)">
+    <text transform="matrix(1 0 0 1 675.5234 72.1665)">
         <tspan class="bold" x="0" y="0">Filmusik</tspan>
         <tspan class="bold" x="-23.8" y="9.6">syntaktische Funktionen</tspan>
     </text>
@@ -136,7 +136,9 @@
         <tspan class="bold" x="-8.9" y="9.6">im eigentlichen</tspan>
         <tspan class="bold" x="7.7" y="19.2">Sinne</tspan>
     </text>
-    <text transform="matrix(1 0 0 1 19.7617 128.4565)"><tspan class="bold">Diegese</tspan></text>
+    <text transform="matrix(1 0 0 1 19.7617 128.4565)">
+        <tspan class="bold">Diegese</tspan>
+    </text>
     <text transform="matrix(1 0 0 1 126.3271 78.8335)">
         <tspan class="bold" x="0" y="0" fill="#FFFFFF">Filmmusik</tspan>
         <tspan x="-20.8" y="9.6" fill="#FFFFFF">syntaktische Funktionen</tspan>
