@@ -1,3 +1,8 @@
+.svg-wrapper {
+  margin: 0 auto;
+  transition: all 0.4s ease;
+}
+
 // default font-size in svg text elements
 tspan, text {
   font-family: $font-sans;
@@ -46,10 +51,6 @@ tspan, text {
   }
 }
 
-.svg-wrapper {
-  margin: 0 auto;
-}
-
 .bright {
   fill: $gray-color-bright;
 }
@@ -91,6 +92,10 @@ tspan, text {
 }
 
 @media screen and (min-width: $breakpoint-750) {
+  .svg-wrapper {
+    transition: none;
+  }
+
   #structuralistic-model, #heisenberg-theme, #pie-chart {
     width: 100%;
   }
