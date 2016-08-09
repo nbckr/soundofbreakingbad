@@ -45,8 +45,9 @@
 %media-container-base {
   max-width: $pjax-container-max-width;
   display: block; //??????
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
   width: auto;
+  background-color: white;
 }
 
 .media-container-small {
@@ -85,13 +86,11 @@
   border-color: $gray-color-dark;
   box-sizing: content-box;
   padding: 0.3em;
-  margin: $default-vertical-padding 0 0 0;
 
   width: 100%;
 }
 
 .caption {
-  margin: 0 0 $default-vertical-padding 0 !important;
   background-color: $gray-color-dark;
 
   p {
@@ -120,7 +119,8 @@
 
   .media-container-small {
     float: right;
-    margin: 0 0 1em 1em;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
     width: 45%;
 
     table {
