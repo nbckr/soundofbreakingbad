@@ -14,12 +14,5 @@
     "src/lib",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "chartist": "^0.9.8",
-    "chartist-plugin-axistitle": "^0.1.0"
-  },
-  "devDependencies": {
-    "chartist": "^0.9.8"
-  }
+  ]
 }
