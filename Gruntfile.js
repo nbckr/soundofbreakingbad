@@ -104,7 +104,8 @@ module.exports = function (grunt) {
             main: {
                 files: [{
                     cwd: 'src',
-                    src: ['*.png', 'css/*.css', 'js/**', 'img/**', 'fonts/**', 'data/**'],
+                    src: ['css/*.css', 'js/**', 'img/**', 'fonts/**', 'data/**',
+                        'apple-touch-icon.png', 'sitemap.xml'],
                     dest: 'dist'
                 }],
                 pretend: false,
