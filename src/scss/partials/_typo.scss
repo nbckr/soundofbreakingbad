@@ -58,7 +58,7 @@ article {
       font-size: 86%;
       font-weight: normal;
       font-style: normal;
-      margin:0 0 0 6px;
+      margin:0 2px 0 6px;
       text-decoration:none;
     }
   }
@@ -125,9 +125,14 @@ ul {
 
 // for references.html
 #references-article {
-
   ul {
     padding: 0;
+  }
+
+  li {
+    display: block;
+    padding: 0;
+    margin: 1em 0;
   }
 }
 
