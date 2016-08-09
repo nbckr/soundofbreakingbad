@@ -1,19 +1,27 @@
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 137.3 141.3" enable-background="new 0 0 137.3 141.3" xml:space="preserve">
-    <path fill-rule="evenodd" clip-rule="evenodd" fill="#007C3E" d="M70.7,64.6l35-45.1C96.1,12,84,7.6,70.8,7.6L70.7,64.6L70.7,64.6z" />
-    <path fill-rule="evenodd" clip-rule="evenodd" fill="#E4171C" d="M70.7,64.6l44.4-35.9c-2.8-3.4-5.9-6.5-9.4-9.2L70.7,64.6
-	L70.7,64.6z" />
-    <path fill-rule="evenodd" clip-rule="evenodd" fill="#B7B7B7" d="M70.7,64.6l0-57c-31.7,0-57,25.4-57,57c0,31.7,25.3,57,57,57
-	c31.7,0,57-25.3,57-57c0-13.7-4.7-26.1-12.6-35.9L70.7,64.6L70.7,64.6z" />
-    <path fill="none" d="M70.7,64.6l0-57c-31.7,0-57,25.4-57,57c0,31.7,25.3,57,57,57c31.7,0,57-25.3,57-57c0-13.7-4.7-26.1-12.6-35.9
-	L70.7,64.6L70.7,64.6z" />
-    <g>
-        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#007C3E" points="11.7,131.6 14.9,131.6 14.9,134.8 11.7,134.8 11.7,131.6
-			" />
-        <text transform="matrix(1 0 0 1 16.1724 135.1436)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="6">Komponiert</text>
-        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#E4171C" points="54.9,131.6 58,131.6 58,134.8 54.9,134.8 54.9,131.6 	" />
-        <text transform="matrix(1 0 0 1 59.3628 135.1436)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="6">Lizenziert</text>
-        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#B7B7B7" points="92.9,131.6 96.1,131.6 96.1,134.8 92.9,134.8 92.9,131.6
-			" />
-        <text transform="matrix(1 0 0 1 97.4438 135.1436)" fill="#5A5A5A" font-family="'HelveticaLTStd-Roman'" font-size="6">Keine Musik</text>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" viewBox="0 0 137.3 141.3" enable-background="new 0 0 137.3 141.3" xml:space="preserve">
+    <g id="pie">
+
+        <g>
+            <path fill-rule="evenodd" clip-rule="evenodd" fill="#007C3E" d="M67.923,66.576l35.042-45.096
+			C93.327,14.002,81.19,9.566,67.944,9.562L67.923,66.576L67.923,66.576z" />
+            <path fill-rule="evenodd" clip-rule="evenodd" fill="#E4171C" d="M67.923,66.576l44.405-35.913
+			c-2.762-3.422-5.914-6.512-9.393-9.205L67.923,66.576L67.923,66.576z" />
+            <path fill-rule="evenodd" clip-rule="evenodd" fill="#B7B7B7" d="M67.923,66.576L67.877,9.562
+			C36.225,9.587,10.91,34.918,10.91,66.576c0,31.674,25.339,57.012,57.013,57.012c31.675,0,57.015-25.338,57.015-57.012
+			c0-13.657-4.711-26.136-12.609-35.913L67.923,66.576L67.923,66.576z" />
+        </g>
+    </g>
+    <g id="percentages">
+        <text transform="matrix(1 0 0 1 72.4438 28.3096)" fill="#FFFFFF">10,51%</text>
+        <text transform="matrix(1 0 0 1 109.1118 25.6431)" fill="#1D1D1B">3,66%</text>
+        <text transform="matrix(1 0 0 1 37.4429 92.4771)" fill="#FFFFFF">85,83%</text>
+    </g>
+    <g id="labels">
+        <polygon fill="#007C3E" points="11.7,131.6 14.9,131.6 14.9,134.8 11.7,134.8 		" />
+        <text transform="matrix(1 0 0 1 16.1724 135.1431)" fill="#5A5A5A">Komponiert</text>
+        <polygon fill="#E4171C" points="54.9,131.6 58,131.6 58,134.8 54.9,134.8 		" />
+        <text transform="matrix(1 0 0 1 59.3628 135.1431)" fill="#5A5A5A">Lizenziert</text>
+        <polygon fill="#B7B7B7" points="92.9,131.6 96.1,131.6 96.1,134.8 92.9,134.8 		" />
+        <text transform="matrix(1 0 0 1 97.4438 135.1431)" fill="#5A5A5A">Keine Musik</text>
     </g>
 </svg>
