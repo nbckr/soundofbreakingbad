@@ -8,6 +8,8 @@
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
+
+  transition: margin-top 0.5s ease;
 }
 
 .bg-broken-dish {
@@ -116,6 +118,5 @@
 
   .bg {
     margin-top: $default-vertical-padding;
-    transition: margin-top 0.5s ease;
   }
 }
