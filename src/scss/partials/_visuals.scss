@@ -8,7 +8,6 @@
     display: block;
   }
 }
-
 // assert that desktop has fast connection; don't show spinner
 @media screen and (min-width: $breakpoint-column) {
   #loading-indicator {
@@ -16,8 +15,35 @@
   }
 }
 
-.banner {
-  width: 100%;
+.portrait {
+  display: block;
+  height: 14rem;
+  margin: 0 auto;
+
+  margin-bottom: 3rem;
+
+
+  border-radius: 50%;
+  // border: 5px solid #d1d1d1;
+
+  &:hover {
+    transform: scale(1.04, 1.04);
+  }
+
+  transition: transform 0.5s ease;
+
+  // -webkit-box-shadow: 6px 18px 97px -19px rgba(0,123,61,1);
+  // -moz-box-shadow: 6px 18px 97px -19px rgba(0,123,61,1);
+  // box-shadow: 6px 18px 97px -19px rgba(0,123,61,1);
+}
+
+#statement blockquote {
+  margin-top: 8rem;
+  transition: border-radius 0.5s ease, border-width 0.5s ease, padding 0.5s ease;
+
+  .portrait {
+    margin-top: -7rem;
+  }
 }
 
 .vimeo-link, .scribd-link {
@@ -128,5 +154,10 @@
       display: table;
       width: 100%;
     }
+  }
+
+  #statement blockquote {
+    border-radius: 15px 15px 15px 15px;
+    padding: 1.5em 2.2em;
   }
 }

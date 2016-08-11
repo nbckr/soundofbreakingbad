@@ -69,13 +69,12 @@ article {
 
   .more-margin-before {
     margin-top: 1.75em;
-    margin-bottom: 2.75em;
   }
 }
 
 h1 {
   margin: 0;
-  padding: 0;
+  padding: 0 1.5rem;
 
   font-family: $font-serif;
   text-align: center;
@@ -146,6 +145,8 @@ blockquote {
   padding: 1em;
 
   background-color: $gray-color-bright;
+  border-bottom: 1px solid #d1d1d1;
+  border-top: 5px solid #d1d1d1;
 
   // TODO clean up upper level and p level
   font-style: italic;
@@ -207,8 +208,8 @@ blockquote {
   }
 
   h1 {
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   h2 {
@@ -218,6 +219,10 @@ blockquote {
 }
 
 @media screen and (min-width: $breakpoint-column) {
+  blockquote {
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+  }
   h1 {
     font-size: 2.5rem;
   }
