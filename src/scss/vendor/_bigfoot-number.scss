@@ -591,6 +591,14 @@ blockquote .bigfoot-footnote__container {
   img { max-width: 100%; }
   *:last-child { margin-bottom: 0 !important; }
   *:first-child { margin-top: 0 !important; }
+
+  // Don't apply style for normal <p>
+  p {
+    font-size: 1.1rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
 }
 
 

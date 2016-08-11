@@ -99,8 +99,11 @@
 
     display: block;
     text-align: center;
-    color: $white;
-    //font-size: 85%;
+    color: white;
+  }
+
+  .smaller {
+    font-size: 85%;
   }
 
   .bigfoot-footnote p {
