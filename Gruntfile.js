@@ -53,7 +53,7 @@ module.exports = function (grunt) {
                     watchTask: true,
                     server: {
                         baseDir: "dist",
-                        index: "/de/introduction/introduction.html"
+                        index: "/de/index.html"
                     },
                     debugInfo: true
                 }
