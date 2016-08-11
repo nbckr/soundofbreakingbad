@@ -1,6 +1,6 @@
 body {
   font-family: $font-sans;
-  font-size: 122%;
+  font-size: 1.22rem;
   font-style: normal;
 }
 
@@ -10,6 +10,10 @@ body {
     color: $white;
     fill: $white;
   }
+}
+
+h1, h2, h3, h4 {
+  transition: font-size 0.8s ease;
 }
 
 article {
@@ -75,7 +79,7 @@ h1 {
 
   font-family: $font-serif;
   text-align: center;
-  font-size: 200%;
+  font-size: 2.2rem;
   color: $white;
 }
 
@@ -87,7 +91,7 @@ h2 {
   padding-top: 0.75em;
 
   font-family: $font-serif;
-  font-size: 140%;
+  font-size: 1.9rem;
   text-align: center;
 }
 
@@ -97,7 +101,7 @@ h3 {
   margin-bottom: $default-vertical-padding/3;
 
   font-family: $font-sans;
-  font-size: 140%;
+  font-size: 1.5rem;
   text-align: left;
 }
 
@@ -105,7 +109,7 @@ h4 {
   margin-top: 1em;
   margin-bottom: $default-vertical-padding/3;
 
-  font-size: 130%;
+  font-size: 1.6rem;
   color: grey;
   //padding-left: 1em;
   //font-weight: bold;
@@ -213,8 +217,14 @@ blockquote {
   }
 }
 
-@media screen and (min-width: $breakpoint-l) {
+@media screen and (min-width: $breakpoint-column) {
+  h1 {
+    font-size: 2.5rem;
+  }
   h2 {
-    font-size: 170%;
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.7rem;
   }
 }

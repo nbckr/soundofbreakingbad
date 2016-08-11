@@ -10,7 +10,7 @@
 }
 
 // assert that desktop has fast connection; don't show spinner
-@media screen and (min-width: $breakpoint-750) {
+@media screen and (min-width: $breakpoint-column) {
   #loading-indicator {
     visibility: hidden;
   }
@@ -111,7 +111,7 @@
 
 /* Media queries ******************************************************************************************************/
 
-@media screen and (min-width: $breakpoint-750) {
+@media screen and (min-width: $breakpoint-column) {
 
   .bordered {
     border-style: solid solid none solid !important;

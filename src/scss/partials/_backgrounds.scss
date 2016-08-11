@@ -1,5 +1,5 @@
 .bg {
-  height: 24rem;
+  height: 19rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
   background-position-y: 50%;
   background-size: cover;
 
-  transition: margin-top 0.5s ease;
+  transition: margin-top 0.5s ease, height 0.7s ease;
 }
 
 .bg-broken-dish {
@@ -114,9 +114,10 @@
 
 /* Media queries ******************************************************************************************************/
 
-@media screen and (min-width: $breakpoint-750) {
+@media screen and (min-width: $breakpoint-column) {
 
   .bg {
     margin-top: $default-vertical-padding;
+    height: 24rem;
   }
 }

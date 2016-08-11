@@ -47,7 +47,7 @@ footer {
   }
 }
 
-@media screen and (min-width: $breakpoint-750) {
+@media screen and (min-width: $breakpoint-column) {
   .arrow-button {
     margin-left: 3rem !important;
     margin-right: 3rem !important;

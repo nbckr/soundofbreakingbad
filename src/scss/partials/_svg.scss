@@ -91,7 +91,7 @@ tspan, text {
   }
 }
 
-@media screen and (min-width: $breakpoint-750) {
+@media screen and (min-width: $breakpoint-column) {
   .svg-wrapper {
     transition: none;
   }
