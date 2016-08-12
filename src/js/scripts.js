@@ -64,6 +64,7 @@ function initCurrentPage() {
     initIndexSectionsLinks();
     initTopArrowButton();
     initLeftRightArrowButtons();
+    initShareLinks();
 }
 
 function initBigfoot() {
@@ -350,6 +351,15 @@ function initLeftRightArrowButtons() {
 
             });
         }
+    });
+}
+
+function initShareLinks() {
+    $('.share-link').each(function() {
+        var $currentLink = $(this);
+        var sharePrefix = $currentLink.attr('href');
+        var location = window.location;
+        $currentLink.attr('href', sharePrefix + location);
     });
 }
 

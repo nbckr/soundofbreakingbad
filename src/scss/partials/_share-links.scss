@@ -1,0 +1,15 @@
+#share-links {
+  display: inline-block;
+  float: right;
+}
+
+.share-link {
+  font-size: 3rem;
+  margin: 0 0.3rem;
+  color: $green-darkish !important;
+
+  &:hover {
+    color: $green-bright;
+    transition: color 0.5s ease;
+  }
+}
