@@ -25,5 +25,9 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sync": "^0.5.2",
     "serve-static": "^1.10.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.4.0",
+    "grunt-postcss": "^0.8.0"
   }
 }

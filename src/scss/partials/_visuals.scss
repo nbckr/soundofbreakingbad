@@ -23,7 +23,6 @@
   margin-bottom: 3rem;
 
   user-select: none;
-  -webkit-user-select: none;
 
   border-radius: 50%;
   // border: 5px solid #d1d1d1;
@@ -34,8 +33,6 @@
 
   transition: transform 0.5s ease;
 
-  // -webkit-box-shadow: 6px 18px 97px -19px rgba(0,123,61,1);
-  // -moz-box-shadow: 6px 18px 97px -19px rgba(0,123,61,1);
   // box-shadow: 6px 18px 97px -19px rgba(0,123,61,1);
 }
 
