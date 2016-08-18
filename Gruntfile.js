@@ -1,29 +1,16 @@
+'use strict';
+
 module.exports = function (grunt) {
 
-    // task configuration
-    "use strict";
-
-    // load modules
-    var connect, serveStatic;
-
-    connect = require('connect');
-    serveStatic = require('serve-static');
-
-    // initport and base folder of server
     grunt.initConfig( {
-
-        connect: {
-            port: 8080,
-            base: './src/de'
-        },
 
         watch: {
             sass: {
-                files: "./src/scss/**/*.scss",
+                files: './src/scss/**/*.scss',
                 tasks: ['sass', 'sync']
             },
             bake: {
-                files: ["./src/**/*.html", "./src/**/*.js"],
+                files: ['./src/**/*.html', './src/**/*.js'],
                 tasks: ['bake', 'sync']
             }
         },
@@ -32,7 +19,7 @@ module.exports = function (grunt) {
             dev: {
                 files: {
                     // destination         // source file
-                    "./src/css/styles.css" : "./src/scss/styles.scss"
+                    './src/css/styles.css' : './src/scss/styles.scss'
                 }
             }
         },
@@ -42,18 +29,18 @@ module.exports = function (grunt) {
                 bsFiles: {
                     // these file types cause a live reload
                     src: [
-                        "**/*.css",
-                        "**/*.scss",
-                        "**/*.js",
-                        "**/*.svg",
-                        "**/*.html"
+                        '**/*.css',
+                        '**/*.scss',
+                        '**/*.js',
+                        '**/*.svg',
+                        '**/*.html'
                     ]
                 },
                 options: {
                     watchTask: true,
                     server: {
-                        baseDir: "dist",
-                        index: "/de/index.html"
+                        baseDir: 'dist',
+                        index: '/de/index.html'
                     },
                     debugInfo: true
                 }
@@ -63,39 +50,39 @@ module.exports = function (grunt) {
         bake: {
             build: {
                 options: {
-                    basePath: "src/"
+                    basePath: 'src/'
                 },
 
                 files: {
-                    "dist/de/index.html" : "src/de/index.html",
-                    "dist/de/404.html" : "src/de/404.html",
+                    'dist/de/index.html' : 'src/de/index.html',
+                    'dist/de/404.html' : 'src/de/404.html',
 
-                    "dist/de/introduction/introduction.html" : "src/de/introduction/introduction.html",
+                    'dist/de/introduction/introduction.html' : 'src/de/introduction/introduction.html',
 
-                    "dist/de/about-the-show/background.html" : "src/de/about-the-show/background.html",
-                    "dist/de/about-the-show/structure.html" : "src/de/about-the-show/structure.html",
-                    "dist/de/about-the-show/production-1.html" : "src/de/about-the-show/production-1.html",
-                    "dist/de/about-the-show/production-2.html" : "src/de/about-the-show/production-2.html",
-                    "dist/de/about-the-show/storyline.html" : "src/de/about-the-show/storyline.html",
+                    'dist/de/about-the-show/background.html' : 'src/de/about-the-show/background.html',
+                    'dist/de/about-the-show/structure.html' : 'src/de/about-the-show/structure.html',
+                    'dist/de/about-the-show/production-1.html' : 'src/de/about-the-show/production-1.html',
+                    'dist/de/about-the-show/production-2.html' : 'src/de/about-the-show/production-2.html',
+                    'dist/de/about-the-show/storyline.html' : 'src/de/about-the-show/storyline.html',
 
-                    "dist/de/analysis-music/introduction.html" : "src/de/analysis-music/introduction.html",
-                    "dist/de/analysis-music/blurring-boundaries.html" : "src/de/analysis-music/blurring-boundaries.html",
-                    "dist/de/analysis-music/diegetic-elements.html" : "src/de/analysis-music/diegetic-elements.html",
-                    "dist/de/analysis-music/external-elements.html" : "src/de/analysis-music/external-elements.html",
-                    "dist/de/analysis-music/composed-music.html" : "src/de/analysis-music/composed-music.html",
-                    "dist/de/analysis-music/preexisting-music.html" : "src/de/analysis-music/preexisting-music.html",
+                    'dist/de/analysis-music/introduction.html' : 'src/de/analysis-music/introduction.html',
+                    'dist/de/analysis-music/blurring-boundaries.html' : 'src/de/analysis-music/blurring-boundaries.html',
+                    'dist/de/analysis-music/diegetic-elements.html' : 'src/de/analysis-music/diegetic-elements.html',
+                    'dist/de/analysis-music/external-elements.html' : 'src/de/analysis-music/external-elements.html',
+                    'dist/de/analysis-music/composed-music.html' : 'src/de/analysis-music/composed-music.html',
+                    'dist/de/analysis-music/preexisting-music.html' : 'src/de/analysis-music/preexisting-music.html',
 
-                    "dist/de/analysis-sound/acoustic-scenography.html" : "src/de/analysis-sound/acoustic-scenography.html",
-                    "dist/de/analysis-sound/introduction.html" : "src/de/analysis-sound/introduction.html",
-                    "dist/de/analysis-sound/language.html" : "src/de/analysis-sound/language.html",
-                    "dist/de/analysis-sound/noises.html" : "src/de/analysis-sound/noises.html",
-                    "dist/de/analysis-sound/silence-and-dynamics.html" : "src/de/analysis-sound/silence-and-dynamics.html",
-                    "dist/de/analysis-sound/subjectivization.html" : "src/de/analysis-sound/subjectivization.html",
+                    'dist/de/analysis-sound/acoustic-scenography.html' : 'src/de/analysis-sound/acoustic-scenography.html',
+                    'dist/de/analysis-sound/introduction.html' : 'src/de/analysis-sound/introduction.html',
+                    'dist/de/analysis-sound/language.html' : 'src/de/analysis-sound/language.html',
+                    'dist/de/analysis-sound/noises.html' : 'src/de/analysis-sound/noises.html',
+                    'dist/de/analysis-sound/silence-and-dynamics.html' : 'src/de/analysis-sound/silence-and-dynamics.html',
+                    'dist/de/analysis-sound/subjectivization.html' : 'src/de/analysis-sound/subjectivization.html',
 
-                    "dist/de/conclusion/conclusion.html" : "src/de/conclusion/conclusion.html",
+                    'dist/de/conclusion/conclusion.html' : 'src/de/conclusion/conclusion.html',
 
-                    "dist/de/about/origin-story.html" : "src/de/about/origin-story.html",
-                    "dist/de/about/references.html" : "src/de/about/references.html"
+                    'dist/de/about/origin-story.html' : 'src/de/about/origin-story.html',
+                    'dist/de/about/references.html' : 'src/de/about/references.html'
                 }
             }
         },
@@ -131,27 +118,6 @@ module.exports = function (grunt) {
         }
     });
 
-    // register task runner to run web server
-    grunt.registerTask('server-tsobb-de', 'Start the flippin web server', function () {
-
-        var app, options;
-
-        // run async to not end when this method ends
-        this.async();
-
-        // store options in a local object
-        options = grunt.config("connect");
-
-        // init connect web server
-        // set static content path
-        // start listening to the port
-        app = connect();
-        app.use(serveStatic(options.base)).listen(options.port);
-
-        // output sever startet and the port number
-        grunt.log.write('Started web server, aw yeah. Port: ' + options.port);
-
-    });
     grunt.registerTask('default', ['sass', 'bake', 'postcss', 'sync', 'browserSync', 'watch']);
 
     grunt.loadNpmTasks('grunt-contrib-sass');
@@ -160,5 +126,4 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-bake');
     grunt.loadNpmTasks('grunt-sync');
     grunt.loadNpmTasks('grunt-postcss');
-}
-
+};
