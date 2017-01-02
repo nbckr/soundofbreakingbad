@@ -54,6 +54,7 @@ module.exports = function (grunt) {
                 },
 
                 files: {
+                    // German version
                     'dist/de/index.html' : 'src/de/index.html',
                     'dist/de/404.html' : 'src/de/404.html',
 
@@ -82,7 +83,38 @@ module.exports = function (grunt) {
                     'dist/de/conclusion/conclusion.html' : 'src/de/conclusion/conclusion.html',
 
                     'dist/de/about/origin-story.html' : 'src/de/about/origin-story.html',
-                    'dist/de/about/references.html' : 'src/de/about/references.html'
+                    'dist/de/about/references.html' : 'src/de/about/references.html',
+                    
+                    // English version
+                    'dist/en/index.html' : 'src/en/index.html',
+                    'dist/en/404.html' : 'src/en/404.html',
+
+                    'dist/en/introduction/introduction.html' : 'src/en/introduction/introduction.html',
+
+                    'dist/en/about-the-show/background.html' : 'src/en/about-the-show/background.html',
+                    'dist/en/about-the-show/structure.html' : 'src/en/about-the-show/structure.html',
+                    'dist/en/about-the-show/production-1.html' : 'src/en/about-the-show/production-1.html',
+                    'dist/en/about-the-show/production-2.html' : 'src/en/about-the-show/production-2.html',
+                    'dist/en/about-the-show/storyline.html' : 'src/en/about-the-show/storyline.html',
+
+                    'dist/en/analysis-music/introduction.html' : 'src/en/analysis-music/introduction.html',
+                    'dist/en/analysis-music/blurring-boundaries.html' : 'src/en/analysis-music/blurring-boundaries.html',
+                    'dist/en/analysis-music/diegetic-elements.html' : 'src/en/analysis-music/diegetic-elements.html',
+                    'dist/en/analysis-music/external-elements.html' : 'src/en/analysis-music/external-elements.html',
+                    'dist/en/analysis-music/composed-music.html' : 'src/en/analysis-music/composed-music.html',
+                    'dist/en/analysis-music/preexisting-music.html' : 'src/en/analysis-music/preexisting-music.html',
+
+                    'dist/en/analysis-sound/acoustic-scenography.html' : 'src/en/analysis-sound/acoustic-scenography.html',
+                    'dist/en/analysis-sound/introduction.html' : 'src/en/analysis-sound/introduction.html',
+                    'dist/en/analysis-sound/language.html' : 'src/en/analysis-sound/language.html',
+                    'dist/en/analysis-sound/noises.html' : 'src/en/analysis-sound/noises.html',
+                    'dist/en/analysis-sound/silence-and-dynamics.html' : 'src/en/analysis-sound/silence-and-dynamics.html',
+                    'dist/en/analysis-sound/subjectivization.html' : 'src/en/analysis-sound/subjectivization.html',
+
+                    'dist/en/conclusion/conclusion.html' : 'src/en/conclusion/conclusion.html',
+
+                    'dist/en/about/origin-story.html' : 'src/en/about/origin-story.html',
+                    'dist/en/about/references.html' : 'src/en/about/references.html'
                 }
             }
         },
@@ -99,7 +131,7 @@ module.exports = function (grunt) {
                 verbose: true,
                 failOnError: true,
                 updateAndDelete: true,
-                ignoreInDest: ['de/**', '**.html']
+                ignoreInDest: ['de/**', 'en/**', '**.html']
             }
         },
 
